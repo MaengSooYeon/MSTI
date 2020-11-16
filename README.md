@@ -1,4 +1,4 @@
-# MSTI : Mine Scent Type Indicator
+# MSTI (Mine Scent Type Indicator)
 
 나에게 어울리는 향수 타입이 무엇인지 알아보는 MSTI 향수 유형 검사 프로그램입니다. 
 
