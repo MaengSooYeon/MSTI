@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6cd0cb4-b79d-4501-966c-cbcecf6ece2a" name="Default Changelist" comment="" />
+    <list default="true" id="d6cd0cb4-b79d-4501-966c-cbcecf6ece2a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/MSTI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/choose.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/horse.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DBconn.py" beforeDir="false" afterPath="$PROJECT_DIR$/DBconn.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +25,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="맹수연 &lt;sooyeon030908@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1kQSRyp4avDGF72b1VXamTSPnZp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,10 +42,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="C:/PycharmProjects/Programming(Python)/2405" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MSTI" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.DBconn">
     <configuration name="DBconn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MSTI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -47,9 +72,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MSTI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\MSTI\main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.DBconn" />
+        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -64,33 +111,61 @@
       <option name="presentableId" value="Default" />
       <updated>1605631317937</updated>
     </task>
+    <task id="LOCAL-00001" summary="test commit">
+      <created>1605746134452</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605746134452</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="test commit" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1605745546066">
+    <state x="568" y="225" key="#Notifications" timestamp="1605746499942">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605745546066" />
-    <state width="1345" height="107" key="GridCell.Tab.0.bottom" timestamp="1605632150197">
+    <state x="568" y="225" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1605746499942" />
+    <state x="300" y="0" key="CommitChangelistDialog2" timestamp="1605746132846">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="107" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605632150197" />
-    <state width="1345" height="107" key="GridCell.Tab.0.center" timestamp="1605632150197">
+    <state x="300" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1605746132846" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1605760718296">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="107" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605632150197" />
-    <state width="1345" height="107" key="GridCell.Tab.0.left" timestamp="1605632150197">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605760718296" />
+    <state width="1345" height="13" key="GridCell.Tab.0.bottom" timestamp="1605753076519">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="107" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605632150197" />
-    <state width="1345" height="107" key="GridCell.Tab.0.right" timestamp="1605632150197">
+    <state width="1345" height="13" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605753076519" />
+    <state width="1345" height="13" key="GridCell.Tab.0.center" timestamp="1605753076519">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="107" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605632150197" />
-    <state x="184" y="8" key="SettingsEditor" timestamp="1605745384448">
+    <state width="1345" height="13" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605753076519" />
+    <state width="1345" height="13" key="GridCell.Tab.0.left" timestamp="1605753076519">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1605745384448" />
+    <state width="1345" height="13" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605753076519" />
+    <state width="1345" height="13" key="GridCell.Tab.0.right" timestamp="1605753076519">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="13" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605753076519" />
+    <state x="184" y="8" key="SettingsEditor" timestamp="1605752856134">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1605752856134" />
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1605762821227">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605762821227" />
+    <state x="488" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605746205858">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1605746205858" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1605745277618">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
