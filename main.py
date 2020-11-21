@@ -27,7 +27,7 @@ def clickable(widget):
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        # window settings
+        # window setting
         self.setStyleSheet('background-color: white;')
         self.setWindowTitle('MSTI')
         self.setWindowIcon(QIcon('image/horse.jpg'))
@@ -57,26 +57,23 @@ class MainWindow(QMainWindow):
         self.howPlayBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
         clickable(self.howPlayBtn).connect(self.dialog_open)
 
-        # QDialog 설정
+        # QDialog setting
         self.dialog = QDialog()
 
-    # 버튼 이벤트 함수
+    # button event function
     def showChoose(self):
         QMessageBox.about(self, "message", "clicked")
         #choose Gui창으로 넘어가게 바꾸기
 
-    # 버튼 이벤트 함수
+    # button event function
     def dialog_open(self):
         # creating a label widget
-        self.labelDialog = QLabel("설명~", self.dialog)
-        self.labelDialog.setAlignment(Qt.AlignCenter)
-        self.fontDialog = self.labelDialog.font()
-        self.fontDialog.setFamily('Times New Roman')    #폰트 바꾸기
-        self.fontDialog.setBold(True)
-        self.fontDialog.setPointSize(30)
-
-        self.labelDialog.setFont(self.fontDialog)
-        self.labelDialog.move(120, 100)
+        self.contents = QLabel('', self.dialog)
+        self.contents.setPixmap(QPixmap('image/contents.png'))
+        self.contents.resize(500, 210)
+        self.contents.move(50, 75)
+        self.contents.setAlignment(Qt.AlignCenter)
+        self.contents.setScaledContents(1)  # 이미지 크기에 맞게 조정
 
         self.closeBtn = QLabel('', self.dialog)
         self.closeBtn.setPixmap(QPixmap('image/CloseBtn.png'))
@@ -85,7 +82,7 @@ class MainWindow(QMainWindow):
         self.closeBtn.setScaledContents(1)    #이미지 크기에 맞게 조정
         clickable(self.closeBtn).connect(self.dialog_close)
 
-        # QDialog 세팅
+        # QDialog setting
         self.dialog.setStyleSheet('background-color: white;')
         self.dialog.setWindowTitle('MSTI')
         self.dialog.setWindowIcon(QIcon('image/horse.jpg'))
@@ -93,7 +90,7 @@ class MainWindow(QMainWindow):
         self.dialog.resize(600, 400)
         self.dialog.show()
 
-    # Dialog 닫기 이벤트
+    # Dialog close event
     def dialog_close(self):
         self.dialog.close()
         self.show()
