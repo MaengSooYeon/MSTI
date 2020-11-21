@@ -28,8 +28,9 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         # window setting
-        self.setStyleSheet('background-color: white;')
+        self.setStyleSheet('background-color: #FFFFFF')
         self.setWindowTitle('MSTI')
+        #https://wikidocs.net/21853 아이콘넣기
         self.setWindowIcon(QIcon('image/horse.jpg'))
         self.setFixedSize(1000, 600)
         self.center()
