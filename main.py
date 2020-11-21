@@ -1,4 +1,3 @@
-## Ex 3-1. 창 띄우기.
 #시작화면 - 디자인 위주, 시작 버튼, 간단한 스토리/플레이 방법 설명 버튼
 import sys
 from PyQt5.QtWidgets import *
