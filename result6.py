@@ -21,7 +21,7 @@ class Result1(QMainWindow):
 
         # creating a label widget
         self.typeImg = QLabel('', self)
-        self.typeImg.setPixmap(QPixmap('image/type/aqua.png'))
+        self.typeImg.setPixmap(QPixmap('image/type/icon/aqua.png'))
         self.typeImg.resize(220, 220)
         self.typeImg.move(110, 60)
         self.typeImg.setAlignment(Qt.AlignCenter)
@@ -35,11 +35,20 @@ class Result1(QMainWindow):
         self.typeName.setScaledContents(1)  # 이미지 크기에 맞게 조정
 
         self.typeHT = QLabel('', self)
-        self.typeHT.setPixmap(QPixmap('image/type/HT_aqua.png'))
+        self.typeHT.setPixmap(QPixmap('image/type/hashtag/HT_aqua.png'))
         self.typeHT.resize(220, 30)
         self.typeHT.move(115, 355)
         self.typeHT.setAlignment(Qt.AlignCenter)
         self.typeHT.setScaledContents(1)  # 이미지 크기에 맞게 조정
+
+
+        self.typeHT = QLabel('', self)
+        self.typeHT.setPixmap(QPixmap('image/type/contents/contents_aqua.png'))
+        self.typeHT.resize(650, 150)
+        self.typeHT.move(380, 90)
+        self.typeHT.setAlignment(Qt.AlignCenter)
+        self.typeHT.setScaledContents(1)  # 이미지 크기에 맞게 조정
+
 
         # creating a button widget
         self.more_recommend_btn = QLabel('', self)
