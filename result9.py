@@ -8,7 +8,7 @@ from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 
-class Result1(QMainWindow):
+class ResultWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         # window setting
@@ -79,6 +79,6 @@ class Result1(QMainWindow):
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    result1 = Result1()
-    result1.show()
+    resultWindow = ResultWindow()
+    resultWindow.show()
     sys.exit(app.exec_())

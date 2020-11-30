@@ -1,43 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6cd0cb4-b79d-4501-966c-cbcecf6ece2a" name="Default Changelist" comment="타입별 해시태그 코드 적용">
-      <change afterPath="$PROJECT_DIR$/image/type/contents/contents_aqua.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/type/contents/contents_floral.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/type/contents/contents_fruity.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/type/contents/contents_gourmans.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/type/contents/contents_green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/type/contents/contents_minty.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/type/contents/contents_mossy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/type/contents/contents_musk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/type/contents/contents_tobacco-leather.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/type/contents/contents_watery.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/type/contents/contents_woody.png" afterDir="false" />
+    <list default="true" id="d6cd0cb4-b79d-4501-966c-cbcecf6ece2a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/image/gotoMainBtn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/type/more_result/more_result_aqua.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/type/more_result/more_result_dry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/type/more_result/more_result_floral.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/type/more_result/more_result_fruity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/type/more_result/more_result_gourmans.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/type/more_result/more_result_green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/type/more_result/more_result_minty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/type/more_result/more_result_mossy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/type/more_result/more_result_musk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/type/more_result/more_result_tobacco-leather.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/type/more_result/more_result_watery.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/type/more_result/more_result_woody.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moreResult.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/type/HT_aqua.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/type/hashtag/HT_aqua.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/type/HT_dry.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/type/hashtag/HT_dry.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/type/HT_floral.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/type/hashtag/HT_floral.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/type/HT_fruity.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/type/hashtag/HT_fruity.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/type/HT_gourmans.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/type/hashtag/HT_gourmans.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/type/HT_green.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/type/hashtag/HT_green.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/type/HT_minty.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/type/hashtag/HT_minty.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/type/HT_mossy.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/type/hashtag/HT_mossy.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/type/HT_musk.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/type/hashtag/HT_musk.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/type/HT_tobacco-leather.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/type/hashtag/HT_tobacco-leather.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/type/HT_watery.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/type/hashtag/HT_watery.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/type/HT_woody.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/type/hashtag/HT_woody.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/type/aqua.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/type/icon/aqua.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/type/dry.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/type/icon/dry.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/type/floral.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/type/icon/floral.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/type/fruity.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/type/icon/fruity.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/type/gourmans.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/type/icon/gourmans.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/type/green.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/type/icon/green.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/type/minty.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/type/icon/minty.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/type/mossy.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/type/icon/mossy.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/type/musk.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/type/icon/musk.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/type/tobacco-leather.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/type/icon/tobacco-leather.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/type/watery.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/type/icon/watery.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/type/woody.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/type/icon/woody.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result1.py" beforeDir="false" afterPath="$PROJECT_DIR$/result1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result10.py" beforeDir="false" afterPath="$PROJECT_DIR$/result10.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result11.py" beforeDir="false" afterPath="$PROJECT_DIR$/result11.py" afterDir="false" />
@@ -80,7 +59,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/image/type/contents" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/image" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -89,14 +68,15 @@
       <recent name="D:\MSTI\image\type\icon" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MSTI\image" />
+      <recent name="D:\MSTI\image\type\more_result" />
       <recent name="D:\MSTI\image\type\contents" />
       <recent name="D:\MSTI\image\type" />
       <recent name="D:\MSTI" />
-      <recent name="D:\MSTI\image" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.result8">
-    <configuration name="result11" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.moreResult">
+    <configuration name="moreResult" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MSTI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -108,7 +88,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result11.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/moreResult.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -117,7 +97,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="result12" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="result10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MSTI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,7 +109,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result12.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result10.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="result6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MSTI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result6.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,34 +181,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="result9" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MSTI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result9.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.result8" />
+        <item itemvalue="Python.moreResult" />
+        <item itemvalue="Python.result6" />
         <item itemvalue="Python.result7" />
-        <item itemvalue="Python.result12" />
-        <item itemvalue="Python.result11" />
-        <item itemvalue="Python.result9" />
+        <item itemvalue="Python.result8" />
+        <item itemvalue="Python.result10" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606751845394</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="타입별 해시태그, 설명 사진 추가(드라이 부분 수정필요)">
+      <created>1606759513788</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1606759513788</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -304,45 +291,46 @@
     <MESSAGE value="타입별 이미지 수정 / result 1~12 파일 위치 설정" />
     <MESSAGE value="타입별 해시태그 추가" />
     <MESSAGE value="타입별 해시태그 코드 적용" />
-    <option name="LAST_COMMIT_MESSAGE" value="타입별 해시태그 코드 적용" />
+    <MESSAGE value="타입별 해시태그, 설명 사진 추가(드라이 부분 수정필요)" />
+    <option name="LAST_COMMIT_MESSAGE" value="타입별 해시태그, 설명 사진 추가(드라이 부분 수정필요)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="568" y="225" key="#Notifications" timestamp="1605746499942">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="568" y="225" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1605746499942" />
-    <state x="300" y="0" key="CommitChangelistDialog2" timestamp="1606751861332">
+    <state x="300" y="0" key="CommitChangelistDialog2" timestamp="1606759511316">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="300" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1606751861332" />
+    <state x="300" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1606759511316" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1605760718296">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605760718296" />
-    <state width="1345" height="143" key="GridCell.Tab.0.bottom" timestamp="1606759372760">
+    <state width="1345" height="37" key="GridCell.Tab.0.bottom" timestamp="1606762973759">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="143" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606759372760" />
-    <state width="1345" height="143" key="GridCell.Tab.0.center" timestamp="1606759372760">
+    <state width="1345" height="37" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606762973759" />
+    <state width="1345" height="37" key="GridCell.Tab.0.center" timestamp="1606762973759">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="143" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606759372760" />
-    <state width="1345" height="143" key="GridCell.Tab.0.left" timestamp="1606759372760">
+    <state width="1345" height="37" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606762973759" />
+    <state width="1345" height="37" key="GridCell.Tab.0.left" timestamp="1606762973759">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="143" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606759372760" />
-    <state width="1345" height="143" key="GridCell.Tab.0.right" timestamp="1606759372760">
+    <state width="1345" height="37" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606762973759" />
+    <state width="1345" height="37" key="GridCell.Tab.0.right" timestamp="1606762973759">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="143" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606759372760" />
+    <state width="1345" height="37" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606762973759" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1605752856134">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1605752856134" />
-    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1606751871735">
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1606759515066">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="83" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1606751871735" />
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1606759515066" />
     <state x="488" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605968319625">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
