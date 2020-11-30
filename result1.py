@@ -7,7 +7,6 @@ import main
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
-#꾸미는 코드가 너무 길다. 셀프.변수이름좀 그만하고싶어.. 줄이는 방법없을까
 
 class Result1(QMainWindow):
     def __init__(self):
@@ -30,10 +29,17 @@ class Result1(QMainWindow):
 
         self.typeName = QLabel('', self)
         self.typeName.setPixmap(QPixmap('image/type/type_floral.png'))
-        self.typeName.resize(170, 55)
-        self.typeName.move(140, 280)
+        self.typeName.resize(250, 50)
+        self.typeName.move(100, 280)
         self.typeName.setAlignment(Qt.AlignCenter)
         self.typeName.setScaledContents(1)  # 이미지 크기에 맞게 조정
+
+        self.typeHT = QLabel('', self)
+        self.typeHT.setPixmap(QPixmap('image/type/HT_floral.png'))
+        self.typeHT.resize(220, 30)
+        self.typeHT.move(115, 355)
+        self.typeHT.setAlignment(Qt.AlignCenter)
+        self.typeHT.setScaledContents(1)  # 이미지 크기에 맞게 조정
 
         # creating a button widget
         self.more_recommend_btn = QLabel('', self)
@@ -45,7 +51,7 @@ class Result1(QMainWindow):
         main.clickable(self.more_recommend_btn).connect(self.moreProduct)
 
         self.more_result_btn = QLabel('', self)
-        self.more_result_btn.setPixmap(QPixmap('image/more_result_btn.png'))  # 이미지 변경하기
+        self.more_result_btn.setPixmap(QPixmap('image/more_result_btn.png'))
         self.more_result_btn.resize(180, 50)
         self.more_result_btn.move(50, 520)
         self.more_result_btn.setAlignment(Qt.AlignCenter)
@@ -63,8 +69,8 @@ class Result1(QMainWindow):
         qr.moveCenter(cp)
         self.move(qr.topLeft())
 
-if __name__ == '__main__':
-    app = QApplication(sys.argv)
-    result1 = Result1()
-    result1.show()
-    sys.exit(app.exec_())
+# if __name__ == '__main__':
+#     app = QApplication(sys.argv)
+#     result1 = Result1()
+#     result1.show()
+#     sys.exit(app.exec_())
