@@ -42,6 +42,7 @@ class MainWindow(QMainWindow):
         self.label.move(210, 120)
         self.label.setAlignment(Qt.AlignCenter)
 
+        # creating a button widget
         self.startBtn = QLabel('', self)
         self.startBtn.setPixmap(QPixmap('image/TestStartBtn.png'))
         self.startBtn.resize(200, 75)
