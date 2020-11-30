@@ -7,32 +7,47 @@ import main
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
-
+#꾸미는 코드가 너무 길다. 셀프.변수이름좀 그만하고싶어.. 줄이는 방법없을까
 
 class Result1(QMainWindow):
     def __init__(self):
         super().__init__()
         # window setting
-        self.setStyleSheet('background-color: #FFFFFF')
+        self.setStyleSheet('background-color: #FFE3E3')
         self.setWindowTitle('MSTI')
         # https://wikidocs.net/21853 아이콘넣기
         self.setWindowIcon(QIcon('image/horse.jpg'))
         self.setFixedSize(1000, 600)
         self.center()
 
+        # creating a label widget
+        self.typeImg = QLabel('', self)
+        self.typeImg.setPixmap(QPixmap('image/type/floral.png'))
+        self.typeImg.resize(220, 220)
+        self.typeImg.move(110, 60)
+        self.typeImg.setAlignment(Qt.AlignCenter)
+        self.typeImg.setScaledContents(1)  # 이미지 크기에 맞게 조정
+
+        self.typeName = QLabel('', self)
+        self.typeName.setPixmap(QPixmap('image/type/type_floral.png'))
+        self.typeName.resize(170, 55)
+        self.typeName.move(140, 280)
+        self.typeName.setAlignment(Qt.AlignCenter)
+        self.typeName.setScaledContents(1)  # 이미지 크기에 맞게 조정
+
         # creating a button widget
         self.more_recommend_btn = QLabel('', self)
-        self.more_recommend_btn.setPixmap(QPixmap('image/horse.jpg')) #이미지 변경하기
-        self.more_recommend_btn.resize(100, 75)
-        self.more_recommend_btn.move(670, 400)
+        self.more_recommend_btn.setPixmap(QPixmap('image/more_recommend_btn.png'))
+        self.more_recommend_btn.resize(180, 50)
+        self.more_recommend_btn.move(770, 520)
         self.more_recommend_btn.setAlignment(Qt.AlignCenter)
         self.more_recommend_btn.setScaledContents(1)  # 이미지 크기에 맞게 조정
         main.clickable(self.more_recommend_btn).connect(self.moreProduct)
 
         self.more_result_btn = QLabel('', self)
-        self.more_result_btn.setPixmap(QPixmap('image/horse.jpg'))  # 이미지 변경하기
-        self.more_result_btn.resize(100, 75)
-        self.more_result_btn.move(580, 400)
+        self.more_result_btn.setPixmap(QPixmap('image/more_result_btn.png'))  # 이미지 변경하기
+        self.more_result_btn.resize(180, 50)
+        self.more_result_btn.move(50, 520)
         self.more_result_btn.setAlignment(Qt.AlignCenter)
         self.more_result_btn.setScaledContents(1)  # 이미지 크기에 맞게 조정
         main.clickable(self.more_result_btn).connect(self.moreProduct)
