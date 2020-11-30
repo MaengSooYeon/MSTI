@@ -69,8 +69,8 @@ class Result1(QMainWindow):
         qr.moveCenter(cp)
         self.move(qr.topLeft())
 
-# if __name__ == '__main__':
-#     app = QApplication(sys.argv)
-#     result1 = Result1()
-#     result1.show()
-#     sys.exit(app.exec_())
+if __name__ == '__main__':
+    app = QApplication(sys.argv)
+    result1 = Result1()
+    result1.show()
+    sys.exit(app.exec_())
