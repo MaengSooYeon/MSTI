@@ -6,6 +6,8 @@ from PyQt5.QtCore import *
 
 #label로 클릭이벤트를 사용하기 위해서.
 #https://wiki.python.org/moin/PyQt/Making%20non-clickable%20widgets%20clickable
+
+
 def clickable(widget):
     class Filter(QObject):
         clicked = pyqtSignal()  # pyside2 사용자는 pyqtSignal() -> Signal()로 변경

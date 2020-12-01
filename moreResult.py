@@ -3,9 +3,11 @@
 # 타입 이름을 누르면 해당 타입 결과 페이지로 이동
 import sys
 import main
+
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
+
 
 class moreResultWindow(QMainWindow):
     def __init__(self):
@@ -35,7 +37,7 @@ class moreResultWindow(QMainWindow):
         self.floral.move(30, 110)
         self.floral.setAlignment(Qt.AlignCenter)
         self.floral.setScaledContents(1)  # 이미지 크기에 맞게 조정
-        # main.clickable(self.floral).connect(self.moreProduct)
+        main.clickable(self.floral).connect(self.showFloral)
 
         self.musk = QLabel('', self)
         self.musk.setPixmap(QPixmap('image/type/more_result/more_result_musk.png'))
@@ -43,7 +45,7 @@ class moreResultWindow(QMainWindow):
         self.musk.move(440, 110)
         self.musk.setAlignment(Qt.AlignCenter)
         self.musk.setScaledContents(1)  # 이미지 크기에 맞게 조정
-        # main.clickable(self.musk).connect(self.moreProduct)
+        main.clickable(self.musk).connect(self.showMusk)
 
         self.woody = QLabel('', self)
         self.woody.setPixmap(QPixmap('image/type/more_result/more_result_woody.png'))
@@ -51,7 +53,7 @@ class moreResultWindow(QMainWindow):
         self.woody.move(30, 270)
         self.woody.setAlignment(Qt.AlignCenter)
         self.woody.setScaledContents(1)  # 이미지 크기에 맞게 조정
-        # main.clickable(self.woody).connect(self.moreProduct)
+        main.clickable(self.woody).connect(self.showWoody)
 
         self.fruity = QLabel('', self)
         self.fruity.setPixmap(QPixmap('image/type/more_result/more_result_fruity.png'))
@@ -59,7 +61,7 @@ class moreResultWindow(QMainWindow):
         self.fruity.move(440, 270)
         self.fruity.setAlignment(Qt.AlignCenter)
         self.fruity.setScaledContents(1)  # 이미지 크기에 맞게 조정
-        # main.clickable(self.fruity).connect(self.moreProduct)
+        main.clickable(self.fruity).connect(self.showFruity)
 
 
         self.green = QLabel('', self)
@@ -68,7 +70,7 @@ class moreResultWindow(QMainWindow):
         self.green.move(30, 430)
         self.green.setAlignment(Qt.AlignCenter)
         self.green.setScaledContents(1)  # 이미지 크기에 맞게 조정
-        # main.clickable(self.green).connect(self.moreProduct)
+        main.clickable(self.green).connect(self.showGreen)
 
         self.aqua = QLabel('', self)
         self.aqua.setPixmap(QPixmap('image/type/more_result/more_result_aqua.png'))
@@ -76,7 +78,7 @@ class moreResultWindow(QMainWindow):
         self.aqua.move(440, 430)
         self.aqua.setAlignment(Qt.AlignCenter)
         self.aqua.setScaledContents(1)  # 이미지 크기에 맞게 조정
-        # main.clickable(self.aqua).connect(self.moreProduct)
+        main.clickable(self.aqua).connect(self.showAqua)
 
         #나머지 6개 추가하기
 
@@ -88,12 +90,49 @@ class moreResultWindow(QMainWindow):
         self.gotoMainbtn.move(800, 25)
         self.gotoMainbtn.setAlignment(Qt.AlignCenter)
         self.gotoMainbtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
-        main.clickable(self.gotoMainbtn).connect(self.moreProduct)
+        main.clickable(self.gotoMainbtn).connect(self.showMain)
 
     # button event function
-    def moreProduct(self):
-        QMessageBox.about(self, "message", "clicked")
-        # 관련된 향수 정보 창으로 바꾸기
+    def showMain(self):
+        self.show_main = main.MainWindow()
+        self.show_main.show()
+        self.hide()
+
+    def showFloral(self):
+        from result1 import ResultWindow
+        self.show_floral = ResultWindow()
+        self.show_floral.show()
+        self.hide()
+
+    def showMusk(self):
+        from result2 import ResultWindow
+        self.show_musk = ResultWindow()
+        self.show_musk.show()
+        self.hide()
+
+    def showWoody(self):
+        from result3 import ResultWindow
+        self.show_woody = ResultWindow()
+        self.show_woody.show()
+        self.hide()
+
+    def showFruity(self):
+        from result4 import ResultWindow
+        self.show_fruity = ResultWindow()
+        self.show_fruity.show()
+        self.hide()
+
+    def showGreen(self):
+        from result5 import ResultWindow
+        self.show_green = ResultWindow()
+        self.show_green.show()
+        self.hide()
+
+    def showAqua(self):
+        from result6 import ResultWindow
+        self.show_aqua = ResultWindow()
+        self.show_aqua.show()
+        self.hide()
 
     def center(self):
         qr = self.frameGeometry()

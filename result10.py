@@ -8,6 +8,9 @@ from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 
+from moreResult import moreResultWindow
+
+
 class ResultWindow(QMainWindow):
     def __init__(self):
         super().__init__()
@@ -64,12 +67,17 @@ class ResultWindow(QMainWindow):
         self.more_result_btn.move(50, 520)
         self.more_result_btn.setAlignment(Qt.AlignCenter)
         self.more_result_btn.setScaledContents(1)  # 이미지 크기에 맞게 조정
-        main.clickable(self.more_result_btn).connect(self.moreProduct)
+        main.clickable(self.more_result_btn).connect(self.moreResult)
 
     # button event function
     def moreProduct(self):
         QMessageBox.about(self, "message", "clicked")
         #관련된 향수 정보 창으로 바꾸기
+
+    def moreResult(self):
+        self.more_result = moreResultWindow()
+        self.more_result.show()
+        self.hide()
 
     def center(self):
         qr = self.frameGeometry()

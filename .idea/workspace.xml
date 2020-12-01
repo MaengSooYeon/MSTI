@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6cd0cb4-b79d-4501-966c-cbcecf6ece2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/image/gotoMainBtn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/type/more_result/more_result_aqua.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/type/more_result/more_result_dry.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/type/more_result/more_result_floral.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/type/more_result/more_result_fruity.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/type/more_result/more_result_gourmans.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/type/more_result/more_result_green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/type/more_result/more_result_minty.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/type/more_result/more_result_mossy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/type/more_result/more_result_musk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/type/more_result/more_result_tobacco-leather.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/type/more_result/more_result_watery.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/type/more_result/more_result_woody.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moreResult.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moreResult.py" beforeDir="false" afterPath="$PROJECT_DIR$/moreResult.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result1.py" beforeDir="false" afterPath="$PROJECT_DIR$/result1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result10.py" beforeDir="false" afterPath="$PROJECT_DIR$/result10.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result11.py" beforeDir="false" afterPath="$PROJECT_DIR$/result11.py" afterDir="false" />
@@ -97,7 +85,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="result10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="result1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MSTI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -109,7 +97,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result10.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="result4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MSTI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="result5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MSTI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,55 +169,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="result7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MSTI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result7.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="result8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MSTI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result8.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.moreResult" />
+        <item itemvalue="Python.result1" />
         <item itemvalue="Python.result6" />
-        <item itemvalue="Python.result7" />
-        <item itemvalue="Python.result8" />
-        <item itemvalue="Python.result10" />
+        <item itemvalue="Python.result5" />
+        <item itemvalue="Python.result4" />
       </list>
     </recent_temporary>
   </component>
@@ -279,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606759513788</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="result 파일 class 이름 변경 / moreResult 미완">
+      <created>1606763097112</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1606763097112</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -292,45 +287,46 @@
     <MESSAGE value="타입별 해시태그 추가" />
     <MESSAGE value="타입별 해시태그 코드 적용" />
     <MESSAGE value="타입별 해시태그, 설명 사진 추가(드라이 부분 수정필요)" />
-    <option name="LAST_COMMIT_MESSAGE" value="타입별 해시태그, 설명 사진 추가(드라이 부분 수정필요)" />
+    <MESSAGE value="result 파일 class 이름 변경 / moreResult 미완" />
+    <option name="LAST_COMMIT_MESSAGE" value="result 파일 class 이름 변경 / moreResult 미완" />
   </component>
   <component name="WindowStateProjectService">
     <state x="568" y="225" key="#Notifications" timestamp="1605746499942">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="568" y="225" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1605746499942" />
-    <state x="300" y="0" key="CommitChangelistDialog2" timestamp="1606759511316">
+    <state x="300" y="0" key="CommitChangelistDialog2" timestamp="1606763095377">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="300" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1606759511316" />
+    <state x="300" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1606763095377" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1605760718296">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605760718296" />
-    <state width="1345" height="37" key="GridCell.Tab.0.bottom" timestamp="1606762973759">
+    <state width="1345" height="238" key="GridCell.Tab.0.bottom" timestamp="1606783245907">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="37" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606762973759" />
-    <state width="1345" height="37" key="GridCell.Tab.0.center" timestamp="1606762973759">
+    <state width="1345" height="238" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606783245907" />
+    <state width="1345" height="238" key="GridCell.Tab.0.center" timestamp="1606783245906">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="37" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606762973759" />
-    <state width="1345" height="37" key="GridCell.Tab.0.left" timestamp="1606762973759">
+    <state width="1345" height="238" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606783245906" />
+    <state width="1345" height="238" key="GridCell.Tab.0.left" timestamp="1606783245906">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="37" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606762973759" />
-    <state width="1345" height="37" key="GridCell.Tab.0.right" timestamp="1606762973759">
+    <state width="1345" height="238" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606783245906" />
+    <state width="1345" height="238" key="GridCell.Tab.0.right" timestamp="1606783245906">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="37" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606762973759" />
+    <state width="1345" height="238" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606783245906" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1605752856134">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1605752856134" />
-    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1606759515066">
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1606763098323">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="83" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1606759515066" />
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1606763098323" />
     <state x="488" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605968319625">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
