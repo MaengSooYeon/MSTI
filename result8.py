@@ -15,7 +15,7 @@ class ResultWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         # window setting
-        self.setStyleSheet('background-color: #77BA5B')
+        self.setStyleSheet('background-color: #686843')
         self.setWindowTitle('MSTI')
         # https://wikidocs.net/21853 아이콘넣기
         self.setWindowIcon(QIcon('image/horse.jpg'))
@@ -24,30 +24,30 @@ class ResultWindow(QMainWindow):
 
         # creating a label widget
         self.typeImg = QLabel('', self)
-        self.typeImg.setPixmap(QPixmap('image/type/icon/mossy.png'))
+        self.typeImg.setPixmap(QPixmap('image/type/icon/tobacco-leather.png'))
         self.typeImg.resize(220, 220)
         self.typeImg.move(110, 60)
         self.typeImg.setAlignment(Qt.AlignCenter)
         self.typeImg.setScaledContents(1)  # 이미지 크기에 맞게 조정
 
         self.typeName = QLabel('', self)
-        self.typeName.setPixmap(QPixmap('image/type/type_mossy.png'))
-        self.typeName.resize(250, 50)
-        self.typeName.move(100, 280)
+        self.typeName.setPixmap(QPixmap('image/type/type_tobacco-leather.png'))
+        self.typeName.resize(290, 50)
+        self.typeName.move(80, 280)
         self.typeName.setAlignment(Qt.AlignCenter)
         self.typeName.setScaledContents(1)  # 이미지 크기에 맞게 조정
 
         self.typeHT = QLabel('', self)
-        self.typeHT.setPixmap(QPixmap('image/type/hashtag/HT_mossy.png'))
+        self.typeHT.setPixmap(QPixmap('image/type/hashtag/HT_tobacco-leather.png'))
         self.typeHT.resize(220, 30)
         self.typeHT.move(115, 355)
         self.typeHT.setAlignment(Qt.AlignCenter)
         self.typeHT.setScaledContents(1)  # 이미지 크기에 맞게 조정
 
         self.typeHT = QLabel('', self)
-        self.typeHT.setPixmap(QPixmap('image/type/contents/contents_mossy.png'))
-        self.typeHT.resize(630, 170)
-        self.typeHT.move(380, 100)
+        self.typeHT.setPixmap(QPixmap('image/type/contents/contents_tobacco-leather.png'))
+        self.typeHT.resize(680, 160)
+        self.typeHT.move(350, 100)
         self.typeHT.setAlignment(Qt.AlignCenter)
         self.typeHT.setScaledContents(1)  # 이미지 크기에 맞게 조정
 

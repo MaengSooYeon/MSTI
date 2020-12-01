@@ -15,7 +15,7 @@ class ResultWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         # window setting
-        self.setStyleSheet('background-color: #D7FFFF')
+        self.setStyleSheet('background-color: #B6F1FF')
         self.setWindowTitle('MSTI')
         # https://wikidocs.net/21853 아이콘넣기
         self.setWindowIcon(QIcon('image/horse.jpg'))
@@ -25,8 +25,8 @@ class ResultWindow(QMainWindow):
         # creating a label widget
         self.typeImg = QLabel('', self)
         self.typeImg.setPixmap(QPixmap('image/type/icon/aqua.png'))
-        self.typeImg.resize(220, 220)
-        self.typeImg.move(110, 60)
+        self.typeImg.resize(240, 220)
+        self.typeImg.move(95, 60)
         self.typeImg.setAlignment(Qt.AlignCenter)
         self.typeImg.setScaledContents(1)  # 이미지 크기에 맞게 조정
 

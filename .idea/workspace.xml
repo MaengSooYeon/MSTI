@@ -3,8 +3,33 @@
   <component name="ChangeListManager">
     <list default="true" id="d6cd0cb4-b79d-4501-966c-cbcecf6ece2a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/type/contents/contents_minty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/type/contents/contents_mossy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/type/contents/contents_watery.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/type/hashtag/HT_dry.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/type/hashtag/HT_minty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/type/hashtag/HT_mossy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/type/hashtag/HT_watery.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/type/icon/aqua.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/type/icon/aqua.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/type/icon/dry.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/type/icon/minty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/type/icon/mossy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/type/more_result/more_result_aqua.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/type/more_result/more_result_aqua.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/type/more_result/more_result_dry.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/type/more_result/more_result_minty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/type/more_result/more_result_mossy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/type/more_result/more_result_watery.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/type/type_dry.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/type/type_minty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/type/type_mossy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/type/type_watery.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/moreResult.py" beforeDir="false" afterPath="$PROJECT_DIR$/moreResult.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result10.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result11.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result12.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result6.py" beforeDir="false" afterPath="$PROJECT_DIR$/result6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result8.py" beforeDir="false" afterPath="$PROJECT_DIR$/result8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result9.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,23 +60,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/image" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/image/type/more_result" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MSTI\image\type\more_result" />
+      <recent name="D:\MSTI\image\type\icon" />
+      <recent name="D:\MSTI\image" />
+      <recent name="D:\MSTI\image\type\contents" />
+      <recent name="D:\MSTI\image\type" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\MSTI\image\type\hashtag" />
       <recent name="D:\MSTI\image\type\icon" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\MSTI\image" />
-      <recent name="D:\MSTI\image\type\more_result" />
-      <recent name="D:\MSTI\image\type\contents" />
-      <recent name="D:\MSTI\image\type" />
-      <recent name="D:\MSTI" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.moreResult">
+  <component name="RunManager" selected="Python.result6">
     <configuration name="moreResult" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MSTI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,10 +184,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.result6" />
+        <item itemvalue="Python.result1" />
         <item itemvalue="Python.moreResult" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.result1" />
-        <item itemvalue="Python.result6" />
         <item itemvalue="Python.result5" />
       </list>
     </recent_temporary>
@@ -269,7 +294,28 @@
       <option name="project" value="LOCAL" />
       <updated>1606783546465</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="결과 모음 화면 완성">
+      <created>1606814890028</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1606814890028</updated>
+    </task>
+    <task id="LOCAL-00015" summary="결과 모음 화면 완성">
+      <created>1606814909772</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1606814909772</updated>
+    </task>
+    <task id="LOCAL-00016" summary="DB 파일 제거">
+      <created>1606815030152</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1606815030152</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -284,45 +330,51 @@
     <MESSAGE value="타입별 해시태그, 설명 사진 추가(드라이 부분 수정필요)" />
     <MESSAGE value="result 파일 class 이름 변경 / moreResult 미완" />
     <MESSAGE value="버튼 클릭시 화면 이동 구현 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="버튼 클릭시 화면 이동 구현 완료" />
+    <MESSAGE value="결과 모음 화면 완성" />
+    <MESSAGE value="DB 파일 제거" />
+    <option name="LAST_COMMIT_MESSAGE" value="DB 파일 제거" />
   </component>
   <component name="WindowStateProjectService">
     <state x="568" y="225" key="#Notifications" timestamp="1605746499942">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="568" y="225" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1605746499942" />
-    <state x="300" y="0" key="CommitChangelistDialog2" timestamp="1606783543979">
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606815768308">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="300" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1606783543979" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1606815768308" />
+    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1606815028422">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1606815028422" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1605760718296">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605760718296" />
-    <state width="1345" height="18" key="GridCell.Tab.0.bottom" timestamp="1606814756009">
+    <state width="1345" height="18" key="GridCell.Tab.0.bottom" timestamp="1606816524054">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="18" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606814756009" />
-    <state width="1345" height="18" key="GridCell.Tab.0.center" timestamp="1606814756009">
+    <state width="1345" height="18" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606816524054" />
+    <state width="1345" height="18" key="GridCell.Tab.0.center" timestamp="1606816524053">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="18" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606814756009" />
-    <state width="1345" height="18" key="GridCell.Tab.0.left" timestamp="1606814756009">
+    <state width="1345" height="18" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606816524053" />
+    <state width="1345" height="18" key="GridCell.Tab.0.left" timestamp="1606816524053">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="18" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606814756009" />
-    <state width="1345" height="18" key="GridCell.Tab.0.right" timestamp="1606814756009">
+    <state width="1345" height="18" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606816524053" />
+    <state width="1345" height="18" key="GridCell.Tab.0.right" timestamp="1606816524053">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="18" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606814756009" />
+    <state width="1345" height="18" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606816524053" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1605752856134">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1605752856134" />
-    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1606783548879">
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1606815033803">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="83" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1606783548879" />
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1606815033803" />
     <state x="488" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605968319625">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
