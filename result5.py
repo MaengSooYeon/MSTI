@@ -44,13 +44,18 @@ class ResultWindow(QMainWindow):
         self.typeHT.setAlignment(Qt.AlignCenter)
         self.typeHT.setScaledContents(1)  # 이미지 크기에 맞게 조정
 
-        self.typeHT = QLabel('', self)
-        self.typeHT.setPixmap(QPixmap('image/type/contents/contents_green.png'))
-        self.typeHT.resize(650, 150)
-        self.typeHT.move(380, 80)
-        self.typeHT.setAlignment(Qt.AlignCenter)
-        self.typeHT.setScaledContents(1)  # 이미지 크기에 맞게 조정
 
+        # 향수 타입 설명
+        with open('file/contents_green.txt', 'r', encoding='utf8') as file:
+            content = file.read()
+            self.content = QLabel(content, self)
+            self.content.resize(710, 130)
+            self.content.move(340, 100)
+            self.content.setAlignment(Qt.AlignCenter)
+            self.content.setScaledContents(1)
+            self.content.setFont(QFont("한컴산뜻돋움", 13))
+            print(content)
+            file.close()
 
         # creating a button widget
         self.more_recommend_btn = QLabel('', self)
