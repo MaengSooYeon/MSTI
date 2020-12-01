@@ -1,0 +1,375 @@
+Index: choose.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#선택지 화면 - 질문 n개 질문 안에 선택지 n개를 보여주는 페이지
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- choose.py	(revision e7ffedb11df927f085816d6120b4a33484ede14f)
++++ choose.py	(date 1606780627922)
+@@ -1,1 +1,4 @@
+-#선택지 화면 - 질문 n개 질문 안에 선택지 n개를 보여주는 페이지
+\ No newline at end of file
++#선택지 화면 - 질문 n개 질문 안에 선택지 n개를 보여주는 페이지
++
++
++
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"d6cd0cb4-b79d-4501-966c-cbcecf6ece2a\" name=\"Default Changelist\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/image/gotoMainBtn.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/image/type/more_result/more_result_aqua.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/image/type/more_result/more_result_dry.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/image/type/more_result/more_result_floral.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/image/type/more_result/more_result_fruity.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/image/type/more_result/more_result_gourmans.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/image/type/more_result/more_result_green.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/image/type/more_result/more_result_minty.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/image/type/more_result/more_result_mossy.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/image/type/more_result/more_result_musk.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/image/type/more_result/more_result_tobacco-leather.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/image/type/more_result/more_result_watery.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/image/type/more_result/more_result_woody.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/moreResult.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/result1.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/result1.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/result10.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/result10.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/result11.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/result11.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/result12.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/result12.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/result2.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/result2.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/result3.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/result3.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/result4.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/result4.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/result5.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/result5.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/result6.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/result6.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/result7.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/result7.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/result8.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/result8.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/result9.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/result9.py\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"PREVIOUS_COMMIT_AUTHORS\">\r\n      <list>\r\n        <option value=\"맹수연 &lt;sooyeon030908@gmail.com&gt;\" />\r\n      </list>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1kQSRyp4avDGF72b1VXamTSPnZp\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/image\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"D:\\MSTI\\image\\type\\hashtag\" />\r\n      <recent name=\"D:\\MSTI\\image\\type\\icon\" />\r\n    </key>\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"D:\\MSTI\\image\" />\r\n      <recent name=\"D:\\MSTI\\image\\type\\more_result\" />\r\n      <recent name=\"D:\\MSTI\\image\\type\\contents\" />\r\n      <recent name=\"D:\\MSTI\\image\\type\" />\r\n      <recent name=\"D:\\MSTI\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Python.moreResult\">\r\n    <configuration name=\"moreResult\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"MSTI\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/moreResult.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"result10\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"MSTI\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/result10.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"result6\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"MSTI\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/result6.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"result7\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"MSTI\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/result7.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"result8\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"MSTI\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/result8.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Python.moreResult\" />\r\n        <item itemvalue=\"Python.result6\" />\r\n        <item itemvalue=\"Python.result7\" />\r\n        <item itemvalue=\"Python.result8\" />\r\n        <item itemvalue=\"Python.result10\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SvnConfiguration\">\r\n    <configuration />\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"d6cd0cb4-b79d-4501-966c-cbcecf6ece2a\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1605631317937</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1605631317937</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"test commit\">\r\n      <created>1605746134452</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1605746134452</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"modify main.py\">\r\n      <created>1605968362170</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1605968362170</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"complete main.py\">\r\n      <created>1605970792586</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1605970792586</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"modify main.py\">\r\n      <created>1605980822675</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1605980822675</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"result 틀 생성 / main 주석 수정\">\r\n      <created>1606742388630</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1606742388630</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"타입별 이미지 추가\">\r\n      <created>1606745542188</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1606745542188</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"타입별 이미지 추가\">\r\n      <created>1606748406644</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1606748406644</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"타입별 이미지 수정 / result 1~12 파일 위치 설정\">\r\n      <created>1606750484518</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1606750484518</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"타입별 해시태그 추가\">\r\n      <created>1606751819158</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1606751819158</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"타입별 해시태그 코드 적용\">\r\n      <created>1606751845394</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1606751845394</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"타입별 해시태그, 설명 사진 추가(드라이 부분 수정필요)\">\r\n      <created>1606759513788</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1606759513788</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"12\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"test commit\" />\r\n    <MESSAGE value=\"complete main.py\" />\r\n    <MESSAGE value=\"modify main.py\" />\r\n    <MESSAGE value=\"result 틀 생성 / main 주석 수정\" />\r\n    <MESSAGE value=\"타입별 이미지 추가\" />\r\n    <MESSAGE value=\"타입별 이미지 수정 / result 1~12 파일 위치 설정\" />\r\n    <MESSAGE value=\"타입별 해시태그 추가\" />\r\n    <MESSAGE value=\"타입별 해시태그 코드 적용\" />\r\n    <MESSAGE value=\"타입별 해시태그, 설명 사진 추가(드라이 부분 수정필요)\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"타입별 해시태그, 설명 사진 추가(드라이 부분 수정필요)\" />\r\n  </component>\r\n  <component name=\"WindowStateProjectService\">\r\n    <state x=\"568\" y=\"225\" key=\"#Notifications\" timestamp=\"1605746499942\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state x=\"568\" y=\"225\" key=\"#Notifications/0.0.1366.728@0.0.1366.728\" timestamp=\"1605746499942\" />\r\n    <state x=\"300\" y=\"0\" key=\"CommitChangelistDialog2\" timestamp=\"1606759511316\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state x=\"300\" y=\"0\" key=\"CommitChangelistDialog2/0.0.1366.728@0.0.1366.728\" timestamp=\"1606759511316\" />\r\n    <state x=\"463\" y=\"118\" key=\"FileChooserDialogImpl\" timestamp=\"1605760718296\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state x=\"463\" y=\"118\" key=\"FileChooserDialogImpl/0.0.1366.728@0.0.1366.728\" timestamp=\"1605760718296\" />\r\n    <state width=\"1345\" height=\"37\" key=\"GridCell.Tab.0.bottom\" timestamp=\"1606762973759\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state width=\"1345\" height=\"37\" key=\"GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728\" timestamp=\"1606762973759\" />\r\n    <state width=\"1345\" height=\"37\" key=\"GridCell.Tab.0.center\" timestamp=\"1606762973759\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state width=\"1345\" height=\"37\" key=\"GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728\" timestamp=\"1606762973759\" />\r\n    <state width=\"1345\" height=\"37\" key=\"GridCell.Tab.0.left\" timestamp=\"1606762973759\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state width=\"1345\" height=\"37\" key=\"GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728\" timestamp=\"1606762973759\" />\r\n    <state width=\"1345\" height=\"37\" key=\"GridCell.Tab.0.right\" timestamp=\"1606762973759\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state width=\"1345\" height=\"37\" key=\"GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728\" timestamp=\"1606762973759\" />\r\n    <state x=\"184\" y=\"8\" key=\"SettingsEditor\" timestamp=\"1605752856134\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state x=\"184\" y=\"8\" key=\"SettingsEditor/0.0.1366.728@0.0.1366.728\" timestamp=\"1605752856134\" />\r\n    <state x=\"275\" y=\"83\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1606759515066\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state x=\"275\" y=\"83\" key=\"Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728\" timestamp=\"1606759515066\" />\r\n    <state x=\"488\" y=\"276\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2\" timestamp=\"1605968319625\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state x=\"488\" y=\"276\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728\" timestamp=\"1605968319625\" />\r\n    <state x=\"346\" y=\"49\" width=\"670\" height=\"58\" key=\"search.everywhere.popup\" timestamp=\"1606746182396\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"728\" />\r\n    </state>\r\n    <state x=\"346\" y=\"49\" width=\"670\" height=\"58\" key=\"search.everywhere.popup/0.0.1366.728@0.0.1366.728\" timestamp=\"1606746182396\" />\r\n  </component>\r\n  <component name=\"hg4idea.settings\">\r\n    <option name=\"CHECK_INCOMING_OUTGOING\" value=\"true\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision e7ffedb11df927f085816d6120b4a33484ede14f)
++++ .idea/workspace.xml	(date 1606832925164)
+@@ -1,34 +1,29 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="BranchesTreeState">
++    <expand>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++    </expand>
++    <select />
++  </component>
+   <component name="ChangeListManager">
+     <list default="true" id="d6cd0cb4-b79d-4501-966c-cbcecf6ece2a" name="Default Changelist" comment="">
+-      <change afterPath="$PROJECT_DIR$/image/gotoMainBtn.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/image/type/more_result/more_result_aqua.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/image/type/more_result/more_result_dry.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/image/type/more_result/more_result_floral.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/image/type/more_result/more_result_fruity.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/image/type/more_result/more_result_gourmans.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/image/type/more_result/more_result_green.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/image/type/more_result/more_result_minty.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/image/type/more_result/more_result_mossy.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/image/type/more_result/more_result_musk.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/image/type/more_result/more_result_tobacco-leather.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/image/type/more_result/more_result_watery.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/image/type/more_result/more_result_woody.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/moreResult.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/MSTI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MSTI.iml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/result1.py" beforeDir="false" afterPath="$PROJECT_DIR$/result1.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/result10.py" beforeDir="false" afterPath="$PROJECT_DIR$/result10.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/result11.py" beforeDir="false" afterPath="$PROJECT_DIR$/result11.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/result12.py" beforeDir="false" afterPath="$PROJECT_DIR$/result12.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/result2.py" beforeDir="false" afterPath="$PROJECT_DIR$/result2.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/result3.py" beforeDir="false" afterPath="$PROJECT_DIR$/result3.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/result4.py" beforeDir="false" afterPath="$PROJECT_DIR$/result4.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/result5.py" beforeDir="false" afterPath="$PROJECT_DIR$/result5.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/result6.py" beforeDir="false" afterPath="$PROJECT_DIR$/result6.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/result7.py" beforeDir="false" afterPath="$PROJECT_DIR$/result7.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/result8.py" beforeDir="false" afterPath="$PROJECT_DIR$/result8.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/result9.py" beforeDir="false" afterPath="$PROJECT_DIR$/result9.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/choose.py" beforeDir="false" afterPath="$PROJECT_DIR$/choose.py" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -60,23 +55,19 @@
+     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+     <property name="last_opened_file_path" value="$PROJECT_DIR$/image" />
++    <property name="node.js.path.for.package.tslint" value="project" />
++    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+   </component>
+   <component name="RecentsManager">
+-    <key name="MoveFile.RECENT_KEYS">
+-      <recent name="D:\MSTI\image\type\hashtag" />
+-      <recent name="D:\MSTI\image\type\icon" />
+-    </key>
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="D:\MSTI\image" />
+-      <recent name="D:\MSTI\image\type\more_result" />
+-      <recent name="D:\MSTI\image\type\contents" />
+       <recent name="D:\MSTI\image\type" />
+       <recent name="D:\MSTI" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Python.moreResult">
+-    <configuration name="moreResult" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++  <component name="RunManager" selected="Python.result1 (1)">
++    <configuration name="DBconn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="MSTI" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+@@ -88,7 +79,8 @@
+       <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/moreResult.py" />
++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DBconn.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -97,7 +89,7 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="result10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="MSTI" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+@@ -109,7 +101,8 @@
+       <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result10.py" />
++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -118,7 +111,7 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="result6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="MSTI" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+@@ -130,7 +123,8 @@
+       <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result6.py" />
++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
++      <option name="SCRIPT_NAME" value="D:\MSTI\main.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -139,7 +133,7 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="result7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++    <configuration name="result1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="MSTI" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+@@ -151,7 +145,8 @@
+       <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result7.py" />
++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result1.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -160,7 +155,7 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="result8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++    <configuration name="result1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="MSTI" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+@@ -172,7 +167,8 @@
+       <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result8.py" />
++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
++      <option name="SCRIPT_NAME" value="D:\MSTI\result1.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -183,11 +179,11 @@
+     </configuration>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="Python.moreResult" />
+-        <item itemvalue="Python.result6" />
+-        <item itemvalue="Python.result7" />
+-        <item itemvalue="Python.result8" />
+-        <item itemvalue="Python.result10" />
++        <item itemvalue="Python.result1 (1)" />
++        <item itemvalue="Python.result1" />
++        <item itemvalue="Python.main (1)" />
++        <item itemvalue="Python.DBconn" />
++        <item itemvalue="Python.main" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -237,108 +233,64 @@
+       <option name="project" value="LOCAL" />
+       <updated>1606742388630</updated>
+     </task>
+-    <task id="LOCAL-00006" summary="타입별 이미지 추가">
+-      <created>1606745542188</created>
+-      <option name="number" value="00006" />
+-      <option name="presentableId" value="LOCAL-00006" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1606745542188</updated>
+-    </task>
+-    <task id="LOCAL-00007" summary="타입별 이미지 추가">
+-      <created>1606748406644</created>
+-      <option name="number" value="00007" />
+-      <option name="presentableId" value="LOCAL-00007" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1606748406644</updated>
+-    </task>
+-    <task id="LOCAL-00008" summary="타입별 이미지 수정 / result 1~12 파일 위치 설정">
+-      <created>1606750484518</created>
+-      <option name="number" value="00008" />
+-      <option name="presentableId" value="LOCAL-00008" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1606750484518</updated>
+-    </task>
+-    <task id="LOCAL-00009" summary="타입별 해시태그 추가">
+-      <created>1606751819158</created>
+-      <option name="number" value="00009" />
+-      <option name="presentableId" value="LOCAL-00009" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1606751819158</updated>
+-    </task>
+-    <task id="LOCAL-00010" summary="타입별 해시태그 코드 적용">
+-      <created>1606751845394</created>
+-      <option name="number" value="00010" />
+-      <option name="presentableId" value="LOCAL-00010" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1606751845394</updated>
+-    </task>
+-    <task id="LOCAL-00011" summary="타입별 해시태그, 설명 사진 추가(드라이 부분 수정필요)">
+-      <created>1606759513788</created>
+-      <option name="number" value="00011" />
+-      <option name="presentableId" value="LOCAL-00011" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1606759513788</updated>
+-    </task>
+-    <option name="localTasksCounter" value="12" />
++    <option name="localTasksCounter" value="6" />
+     <servers />
+   </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="oldMeFiltersMigrated" value="true" />
++  </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="test commit" />
+     <MESSAGE value="complete main.py" />
+     <MESSAGE value="modify main.py" />
+     <MESSAGE value="result 틀 생성 / main 주석 수정" />
+-    <MESSAGE value="타입별 이미지 추가" />
+-    <MESSAGE value="타입별 이미지 수정 / result 1~12 파일 위치 설정" />
+-    <MESSAGE value="타입별 해시태그 추가" />
+-    <MESSAGE value="타입별 해시태그 코드 적용" />
+-    <MESSAGE value="타입별 해시태그, 설명 사진 추가(드라이 부분 수정필요)" />
+-    <option name="LAST_COMMIT_MESSAGE" value="타입별 해시태그, 설명 사진 추가(드라이 부분 수정필요)" />
++    <option name="LAST_COMMIT_MESSAGE" value="result 틀 생성 / main 주석 수정" />
+   </component>
+   <component name="WindowStateProjectService">
+     <state x="568" y="225" key="#Notifications" timestamp="1605746499942">
+       <screen x="0" y="0" width="1366" height="728" />
+     </state>
+     <state x="568" y="225" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1605746499942" />
+-    <state x="300" y="0" key="CommitChangelistDialog2" timestamp="1606759511316">
++    <state x="300" y="0" key="CommitChangelistDialog2" timestamp="1606742386872">
+       <screen x="0" y="0" width="1366" height="728" />
+     </state>
+-    <state x="300" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1606759511316" />
++    <state x="300" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1606742386872" />
+     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1605760718296">
+       <screen x="0" y="0" width="1366" height="728" />
+     </state>
+     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605760718296" />
+-    <state width="1345" height="37" key="GridCell.Tab.0.bottom" timestamp="1606762973759">
++    <state width="1345" height="155" key="GridCell.Tab.0.bottom" timestamp="1606745106222">
+       <screen x="0" y="0" width="1366" height="728" />
+     </state>
+-    <state width="1345" height="37" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606762973759" />
+-    <state width="1345" height="37" key="GridCell.Tab.0.center" timestamp="1606762973759">
++    <state width="1345" height="155" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606745106222" />
++    <state width="1345" height="155" key="GridCell.Tab.0.center" timestamp="1606745106222">
+       <screen x="0" y="0" width="1366" height="728" />
+     </state>
+-    <state width="1345" height="37" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606762973759" />
+-    <state width="1345" height="37" key="GridCell.Tab.0.left" timestamp="1606762973759">
++    <state width="1345" height="155" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606745106222" />
++    <state width="1345" height="155" key="GridCell.Tab.0.left" timestamp="1606745106222">
+       <screen x="0" y="0" width="1366" height="728" />
+     </state>
+-    <state width="1345" height="37" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606762973759" />
+-    <state width="1345" height="37" key="GridCell.Tab.0.right" timestamp="1606762973759">
++    <state width="1345" height="155" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606745106222" />
++    <state width="1345" height="155" key="GridCell.Tab.0.right" timestamp="1606745106222">
+       <screen x="0" y="0" width="1366" height="728" />
+     </state>
+-    <state width="1345" height="37" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606762973759" />
++    <state width="1345" height="155" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606745106222" />
+     <state x="184" y="8" key="SettingsEditor" timestamp="1605752856134">
+       <screen x="0" y="0" width="1366" height="728" />
+     </state>
+     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1605752856134" />
+-    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1606759515066">
++    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1606742390493">
+       <screen x="0" y="0" width="1366" height="728" />
+     </state>
+-    <state x="275" y="83" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1606759515066" />
++    <state x="275" y="83" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1606742390493" />
+     <state x="488" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605968319625">
+       <screen x="0" y="0" width="1366" height="728" />
+     </state>
+     <state x="488" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1605968319625" />
+-    <state x="346" y="49" width="670" height="58" key="search.everywhere.popup" timestamp="1606746182396">
++    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1605745277618">
+       <screen x="0" y="0" width="1366" height="728" />
+     </state>
+-    <state x="346" y="49" width="670" height="58" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1606746182396" />
++    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1605745277618" />
+   </component>
+   <component name="hg4idea.settings">
+     <option name="CHECK_INCOMING_OUTGOING" value="true" />
+Index: .idea/MSTI.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"PYTHON_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\">\r\n    <content url=\"file://$MODULE_DIR$\" />\r\n    <orderEntry type=\"jdk\" jdkName=\"Python 3.8 (Python)\" jdkType=\"Python SDK\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/MSTI.iml	(revision e7ffedb11df927f085816d6120b4a33484ede14f)
++++ .idea/MSTI.iml	(date 1606780638401)
+@@ -2,7 +2,7 @@
+ <module type="PYTHON_MODULE" version="4">
+   <component name="NewModuleRootManager">
+     <content url="file://$MODULE_DIR$" />
+-    <orderEntry type="jdk" jdkName="Python 3.8 (Python)" jdkType="Python SDK" />
++    <orderEntry type="inheritedJdk" />
+     <orderEntry type="sourceFolder" forTests="false" />
+   </component>
+ </module>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectRootManager\" version=\"2\" project-jdk-name=\"Python 3.8 (Python)\" project-jdk-type=\"Python SDK\" />\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/misc.xml	(revision e7ffedb11df927f085816d6120b4a33484ede14f)
++++ .idea/misc.xml	(date 1606780638421)
+@@ -1,4 +1,4 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.8 (Python)" project-jdk-type="Python SDK" />
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.7 (MSTI)" project-jdk-type="Python SDK" />
+ </project>
+\ No newline at end of file

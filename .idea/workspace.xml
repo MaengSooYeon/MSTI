@@ -2,50 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6cd0cb4-b79d-4501-966c-cbcecf6ece2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/image/products/aqua/img1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/products/aqua/img2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/products/aqua/img3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/products/aqua/img4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/products/aqua/img5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/products/floral/img1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/products/floral/img2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/products/floral/img3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/products/floral/img4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/products/floral/img5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/products/fruity/img1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/products/fruity/img2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/products/fruity/img3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/products/fruity/img4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/products/fruity/img5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/products/green/img1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/products/green/img2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/products/green/img3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/products/green/img4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/products/green/img5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/products/musk/img1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/products/musk/img2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/products/musk/img3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/products/musk/img4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/products/musk/img5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/products/tobacco_leather/img1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/products/tobacco_leather/img2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/products/tobacco_leather/img3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/products/tobacco_leather/img4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/products/tobacco_leather/img5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/products/woody/img1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/products/woody/img2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/products/woody/img3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/products/woody/img4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/products/woody/img5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/choose1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/choose2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/choose3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/choose4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/choose5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/choice/answer/10대.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/choice/answer/20대.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/choice/answer/30대.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/choice/answer/가을.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/choice/answer/강렬한.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/choice/answer/겨울.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/choice/answer/내추럴.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/choice/answer/봄.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/choice/answer/생동감.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/choice/answer/순한.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/choice/answer/여름.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/choice/answer/차분함.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/choice/answer/트렌디.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/choice/question/age.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/choice/question/feel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/choice/question/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/choice/question/season.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/choice/question/style.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MSTI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MSTI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result_aqua.py" beforeDir="false" afterPath="$PROJECT_DIR$/result_aqua.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result_floral.py" beforeDir="false" afterPath="$PROJECT_DIR$/result_floral.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result_fruity.py" beforeDir="false" afterPath="$PROJECT_DIR$/result_fruity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result_gourmans.py" beforeDir="false" afterPath="$PROJECT_DIR$/result_gourmans.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result_green.py" beforeDir="false" afterPath="$PROJECT_DIR$/result_green.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result_musk.py" beforeDir="false" afterPath="$PROJECT_DIR$/result_musk.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result_tobacco_leather.py" beforeDir="false" afterPath="$PROJECT_DIR$/result_tobacco_leather.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result_woody.py" beforeDir="false" afterPath="$PROJECT_DIR$/result_woody.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/choose.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,25 +59,90 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/image/products/tobacco_leather" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/image/type/hashtag" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\MSTI\image\products" />
-      <recent name="D:\MSTI\image" />
       <recent name="D:\MSTI\image\type\hashtag" />
       <recent name="D:\MSTI\image\type\icon" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\MSTI\image\products\tobacco_leather" />
-      <recent name="D:\MSTI\image\products\woody" />
-      <recent name="D:\MSTI\image\products\green" />
-      <recent name="D:\MSTI\image\products\aqua" />
-      <recent name="D:\MSTI\image\products\fruity" />
+      <recent name="D:\MSTI\image\type\hashtag" />
+      <recent name="D:\MSTI\image\type\more_result" />
+      <recent name="D:\MSTI\image\type\icon" />
+      <recent name="D:\MSTI\image" />
+      <recent name="D:\MSTI\image\type\contents" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.result_gourmans">
+  <component name="RunManager" selected="Python.choose5">
+    <configuration name="choose1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MSTI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/choose1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="choose4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MSTI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/choose4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="choose5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MSTI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/choose5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="moreResult" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MSTI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,70 +155,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/moreResult.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="result_aqua (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MSTI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result_aqua.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="result_fruity" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MSTI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result_fruity.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="result_gourmans" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MSTI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result_gourmans.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,6 +177,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result_musk.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -202,10 +189,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.result_gourmans" />
-        <item itemvalue="Python.result_aqua (1)" />
-        <item itemvalue="Python.result_fruity" />
+        <item itemvalue="Python.choose5" />
+        <item itemvalue="Python.choose1" />
         <item itemvalue="Python.result_musk" />
+        <item itemvalue="Python.choose4" />
         <item itemvalue="Python.moreResult" />
       </list>
     </recent_temporary>
@@ -220,6 +207,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605631317937</updated>
+      <workItem from="1606848048769" duration="1304000" />
+      <workItem from="1606849384469" duration="774000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1605746134452</created>
@@ -354,15 +343,11 @@
       <option name="project" value="LOCAL" />
       <updated>1606830395384</updated>
     </task>
-    <task id="LOCAL-00020" summary="result 파일 이름 변경 / contents txt 경로 수정">
-      <created>1606831015813</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1606831015813</updated>
-    </task>
-    <option name="localTasksCounter" value="21" />
+    <option name="localTasksCounter" value="20" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test commit" />
@@ -381,8 +366,7 @@
     <MESSAGE value="타입 이미지, 코드정리" />
     <MESSAGE value="타입 설명 파일로 교체" />
     <MESSAGE value="간단한 코드 정리" />
-    <MESSAGE value="result 파일 이름 변경 / contents txt 경로 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="result 파일 이름 변경 / contents txt 경로 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="간단한 코드 정리" />
   </component>
   <component name="WindowStateProjectService">
     <state x="568" y="225" key="#Notifications" timestamp="1605746499942">
@@ -393,46 +377,57 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1606815768308" />
-    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1606831014316">
+    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1606830393679">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1606831014316" />
+    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1606830393679" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1606829017935">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606829017935" />
-    <state width="1345" height="35" key="GridCell.Tab.0.bottom" timestamp="1606835368483">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="831" height="324" key="GridCell.Tab.0.bottom" timestamp="1606849353102">
+      <screen x="0" y="0" width="1707" height="1027" />
     </state>
-    <state width="1345" height="35" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606835368483" />
-    <state width="1345" height="35" key="GridCell.Tab.0.center" timestamp="1606835368482">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1345" height="35" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606830790312" />
+    <state width="831" height="324" key="GridCell.Tab.0.bottom/0.0.1707.1027@0.0.1707.1027" timestamp="1606849353102" />
+    <state width="831" height="324" key="GridCell.Tab.0.center" timestamp="1606849353102">
+      <screen x="0" y="0" width="1707" height="1027" />
     </state>
-    <state width="1345" height="35" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606835368482" />
-    <state width="1345" height="35" key="GridCell.Tab.0.left" timestamp="1606835368482">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1345" height="35" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606830790311" />
+    <state width="831" height="324" key="GridCell.Tab.0.center/0.0.1707.1027@0.0.1707.1027" timestamp="1606849353102" />
+    <state width="831" height="324" key="GridCell.Tab.0.left" timestamp="1606849353102">
+      <screen x="0" y="0" width="1707" height="1027" />
     </state>
-    <state width="1345" height="35" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606835368482" />
-    <state width="1345" height="35" key="GridCell.Tab.0.right" timestamp="1606835368483">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1345" height="35" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606830790311" />
+    <state width="831" height="324" key="GridCell.Tab.0.left/0.0.1707.1027@0.0.1707.1027" timestamp="1606849353102" />
+    <state width="831" height="324" key="GridCell.Tab.0.right" timestamp="1606849353102">
+      <screen x="0" y="0" width="1707" height="1027" />
     </state>
-    <state width="1345" height="35" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606835368483" />
+    <state width="1345" height="35" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606830790312" />
+    <state width="831" height="324" key="GridCell.Tab.0.right/0.0.1707.1027@0.0.1707.1027" timestamp="1606849353102" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1605752856134">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1605752856134" />
-    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1606831017253">
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1606830396684">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="83" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1606831017253" />
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1606830396684" />
     <state x="488" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605968319625">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1605968319625" />
-    <state x="346" y="49" width="672" height="160" key="search.everywhere.popup" timestamp="1606832992250">
+    <state x="346" y="49" width="670" height="58" key="search.everywhere.popup" timestamp="1606746182396">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="160" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1606832992250" />
+    <state x="346" y="49" width="670" height="58" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1606746182396" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MSTI$result_musk.coverage" NAME="result_musk Coverage Results" MODIFIED="1606849189864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MSTI$moreResult.coverage" NAME="moreResult Coverage Results" MODIFIED="1606848065217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MSTI$choose5.coverage" NAME="choose5 Coverage Results" MODIFIED="1606850249126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MSTI$choose4.coverage" NAME="choose4 Coverage Results" MODIFIED="1606848511860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MSTI$choose1.coverage" NAME="choose1 Coverage Results" MODIFIED="1606849537622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="hg4idea.settings">
     <option name="CHECK_INCOMING_OUTGOING" value="true" />

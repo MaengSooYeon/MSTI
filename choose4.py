@@ -34,34 +34,48 @@ class ChooseWindow(QWidget):
 
         # creating questions widget
         self.label = QLabel('', self)
-        self.label.setPixmap(QPixmap('image/choice/question/age.png'))
-        self.label.resize(600, 100)
-        self.label.move(210, 45)
+        self.label.setPixmap(QPixmap('image/choice/question/season.png'))
+        self.label.resize(750, 100)
+        self.label.move(140, 45)
         self.label.setAlignment(Qt.AlignCenter)
 
         # creating a button widget
-        self.startBtn = QLabel('', self)
-        self.startBtn.setPixmap(QPixmap('image/choice/answer/10대.png'))
-        self.startBtn.resize(150, 100)
-        self.startBtn.move(130, 380)
-        self.startBtn.setAlignment(Qt.AlignCenter)
-        self.startBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
+        self.springBtn = QLabel('', self)
+        self.springBtn.setPixmap(QPixmap('image/choice/answer/봄.png'))
+        self.springBtn.resize(150, 100)
+        self.springBtn.move(100, 380)
+        self.springBtn.setAlignment(Qt.AlignCenter)
+        self.springBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
+        choose5.clickable(self.springBtn).connect(self.showChoose5)
 
-        self.startBtn = QLabel('', self)
-        self.startBtn.setPixmap(QPixmap('image/choice/answer/20대.png'))
-        self.startBtn.resize(150, 100)
-        self.startBtn.move(420, 380)
-        self.startBtn.setAlignment(Qt.AlignCenter)
-        self.startBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
+        self.summerBtn = QLabel('', self)
+        self.summerBtn.setPixmap(QPixmap('image/choice/answer/여름.png'))
+        self.summerBtn.resize(150, 100)
+        self.summerBtn.move(300, 380)
+        self.summerBtn.setAlignment(Qt.AlignCenter)
+        self.summerBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
+        choose5.clickable(self.summerBtn).connect(self.showChoose5)
 
-        self.startBtn = QLabel('', self)
-        self.startBtn.setPixmap(QPixmap('image/choice/answer/30대.png'))
-        self.startBtn.resize(150, 100)
-        self.startBtn.move(700, 380)
-        self.startBtn.setAlignment(Qt.AlignCenter)
-        self.startBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
+        self.falltBtn = QLabel('', self)
+        self.falltBtn.setPixmap(QPixmap('image/choice/answer/가을.png'))
+        self.falltBtn.resize(150, 100)
+        self.falltBtn.move(500, 380)
+        self.falltBtn.setAlignment(Qt.AlignCenter)
+        self.falltBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
+        choose5.clickable(self.falltBtn).connect(self.showChoose5)
 
+        self.wintertBtn = QLabel('', self)
+        self.wintertBtn.setPixmap(QPixmap('image/choice/answer/겨울.png'))
+        self.wintertBtn.resize(150, 100)
+        self.wintertBtn.move(700, 380)
+        self.wintertBtn.setAlignment(Qt.AlignCenter)
+        self.wintertBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
+        choose5.clickable(self.wintertBtn).connect(self.showChoose5)
 
+    def showChoose5(self):
+        self.show_choose5 = choose5.ChooseWindow()
+        self.show_choose5.show()
+        self.hide()
 
 
 if __name__ == '__main__':

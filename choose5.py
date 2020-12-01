@@ -32,32 +32,26 @@ class ChooseWindow(QWidget):
 
         # creating questions widget
         self.label = QLabel('', self)
-        self.label.setPixmap(QPixmap('image/choice/question/age.png'))
-        self.label.resize(600, 100)
-        self.label.move(210, 45)
+        self.label.setPixmap(QPixmap('image/choice/question/style.png'))
+        self.label.resize(750, 100)
+        self.label.move(140, 45)
         self.label.setAlignment(Qt.AlignCenter)
 
         # creating a button widget
-        self.startBtn = QLabel('', self)
-        self.startBtn.setPixmap(QPixmap('image/choice/answer/10대.png'))
-        self.startBtn.resize(150, 100)
-        self.startBtn.move(130, 380)
-        self.startBtn.setAlignment(Qt.AlignCenter)
-        self.startBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
+        self.naturalBtn = QLabel('', self)
+        self.naturalBtn.setPixmap(QPixmap('image/choice/answer/내추럴.png'))
+        self.naturalBtn.resize(150, 100)
+        self.naturalBtn.move(270, 380)
+        self.naturalBtn.setAlignment(Qt.AlignCenter)
+        self.naturalBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
 
-        self.startBtn = QLabel('', self)
-        self.startBtn.setPixmap(QPixmap('image/choice/answer/20대.png'))
-        self.startBtn.resize(150, 100)
-        self.startBtn.move(420, 380)
-        self.startBtn.setAlignment(Qt.AlignCenter)
-        self.startBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
+        self.trendyBtn = QLabel('', self)
+        self.trendyBtn.setPixmap(QPixmap('image/choice/answer/트렌디.png'))
+        self.trendyBtn.resize(150, 100)
+        self.trendyBtn.move(600, 380)
+        self.trendyBtn.setAlignment(Qt.AlignCenter)
+        self.trendyBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
 
-        self.startBtn = QLabel('', self)
-        self.startBtn.setPixmap(QPixmap('image/choice/answer/30대.png'))
-        self.startBtn.resize(150, 100)
-        self.startBtn.move(700, 380)
-        self.startBtn.setAlignment(Qt.AlignCenter)
-        self.startBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
 
 
 
