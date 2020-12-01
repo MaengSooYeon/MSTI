@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6cd0cb4-b79d-4501-966c-cbcecf6ece2a" name="Default Changelist" comment="타입 설명 파일로 교체">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/type/hashtag/HT_tobacco-leather.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/type/hashtag/HT_tobacco-leather.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result2.py" beforeDir="false" afterPath="$PROJECT_DIR$/result2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result4.py" beforeDir="false" afterPath="$PROJECT_DIR$/result4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result8.py" beforeDir="false" afterPath="$PROJECT_DIR$/result8.py" afterDir="false" />
+    <list default="true" id="d6cd0cb4-b79d-4501-966c-cbcecf6ece2a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/file/contents_aqua.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/contents_floral.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/contents_fruity.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/contents_gourmans.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/contents_green.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/contents_musk.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/contents_tobacco-leather.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/contents_woody.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result5.py" beforeDir="false" afterPath="$PROJECT_DIR$/result5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result6.py" beforeDir="false" afterPath="$PROJECT_DIR$/result6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result7.py" beforeDir="false" afterPath="$PROJECT_DIR$/result7.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,20 +47,20 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\MSTI\image\type\more_result" />
-      <recent name="D:\MSTI\image\type\icon" />
-      <recent name="D:\MSTI\image" />
-      <recent name="D:\MSTI\image\type\contents" />
-      <recent name="D:\MSTI\image\type" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\MSTI\image\type\hashtag" />
       <recent name="D:\MSTI\image\type\icon" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MSTI\image\type\hashtag" />
+      <recent name="D:\MSTI\image\type\more_result" />
+      <recent name="D:\MSTI\image\type\icon" />
+      <recent name="D:\MSTI\image" />
+      <recent name="D:\MSTI\image\type\contents" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.result8">
-    <configuration name="result2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.moreResult">
+    <configuration name="moreResult" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MSTI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -66,7 +72,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/moreResult.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -75,7 +81,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="result4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="result_aqua" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MSTI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -87,7 +93,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result4.py" />
+      <option name="SCRIPT_NAME" value="D:\MSTI\result_aqua.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -96,7 +102,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="result6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="result_fruity" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MSTI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -108,7 +114,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result6.py" />
+      <option name="SCRIPT_NAME" value="D:\MSTI\result_fruity.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -117,7 +123,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="result7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="result_gourmans" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MSTI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,7 +135,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result7.py" />
+      <option name="SCRIPT_NAME" value="D:\MSTI\result_gourmans.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,7 +144,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="result8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="result_tobacco_leather" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MSTI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -150,7 +156,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result8.py" />
+      <option name="SCRIPT_NAME" value="D:\MSTI\result_tobacco_leather.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.result8" />
-        <item itemvalue="Python.result7" />
-        <item itemvalue="Python.result6" />
-        <item itemvalue="Python.result4" />
-        <item itemvalue="Python.result2" />
+        <item itemvalue="Python.moreResult" />
+        <item itemvalue="Python.result_aqua" />
+        <item itemvalue="Python.result_tobacco_leather" />
+        <item itemvalue="Python.result_gourmans" />
+        <item itemvalue="Python.result_fruity" />
       </list>
     </recent_temporary>
   </component>
@@ -306,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606830047830</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="간단한 코드 정리">
+      <created>1606830395384</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1606830395384</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -325,7 +338,8 @@
     <MESSAGE value="DB 파일 제거" />
     <MESSAGE value="타입 이미지, 코드정리" />
     <MESSAGE value="타입 설명 파일로 교체" />
-    <option name="LAST_COMMIT_MESSAGE" value="타입 설명 파일로 교체" />
+    <MESSAGE value="간단한 코드 정리" />
+    <option name="LAST_COMMIT_MESSAGE" value="간단한 코드 정리" />
   </component>
   <component name="WindowStateProjectService">
     <state x="568" y="225" key="#Notifications" timestamp="1605746499942">
@@ -336,38 +350,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1606815768308" />
-    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1606830109695">
+    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1606830393679">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1606830109695" />
+    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1606830393679" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1606829017935">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606829017935" />
-    <state width="1345" height="130" key="GridCell.Tab.0.bottom" timestamp="1606830290533">
+    <state width="1345" height="35" key="GridCell.Tab.0.bottom" timestamp="1606830790312">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="130" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606830290533" />
-    <state width="1345" height="130" key="GridCell.Tab.0.center" timestamp="1606830290533">
+    <state width="1345" height="35" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606830790312" />
+    <state width="1345" height="35" key="GridCell.Tab.0.center" timestamp="1606830790311">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="130" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606830290533" />
-    <state width="1345" height="130" key="GridCell.Tab.0.left" timestamp="1606830290533">
+    <state width="1345" height="35" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606830790311" />
+    <state width="1345" height="35" key="GridCell.Tab.0.left" timestamp="1606830790311">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="130" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606830290533" />
-    <state width="1345" height="130" key="GridCell.Tab.0.right" timestamp="1606830290533">
+    <state width="1345" height="35" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606830790311" />
+    <state width="1345" height="35" key="GridCell.Tab.0.right" timestamp="1606830790312">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="130" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606830290533" />
+    <state width="1345" height="35" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606830790312" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1605752856134">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1605752856134" />
-    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1606830051067">
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1606830396684">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="83" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1606830051067" />
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1606830396684" />
     <state x="488" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605968319625">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

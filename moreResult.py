@@ -118,51 +118,51 @@ class moreResultWindow(QMainWindow):
         self.hide()
 
     def showFloral(self):
-        from result1 import ResultWindow
+        from result_floral import ResultWindow
         self.show_floral = ResultWindow()
         self.show_floral.show()
         self.hide()
 
     def showMusk(self):
-        from result2 import ResultWindow
+        from result_musk import ResultWindow
         self.show_musk = ResultWindow()
         self.show_musk.show()
         self.hide()
 
     def showWoody(self):
-        from result3 import ResultWindow
+        from result_woody import ResultWindow
         self.show_woody = ResultWindow()
         self.show_woody.show()
         self.hide()
 
     def showFruity(self):
-        from result4 import ResultWindow
+        from result_fruity import ResultWindow
         self.show_fruity = ResultWindow()
         self.show_fruity.show()
         self.hide()
 
     def showGreen(self):
-        from result5 import ResultWindow
+        from result_green import ResultWindow
         self.show_green = ResultWindow()
         self.show_green.show()
         self.hide()
 
     def showAqua(self):
-        from result6 import ResultWindow
+        from result_aqua import ResultWindow
         self.show_aqua = ResultWindow()
         self.show_aqua.show()
         self.hide()
 
     def showGourmans(self):
-        from result7 import ResultWindow
+        from result_gourmans import ResultWindow
         self.show_gourmans = ResultWindow()
         self.show_gourmans.show()
         self.hide()
 
     def showTobacco_leather(self):
-        from result8 import ResultWindow
-        self.show_mossy = ResultWindow()
-        self.show_mossy.show()
+        from result_tobacco_leather import ResultWindow
+        self.show_tobacco_leather = ResultWindow()
+        self.show_tobacco_leather.show()
         self.hide()
 
 

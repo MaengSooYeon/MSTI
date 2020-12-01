@@ -15,7 +15,7 @@ class ResultWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         # window setting
-        self.setStyleSheet('background-color: #B6F1FF')
+        self.setStyleSheet('background-color: #AA8666')
         self.setWindowTitle('MSTI')
         # https://wikidocs.net/21853 아이콘넣기
         self.setWindowIcon(QIcon('image/horse.jpg'))
@@ -24,21 +24,21 @@ class ResultWindow(QMainWindow):
 
         # creating a label widget
         self.typeImg = QLabel('', self)
-        self.typeImg.setPixmap(QPixmap('image/type/icon/aqua.png'))
-        self.typeImg.resize(240, 220)
-        self.typeImg.move(95, 60)
+        self.typeImg.setPixmap(QPixmap('image/type/icon/gourmans.png'))
+        self.typeImg.resize(220, 220)
+        self.typeImg.move(110, 60)
         self.typeImg.setAlignment(Qt.AlignCenter)
         self.typeImg.setScaledContents(1)  # 이미지 크기에 맞게 조정
 
         self.typeName = QLabel('', self)
-        self.typeName.setPixmap(QPixmap('image/type/type_aqua.png'))
+        self.typeName.setPixmap(QPixmap('image/type/type_gourmans.png'))
         self.typeName.resize(250, 50)
         self.typeName.move(100, 280)
         self.typeName.setAlignment(Qt.AlignCenter)
         self.typeName.setScaledContents(1)  # 이미지 크기에 맞게 조정
 
         self.typeHT = QLabel('', self)
-        self.typeHT.setPixmap(QPixmap('image/type/hashtag/HT_aqua.png'))
+        self.typeHT.setPixmap(QPixmap('image/type/hashtag/HT_gourmans.png'))
         self.typeHT.resize(220, 30)
         self.typeHT.move(115, 355)
         self.typeHT.setAlignment(Qt.AlignCenter)
@@ -46,7 +46,7 @@ class ResultWindow(QMainWindow):
 
 
         # 향수 타입 설명
-        with open('file/contents_aqua.txt', 'r', encoding='utf8') as file:
+        with open('file/contents/contents_gourmans.txt', 'r', encoding='utf8') as file:
             content = file.read()
             self.content = QLabel(content, self)
             self.content.resize(710, 130)
@@ -56,6 +56,7 @@ class ResultWindow(QMainWindow):
             self.content.setFont(QFont("한컴산뜻돋움", 13))
             print(content)
             file.close()
+
 
         # creating a button widget
         self.more_recommend_btn = QLabel('', self)

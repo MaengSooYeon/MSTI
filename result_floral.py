@@ -15,7 +15,7 @@ class ResultWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         # window setting
-        self.setStyleSheet('background-color: #FFF792')
+        self.setStyleSheet('background-color: #FFE3E3')
         self.setWindowTitle('MSTI')
         # https://wikidocs.net/21853 아이콘넣기
         self.setWindowIcon(QIcon('image/horse.jpg'))
@@ -24,36 +24,36 @@ class ResultWindow(QMainWindow):
 
         # creating a label widget
         self.typeImg = QLabel('', self)
-        self.typeImg.setPixmap(QPixmap('image/type/icon/fruity.png'))
+        self.typeImg.setPixmap(QPixmap('image/type/icon/floral.png'))
         self.typeImg.resize(220, 220)
         self.typeImg.move(110, 60)
         self.typeImg.setAlignment(Qt.AlignCenter)
         self.typeImg.setScaledContents(1)  # 이미지 크기에 맞게 조정
 
         self.typeName = QLabel('', self)
-        self.typeName.setPixmap(QPixmap('image/type/type_fruity.png'))
+        self.typeName.setPixmap(QPixmap('image/type/type_floral.png'))
         self.typeName.resize(250, 50)
         self.typeName.move(100, 280)
         self.typeName.setAlignment(Qt.AlignCenter)
         self.typeName.setScaledContents(1)  # 이미지 크기에 맞게 조정
 
         self.typeHT = QLabel('', self)
-        self.typeHT.setPixmap(QPixmap('image/type/hashtag/HT_fruity.png'))
+        self.typeHT.setPixmap(QPixmap('image/type/hashtag/HT_floral.png'))
         self.typeHT.resize(220, 30)
         self.typeHT.move(115, 355)
         self.typeHT.setAlignment(Qt.AlignCenter)
         self.typeHT.setScaledContents(1)  # 이미지 크기에 맞게 조정
 
 
-        # 향수 타입 설명
-        with open('file/contents_fruity.txt', 'r', encoding='utf8') as file:
+        #향수 타입 설명
+        with open('file/contents/contents_floral.txt', 'r', encoding='utf8') as file:
             content = file.read()
             self.content = QLabel(content, self)
-            self.content.resize(680, 130)
-            self.content.move(360, 100)
+            self.content.resize(590, 150)
+            self.content.move(410, 100)
             self.content.setAlignment(Qt.AlignCenter)
             self.content.setScaledContents(1)
-            self.content.setFont(QFont("한컴산뜻돋움", 13))
+            self.content.setFont(QFont("한컴산뜻돋움", 12))
             print(content)
             file.close()
 

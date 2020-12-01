@@ -46,7 +46,7 @@ class ResultWindow(QMainWindow):
 
 
         # 향수 타입 설명
-        with open('file/contents_musk.txt', 'r', encoding='utf8') as file:
+        with open('file/contents/contents_musk.txt', 'r', encoding='utf8') as file:
             content = file.read()
             self.content = QLabel(content, self)
             self.content.resize(660, 150)
