@@ -57,6 +57,24 @@ class ResultWindow(QMainWindow):
             print(content)
             file.close()
 
+        #향수 추천
+        self.product1 = QLabel('', self)
+        self.product1.setPixmap(QPixmap('image/products/green/img1.png'))
+        self.product1.resize(220, 220)
+        self.product1.move(480, 270)
+        self.product1.setAlignment(Qt.AlignCenter)
+        self.product1.setScaledContents(1)  # 이미지 크기에 맞게 조정
+        # 클릭 이벤트 추가하기
+
+        self.product2 = QLabel('', self)
+        self.product2.setPixmap(QPixmap('image/products/green/img2.png'))
+        self.product2.resize(220, 220)
+        self.product2.move(700, 270)
+        self.product2.setAlignment(Qt.AlignCenter)
+        self.product2.setScaledContents(1)  # 이미지 크기에 맞게 조정
+        # 클릭 이벤트 추가하기
+
+
         # creating a button widget
         self.more_recommend_btn = QLabel('', self)
         self.more_recommend_btn.setPixmap(QPixmap('image/more_recommend_btn.png'))

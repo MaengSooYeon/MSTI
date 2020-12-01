@@ -2,17 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6cd0cb4-b79d-4501-966c-cbcecf6ece2a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/file/contents_aqua.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/contents_floral.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/contents_fruity.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/contents_gourmans.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/contents_green.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/contents_musk.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/contents_tobacco-leather.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/contents_woody.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result5.py" beforeDir="false" afterPath="$PROJECT_DIR$/result5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result6.py" beforeDir="false" afterPath="$PROJECT_DIR$/result6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result7.py" beforeDir="false" afterPath="$PROJECT_DIR$/result7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/products/aqua/img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/products/aqua/img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/products/aqua/img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/products/aqua/img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/products/aqua/img5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/products/floral/img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/products/floral/img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/products/floral/img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/products/floral/img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/products/floral/img5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/products/fruity/img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/products/fruity/img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/products/fruity/img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/products/fruity/img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/products/fruity/img5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/products/green/img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/products/green/img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/products/green/img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/products/green/img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/products/green/img5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/products/musk/img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/products/musk/img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/products/musk/img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/products/musk/img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/products/musk/img5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/products/tobacco_leather/img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/products/tobacco_leather/img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/products/tobacco_leather/img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/products/tobacco_leather/img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/products/tobacco_leather/img5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/products/woody/img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/products/woody/img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/products/woody/img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/products/woody/img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/products/woody/img5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result_aqua.py" beforeDir="false" afterPath="$PROJECT_DIR$/result_aqua.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result_floral.py" beforeDir="false" afterPath="$PROJECT_DIR$/result_floral.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result_fruity.py" beforeDir="false" afterPath="$PROJECT_DIR$/result_fruity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result_gourmans.py" beforeDir="false" afterPath="$PROJECT_DIR$/result_gourmans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result_green.py" beforeDir="false" afterPath="$PROJECT_DIR$/result_green.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result_musk.py" beforeDir="false" afterPath="$PROJECT_DIR$/result_musk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result_tobacco_leather.py" beforeDir="false" afterPath="$PROJECT_DIR$/result_tobacco_leather.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result_woody.py" beforeDir="false" afterPath="$PROJECT_DIR$/result_woody.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,23 +76,25 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/image/type/hashtag" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/image/products/tobacco_leather" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MSTI\image\products" />
+      <recent name="D:\MSTI\image" />
       <recent name="D:\MSTI\image\type\hashtag" />
       <recent name="D:\MSTI\image\type\icon" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\MSTI\image\type\hashtag" />
-      <recent name="D:\MSTI\image\type\more_result" />
-      <recent name="D:\MSTI\image\type\icon" />
-      <recent name="D:\MSTI\image" />
-      <recent name="D:\MSTI\image\type\contents" />
+      <recent name="D:\MSTI\image\products\tobacco_leather" />
+      <recent name="D:\MSTI\image\products\woody" />
+      <recent name="D:\MSTI\image\products\green" />
+      <recent name="D:\MSTI\image\products\aqua" />
+      <recent name="D:\MSTI\image\products\fruity" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.moreResult">
+  <component name="RunManager" selected="Python.result_gourmans">
     <configuration name="moreResult" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MSTI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -81,7 +116,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="result_aqua" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="result_aqua (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MSTI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -93,7 +128,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\MSTI\result_aqua.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result_aqua.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -114,7 +149,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\MSTI\result_fruity.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result_fruity.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,7 +170,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\MSTI\result_gourmans.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result_gourmans.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,7 +179,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="result_tobacco_leather" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="result_musk" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MSTI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -156,7 +191,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\MSTI\result_tobacco_leather.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result_musk.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.moreResult" />
-        <item itemvalue="Python.result_aqua" />
-        <item itemvalue="Python.result_tobacco_leather" />
         <item itemvalue="Python.result_gourmans" />
+        <item itemvalue="Python.result_aqua (1)" />
         <item itemvalue="Python.result_fruity" />
+        <item itemvalue="Python.result_musk" />
+        <item itemvalue="Python.moreResult" />
       </list>
     </recent_temporary>
   </component>
@@ -319,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606830395384</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="result 파일 이름 변경 / contents txt 경로 수정">
+      <created>1606831015813</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1606831015813</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -339,7 +381,8 @@
     <MESSAGE value="타입 이미지, 코드정리" />
     <MESSAGE value="타입 설명 파일로 교체" />
     <MESSAGE value="간단한 코드 정리" />
-    <option name="LAST_COMMIT_MESSAGE" value="간단한 코드 정리" />
+    <MESSAGE value="result 파일 이름 변경 / contents txt 경로 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="result 파일 이름 변경 / contents txt 경로 수정" />
   </component>
   <component name="WindowStateProjectService">
     <state x="568" y="225" key="#Notifications" timestamp="1605746499942">
@@ -350,46 +393,46 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1606815768308" />
-    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1606830393679">
+    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1606831014316">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1606830393679" />
+    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1606831014316" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1606829017935">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606829017935" />
-    <state width="1345" height="35" key="GridCell.Tab.0.bottom" timestamp="1606830790312">
+    <state width="1345" height="35" key="GridCell.Tab.0.bottom" timestamp="1606835368483">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="35" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606830790312" />
-    <state width="1345" height="35" key="GridCell.Tab.0.center" timestamp="1606830790311">
+    <state width="1345" height="35" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606835368483" />
+    <state width="1345" height="35" key="GridCell.Tab.0.center" timestamp="1606835368482">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="35" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606830790311" />
-    <state width="1345" height="35" key="GridCell.Tab.0.left" timestamp="1606830790311">
+    <state width="1345" height="35" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606835368482" />
+    <state width="1345" height="35" key="GridCell.Tab.0.left" timestamp="1606835368482">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="35" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606830790311" />
-    <state width="1345" height="35" key="GridCell.Tab.0.right" timestamp="1606830790312">
+    <state width="1345" height="35" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606835368482" />
+    <state width="1345" height="35" key="GridCell.Tab.0.right" timestamp="1606835368483">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="35" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606830790312" />
+    <state width="1345" height="35" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606835368483" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1605752856134">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1605752856134" />
-    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1606830396684">
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1606831017253">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="83" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1606830396684" />
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1606831017253" />
     <state x="488" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605968319625">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1605968319625" />
-    <state x="346" y="49" width="670" height="58" key="search.everywhere.popup" timestamp="1606746182396">
+    <state x="346" y="49" width="672" height="160" key="search.everywhere.popup" timestamp="1606832992250">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="670" height="58" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1606746182396" />
+    <state x="346" y="49" width="672" height="160" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1606832992250" />
   </component>
   <component name="hg4idea.settings">
     <option name="CHECK_INCOMING_OUTGOING" value="true" />
