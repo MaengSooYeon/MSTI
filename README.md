@@ -7,6 +7,6 @@
 
 <h2>Information</h2>
 
-제작 기간 : 20201029 ~ ing  
+제작 기간 : 20201029 ~ 20201204   
 개발 환경 : PyCharm   
-사용 언어 : Python, MySQL  
+사용 언어 : Python  

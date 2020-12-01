@@ -15,7 +15,7 @@ class ResultWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         # window setting
-        self.setStyleSheet('background-color: #686843')
+        self.setStyleSheet('background-color: #5D683E')
         self.setWindowTitle('MSTI')
         # https://wikidocs.net/21853 아이콘넣기
         self.setWindowIcon(QIcon('image/horse.jpg'))

@@ -50,7 +50,7 @@ class ResultWindow(QMainWindow):
             content = file.read()
             self.content = QLabel(content, self)
             self.content.resize(660, 150)
-            self.content.move(370, 100)
+            self.content.move(370, 110)
             self.content.setAlignment(Qt.AlignCenter)
             self.content.setScaledContents(1)
             self.content.setFont(QFont("한컴산뜻돋움", 13))

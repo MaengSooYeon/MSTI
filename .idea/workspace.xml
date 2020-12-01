@@ -1,23 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6cd0cb4-b79d-4501-966c-cbcecf6ece2a" name="Default Changelist" comment="">
+    <list default="true" id="d6cd0cb4-b79d-4501-966c-cbcecf6ece2a" name="Default Changelist" comment="타입 설명 파일로 교체">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/type/contents/contents_aqua.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/type/contents/contents_floral.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/type/contents/contents_fruity.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/type/contents/contents_gourmans.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/type/contents/contents_green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/type/contents/contents_musk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/type/contents/contents_tobacco-leather.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/type/contents/contents_woody.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result1.py" beforeDir="false" afterPath="$PROJECT_DIR$/result1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/type/hashtag/HT_tobacco-leather.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/type/hashtag/HT_tobacco-leather.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result2.py" beforeDir="false" afterPath="$PROJECT_DIR$/result2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result3.py" beforeDir="false" afterPath="$PROJECT_DIR$/result3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result4.py" beforeDir="false" afterPath="$PROJECT_DIR$/result4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result5.py" beforeDir="false" afterPath="$PROJECT_DIR$/result5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result6.py" beforeDir="false" afterPath="$PROJECT_DIR$/result6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result7.py" beforeDir="false" afterPath="$PROJECT_DIR$/result7.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result8.py" beforeDir="false" afterPath="$PROJECT_DIR$/result8.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +37,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="C:/PycharmProjects/Programming(Python)/2405" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/image/type/hashtag" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -66,6 +54,27 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.result8">
+    <configuration name="result2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MSTI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="result4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MSTI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,27 +88,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result4.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="result5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MSTI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,8 +164,8 @@
         <item itemvalue="Python.result8" />
         <item itemvalue="Python.result7" />
         <item itemvalue="Python.result6" />
-        <item itemvalue="Python.result5" />
         <item itemvalue="Python.result4" />
+        <item itemvalue="Python.result2" />
       </list>
     </recent_temporary>
   </component>
@@ -311,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606816783730</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="타입 설명 파일로 교체">
+      <created>1606830047830</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1606830047830</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -329,7 +324,8 @@
     <MESSAGE value="결과 모음 화면 완성" />
     <MESSAGE value="DB 파일 제거" />
     <MESSAGE value="타입 이미지, 코드정리" />
-    <option name="LAST_COMMIT_MESSAGE" value="타입 이미지, 코드정리" />
+    <MESSAGE value="타입 설명 파일로 교체" />
+    <option name="LAST_COMMIT_MESSAGE" value="타입 설명 파일로 교체" />
   </component>
   <component name="WindowStateProjectService">
     <state x="568" y="225" key="#Notifications" timestamp="1605746499942">
@@ -340,38 +336,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1606815768308" />
-    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1606816781435">
+    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1606830109695">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1606816781435" />
+    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1606830109695" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1606829017935">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606829017935" />
-    <state width="1345" height="130" key="GridCell.Tab.0.bottom" timestamp="1606830004056">
+    <state width="1345" height="130" key="GridCell.Tab.0.bottom" timestamp="1606830290533">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="130" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606830004056" />
-    <state width="1345" height="130" key="GridCell.Tab.0.center" timestamp="1606830004056">
+    <state width="1345" height="130" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606830290533" />
+    <state width="1345" height="130" key="GridCell.Tab.0.center" timestamp="1606830290533">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="130" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606830004056" />
-    <state width="1345" height="130" key="GridCell.Tab.0.left" timestamp="1606830004056">
+    <state width="1345" height="130" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606830290533" />
+    <state width="1345" height="130" key="GridCell.Tab.0.left" timestamp="1606830290533">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="130" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606830004056" />
-    <state width="1345" height="130" key="GridCell.Tab.0.right" timestamp="1606830004056">
+    <state width="1345" height="130" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606830290533" />
+    <state width="1345" height="130" key="GridCell.Tab.0.right" timestamp="1606830290533">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="130" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606830004056" />
+    <state width="1345" height="130" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606830290533" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1605752856134">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1605752856134" />
-    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1606816784772">
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1606830051067">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="83" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1606816784772" />
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1606830051067" />
     <state x="488" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605968319625">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
