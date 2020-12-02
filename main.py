@@ -42,7 +42,7 @@ class MainWindow(QMainWindow):
 
         # creating a button widget
         self.startBtn = QLabel('', self)
-        self.startBtn.setPixmap(QPixmap('image/TestStartBtn.png'))
+        self.startBtn.setPixmap(QPixmap('image/testStart_btn.png'))
         self.startBtn.resize(200, 75)
         self.startBtn.move(530, 380)
         self.startBtn.setAlignment(Qt.AlignCenter)
@@ -50,7 +50,7 @@ class MainWindow(QMainWindow):
         clickable(self.startBtn).connect(self.showChoose)
 
         self.howPlayBtn = QLabel('', self)
-        self.howPlayBtn.setPixmap(QPixmap('image/HowToPlayBtn.png'))
+        self.howPlayBtn.setPixmap(QPixmap('image/contents_btn.png'))
         self.howPlayBtn.resize(200, 75)
         self.howPlayBtn.move(240, 380)
         self.howPlayBtn.setAlignment(Qt.AlignCenter)
@@ -72,17 +72,17 @@ class MainWindow(QMainWindow):
         # creating a label widget
         self.contents = QLabel('', self.dialog)
         self.contents.setPixmap(QPixmap('image/contents.png'))
-        self.contents.resize(500, 210)
-        self.contents.move(5, 60)
+        self.contents.resize(530, 230)
+        self.contents.move(0, 40)
         self.contents.setAlignment(Qt.AlignCenter)
         self.contents.setScaledContents(1)  # 이미지 크기에 맞게 조정
 
         # QDialog setting
         self.dialog.setStyleSheet('background-color: white;')
         self.dialog.setWindowTitle('MSTI')
-        self.dialog.setWindowIcon(QIcon('image/horse.jpg'))
+        self.dialog.setWindowIcon(QIcon('image/icon.png'))
         self.dialog.setWindowModality(Qt.ApplicationModal)
-        self.dialog.resize(520, 330)
+        self.dialog.resize(520, 300)
         self.dialog.show()
 
 

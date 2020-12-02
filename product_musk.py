@@ -1,11 +1,10 @@
 import sys
 import main
+import product_floral as p
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
-
 from moreResult import moreResultWindow
-
 
 class ProductWindow(QMainWindow):
     def __init__(self):
@@ -15,7 +14,7 @@ class ProductWindow(QMainWindow):
         self.setWindowTitle('MSTI')
         self.setWindowIcon(QIcon('image/icon.png'))
         self.setFixedSize(1000, 600)
-        self.center()
+        self.move(10, 60)
 
         # creating a label widget
         self.product1 = QLabel('', self)
@@ -63,6 +62,21 @@ class ProductWindow(QMainWindow):
         self.gotoMainbtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
         main.clickable(self.gotoMainbtn).connect(self.showMain)
 
+        self.contents = QLabel('', self)
+        self.contents.setPixmap(QPixmap('image/products/icon.png'))
+        self.contents.resize(50, 50)
+        self.contents.move(700, 25)
+        self.contents.setAlignment(Qt.AlignCenter)
+        self.contents.setScaledContents(1)  # 이미지 크기에 맞게 조정
+        main.clickable(self.contents).connect(self.showContents)
+
+        self.contents = QLabel('', self)
+        self.contents.setPixmap(QPixmap('image/products/icon.png'))
+        self.contents.resize(50, 50)
+        self.contents.move(700, 25)
+        self.contents.setAlignment(Qt.AlignCenter)
+        self.contents.setScaledContents(1)  # 이미지 크기에 맞게 조정
+        main.clickable(self.contents).connect(self.showContents)
 
     # button event function
     def showMain(self):
@@ -75,11 +89,9 @@ class ProductWindow(QMainWindow):
         self.more_result.show()
         self.hide()
 
-    def center(self):
-        qr = self.frameGeometry()
-        cp = QDesktopWidget().availableGeometry().center()
-        qr.moveCenter(cp)
-        self.move(qr.topLeft())
+    def showContents(self):
+        self.show_contents = p.ContentsWindow()
+        self.show_contents.show()
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
