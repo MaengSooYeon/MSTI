@@ -64,8 +64,10 @@ class MainWindow(QMainWindow):
 
     # button event function
     def showChoose(self):
-        QMessageBox.about(self, "message", "clicked")
-        #choose Gui창으로 넘어가게 바꾸기
+        from choose1 import ChooseWindow
+        self.show_choose = ChooseWindow()
+        self.show_choose.show()
+        self.hide()
 
     # button event function
     def dialog_open(self):
@@ -73,29 +75,18 @@ class MainWindow(QMainWindow):
         self.contents = QLabel('', self.dialog)
         self.contents.setPixmap(QPixmap('image/contents.png'))
         self.contents.resize(500, 210)
-        self.contents.move(50, 75)
+        self.contents.move(5, 60)
         self.contents.setAlignment(Qt.AlignCenter)
         self.contents.setScaledContents(1)  # 이미지 크기에 맞게 조정
-
-        self.closeBtn = QLabel('', self.dialog)
-        self.closeBtn.setPixmap(QPixmap('image/CloseBtn.png'))
-        self.closeBtn.resize(80, 50)
-        self.closeBtn.move(480, 320)
-        self.closeBtn.setScaledContents(1)    #이미지 크기에 맞게 조정
-        clickable(self.closeBtn).connect(self.dialog_close)
 
         # QDialog setting
         self.dialog.setStyleSheet('background-color: white;')
         self.dialog.setWindowTitle('MSTI')
         self.dialog.setWindowIcon(QIcon('image/horse.jpg'))
         self.dialog.setWindowModality(Qt.ApplicationModal)
-        self.dialog.resize(600, 400)
+        self.dialog.resize(520, 330)
         self.dialog.show()
 
-    # Dialog close event
-    def dialog_close(self):
-        self.dialog.close()
-        self.show()
 
     def center(self):
         qr = self.frameGeometry()
