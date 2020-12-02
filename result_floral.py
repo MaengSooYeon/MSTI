@@ -64,7 +64,6 @@ class ResultWindow(QMainWindow):
         self.product1.move(480, 270)
         self.product1.setAlignment(Qt.AlignCenter)
         self.product1.setScaledContents(1)  # 이미지 크기에 맞게 조정
-        # 클릭 이벤트 추가하기
 
         self.product2 = QLabel('', self)
         self.product2.setPixmap(QPixmap('image/products/floral/img2.png'))
@@ -72,18 +71,9 @@ class ResultWindow(QMainWindow):
         self.product2.move(700, 270)
         self.product2.setAlignment(Qt.AlignCenter)
         self.product2.setScaledContents(1)  # 이미지 크기에 맞게 조정
-        # 클릭 이벤트 추가하기
 
 
         # creating a button widget
-        self.more_recommend_btn = QLabel('', self)
-        self.more_recommend_btn.setPixmap(QPixmap('image/more_recommend_btn.png'))
-        self.more_recommend_btn.resize(180, 50)
-        self.more_recommend_btn.move(770, 520)
-        self.more_recommend_btn.setAlignment(Qt.AlignCenter)
-        self.more_recommend_btn.setScaledContents(1)  # 이미지 크기에 맞게 조정
-        main.clickable(self.more_recommend_btn).connect(self.moreProduct)
-
         self.more_result_btn = QLabel('', self)
         self.more_result_btn.setPixmap(QPixmap('image/more_result_btn.png'))
         self.more_result_btn.resize(180, 50)
@@ -92,10 +82,21 @@ class ResultWindow(QMainWindow):
         self.more_result_btn.setScaledContents(1)  # 이미지 크기에 맞게 조정
         main.clickable(self.more_result_btn).connect(self.moreResult)
 
+
+        self.more_recommend_btn = QLabel('', self)
+        self.more_recommend_btn.setPixmap(QPixmap('image/more_recommend_btn.png'))
+        self.more_recommend_btn.resize(180, 50)
+        self.more_recommend_btn.move(770, 520)
+        self.more_recommend_btn.setAlignment(Qt.AlignCenter)
+        self.more_recommend_btn.setScaledContents(1)  # 이미지 크기에 맞게 조정
+        main.clickable(self.more_recommend_btn).connect(self.moreProduct)
+
     # button event function
     def moreProduct(self):
-        QMessageBox.about(self, "message", "clicked")
-        #관련된 향수 정보 창으로 바꾸기
+        from product_floral import ProductWindow
+        self.more_product = ProductWindow()
+        self.more_product.show()
+        self.hide()
 
     def moreResult(self):
         self.more_result = moreResultWindow()
