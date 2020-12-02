@@ -16,43 +16,27 @@ class ChooseWindow(QWidget):
 
         # creating questions widget
         self.label = QLabel('', self)
-        self.label.setPixmap(QPixmap('image/choice/question/season.png'))
-        self.label.resize(750, 100)
-        self.label.move(140, 45)
+        self.label.setPixmap(QPixmap('image/choice/question/image.png'))
+        self.label.resize(600, 100)
+        self.label.move(210, 45)
         self.label.setAlignment(Qt.AlignCenter)
 
         # creating a button widget
-        self.springBtn = QLabel('', self)
-        self.springBtn.setPixmap(QPixmap('image/choice/answer/봄.png'))
-        self.springBtn.resize(150, 100)
-        self.springBtn.move(100, 380)
-        self.springBtn.setAlignment(Qt.AlignCenter)
-        self.springBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
-        main.clickable(self.springBtn).connect(self.showChoose5)
+        self.meekBtn = QLabel('', self)
+        self.meekBtn.setPixmap(QPixmap('image/choice/answer/순한.png'))
+        self.meekBtn.resize(150, 100)
+        self.meekBtn.move(270, 380)
+        self.meekBtn.setAlignment(Qt.AlignCenter)
+        self.meekBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
+        main.clickable(self.meekBtn).connect(self.showChoose5)
 
-        self.summerBtn = QLabel('', self)
-        self.summerBtn.setPixmap(QPixmap('image/choice/answer/여름.png'))
-        self.summerBtn.resize(150, 100)
-        self.summerBtn.move(300, 380)
-        self.summerBtn.setAlignment(Qt.AlignCenter)
-        self.summerBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
-        main.clickable(self.summerBtn).connect(self.showChoose5)
-
-        self.falltBtn = QLabel('', self)
-        self.falltBtn.setPixmap(QPixmap('image/choice/answer/가을.png'))
-        self.falltBtn.resize(150, 100)
-        self.falltBtn.move(500, 380)
-        self.falltBtn.setAlignment(Qt.AlignCenter)
-        self.falltBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
-        main.clickable(self.falltBtn).connect(self.showChoose5)
-
-        self.wintertBtn = QLabel('', self)
-        self.wintertBtn.setPixmap(QPixmap('image/choice/answer/겨울.png'))
-        self.wintertBtn.resize(150, 100)
-        self.wintertBtn.move(700, 380)
-        self.wintertBtn.setAlignment(Qt.AlignCenter)
-        self.wintertBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
-        main.clickable(self.wintertBtn).connect(self.showChoose5)
+        self.strongBtn = QLabel('', self)
+        self.strongBtn.setPixmap(QPixmap('image/choice/answer/강렬한.png'))
+        self.strongBtn.resize(150, 100)
+        self.strongBtn.move(600, 380)
+        self.strongBtn.setAlignment(Qt.AlignCenter)
+        self.strongBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
+        main.clickable(self.strongBtn).connect(self.showChoose5)
 
     def showChoose5(self):
         from choose5 import ChooseWindow

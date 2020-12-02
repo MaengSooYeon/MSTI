@@ -14,29 +14,39 @@ class ChooseWindow(QWidget):
         self.setWindowIcon(QIcon('image/icon.png'))
         self.setFixedSize(1000, 600)
 
+
+
         # creating questions widget
         self.label = QLabel('', self)
-        self.label.setPixmap(QPixmap('image/choice/question/feel.png'))
-        self.label.resize(750, 100)
-        self.label.move(160, 45)
+        self.label.setPixmap(QPixmap('image/choice/question/age.png'))
+        self.label.resize(600, 100)
+        self.label.move(210, 45)
         self.label.setAlignment(Qt.AlignCenter)
 
         # creating a button widget
-        self.calmtBtn = QLabel('', self)
-        self.calmtBtn.setPixmap(QPixmap('image/choice/answer/차분함.png'))
-        self.calmtBtn.resize(150, 100)
-        self.calmtBtn.move(270, 380)
-        self.calmtBtn.setAlignment(Qt.AlignCenter)
-        self.calmtBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
-        main.clickable(self.calmtBtn).connect(self.showChoose3)
+        self.tenBtn = QLabel('', self)
+        self.tenBtn.setPixmap(QPixmap('image/choice/answer/10대.png'))
+        self.tenBtn.resize(150, 100)
+        self.tenBtn.move(130, 380)
+        self.tenBtn.setAlignment(Qt.AlignCenter)
+        self.tenBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
+        main.clickable(self.tenBtn).connect(self.showChoose3)
 
-        self.livelyBtn = QLabel('', self)
-        self.livelyBtn.setPixmap(QPixmap('image/choice/answer/생동감.png'))
-        self.livelyBtn.resize(150, 100)
-        self.livelyBtn.move(600, 380)
-        self.livelyBtn.setAlignment(Qt.AlignCenter)
-        self.livelyBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
-        main.clickable(self.livelyBtn).connect(self.showChoose3)
+        self.twentyBtn = QLabel('', self)
+        self.twentyBtn.setPixmap(QPixmap('image/choice/answer/20대.png'))
+        self.twentyBtn.resize(150, 100)
+        self.twentyBtn.move(420, 380)
+        self.twentyBtn.setAlignment(Qt.AlignCenter)
+        self.twentyBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
+        main.clickable(self.twentyBtn).connect(self.showChoose3)
+
+        self.thrityBtn = QLabel('', self)
+        self.thrityBtn.setPixmap(QPixmap('image/choice/answer/30대.png'))
+        self.thrityBtn.resize(150, 100)
+        self.thrityBtn.move(700, 380)
+        self.thrityBtn.setAlignment(Qt.AlignCenter)
+        self.thrityBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
+        main.clickable(self.thrityBtn).connect(self.showChoose3)
 
     def showChoose3(self):
         from choose3 import ChooseWindow
