@@ -80,7 +80,7 @@ class MainWindow(QMainWindow):
         # QDialog setting
         self.dialog.setStyleSheet('background-color: white;')
         self.dialog.setWindowTitle('MSTI')
-        self.dialog.setWindowIcon(QIcon('image/horse.jpg'))
+        self.dialog.setWindowIcon(QIcon('image/icon.png'))
         self.dialog.setWindowModality(Qt.ApplicationModal)
         self.dialog.resize(520, 330)
         self.dialog.show()
