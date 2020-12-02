@@ -1,5 +1,6 @@
 #선택지 화면 - 질문 n개 질문 안에 선택지 n개를 보여주는 페이지
 import sys
+
 import main
 
 from PyQt5.QtWidgets import *
@@ -13,8 +14,6 @@ class ChooseWindow(QWidget):
         self.setWindowTitle('CHOOSE')
         self.setWindowIcon(QIcon('image/icon.png'))
         self.setFixedSize(1000, 600)
-
-
 
         # creating questions widget
         self.label = QLabel('', self)
@@ -30,7 +29,7 @@ class ChooseWindow(QWidget):
         self.naturalBtn.move(270, 380)
         self.naturalBtn.setAlignment(Qt.AlignCenter)
         self.naturalBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
-        main.clickable(self.naturalBtn).connect(self.showChoose4)
+        self.btn1 = main.clickable(self.naturalBtn).connect(self.showChoose4)
 
         self.trendyBtn = QLabel('', self)
         self.trendyBtn.setPixmap(QPixmap('image/choice/answer/트렌디.png'))
@@ -38,7 +37,16 @@ class ChooseWindow(QWidget):
         self.trendyBtn.move(600, 380)
         self.trendyBtn.setAlignment(Qt.AlignCenter)
         self.trendyBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
-        main.clickable(self.trendyBtn).connect(self.showChoose4)
+        self.btn2 = main.clickable(self.trendyBtn).connect(self.showChoose4)
+
+    def check3(self):
+        from choose1 import i
+
+        if self.btn1:
+            i.append(1)
+            print(i)
+        elif self.btn1:
+            i.append(2)
 
     def showChoose4(self):
         from choose4 import ChooseWindow

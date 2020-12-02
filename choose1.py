@@ -28,7 +28,7 @@ class ChooseWindow(QWidget):
         self.springBtn.move(100, 380)
         self.springBtn.setAlignment(Qt.AlignCenter)
         self.springBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
-        main.clickable(self.springBtn).connect(self.showChoose2)
+        self.btn1 = main.clickable(self.springBtn).connect(self.showChoose2)
 
         self.summerBtn = QLabel('', self)
         self.summerBtn.setPixmap(QPixmap('image/choice/answer/여름.png'))
@@ -36,7 +36,7 @@ class ChooseWindow(QWidget):
         self.summerBtn.move(300, 380)
         self.summerBtn.setAlignment(Qt.AlignCenter)
         self.summerBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
-        main.clickable(self.summerBtn).connect(self.showChoose2)
+        self.btn2 = main.clickable(self.summerBtn).connect(self.showChoose2)
 
         self.falltBtn = QLabel('', self)
         self.falltBtn.setPixmap(QPixmap('image/choice/answer/가을.png'))
@@ -44,7 +44,7 @@ class ChooseWindow(QWidget):
         self.falltBtn.move(500, 380)
         self.falltBtn.setAlignment(Qt.AlignCenter)
         self.falltBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
-        main.clickable(self.falltBtn).connect(self.showChoose2)
+        self.btn3 = main.clickable(self.falltBtn).connect(self.showChoose2)
 
         self.wintertBtn = QLabel('', self)
         self.wintertBtn.setPixmap(QPixmap('image/choice/answer/겨울.png'))
@@ -52,13 +52,20 @@ class ChooseWindow(QWidget):
         self.wintertBtn.move(700, 380)
         self.wintertBtn.setAlignment(Qt.AlignCenter)
         self.wintertBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
-        main.clickable(self.wintertBtn).connect(self.showChoose2)
+        self.btn4 = main.clickable(self.wintertBtn).connect(self.showChoose2)
 
     def Click(self):
-        self.springBtn = 1
-        self.springBtn = 2
-        self.springBtn = 3
-        self.springBtn = 4
+        i =[]
+        if self.btn1:
+            i.append(1)
+        elif self.btn2:
+            i.append(2)
+        elif self.btn3:
+            i.append(3)
+        elif self.btn4:
+            i.append(4)
+
+
 
     def showChoose2(self):
         from choose2 import ChooseWindow

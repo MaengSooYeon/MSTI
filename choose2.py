@@ -30,7 +30,7 @@ class ChooseWindow(QWidget):
         self.tenBtn.move(130, 380)
         self.tenBtn.setAlignment(Qt.AlignCenter)
         self.tenBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
-        main.clickable(self.tenBtn).connect(self.showChoose3)
+        self.btn1 = main.clickable(self.tenBtn).connect(self.showChoose3)
 
         self.twentyBtn = QLabel('', self)
         self.twentyBtn.setPixmap(QPixmap('image/choice/answer/20대.png'))
@@ -38,7 +38,7 @@ class ChooseWindow(QWidget):
         self.twentyBtn.move(420, 380)
         self.twentyBtn.setAlignment(Qt.AlignCenter)
         self.twentyBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
-        main.clickable(self.twentyBtn).connect(self.showChoose3)
+        self.btn2 = main.clickable(self.twentyBtn).connect(self.showChoose3)
 
         self.thrityBtn = QLabel('', self)
         self.thrityBtn.setPixmap(QPixmap('image/choice/answer/30대.png'))
@@ -46,7 +46,18 @@ class ChooseWindow(QWidget):
         self.thrityBtn.move(700, 380)
         self.thrityBtn.setAlignment(Qt.AlignCenter)
         self.thrityBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
-        main.clickable(self.thrityBtn).connect(self.showChoose3)
+        self.btn3 = main.clickable(self.thrityBtn).connect(self.showChoose3)
+
+    def check2(self):
+        from choose1 import i
+
+        if self.btn1:
+            i.append(1)
+        elif self.btn1:
+            i.append(2)
+        elif self.btn1:
+            i.append(3)
+
 
     def showChoose3(self):
         from choose3 import ChooseWindow

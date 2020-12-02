@@ -40,7 +40,44 @@ class ChooseWindow(QWidget):
         self.livelyBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
 
 
+    def check4(self):
+        from choose4 import i
+        if self.btn1:
+            i.append(1)
+        elif self.btn1:
+            i.append(2)
 
+        if i == [1,1,1,2,1] or [1,2,1,2,1] or [1,3,1,2,1] or [1,1,1,1,2] or [1,2,1,1,2] or [1,3,1,1,2] or [1,1,2,2,2] or [1,2,2,2,2] or [1,3,2,2,2] or [1,1,2,1,2] or [1,2,2,1,2] or [1,3,2,1,2] :
+             main.clickable(self.calmtBtn).connect(self.showFloral)
+             main.clickable(self.livelyBtn).connect(self.showFloral)
+        elif i == [1,1,1,1,1] or [2,1,1,1,1] or [3,1,1,1,1] or [1,1,1,1,2] or [2,1,1,1,2] or [3,1,1,1,2] or [1,1,2,1,2] or [2,1,2,1,2] or [3,1,2,1,2] or [1,1,2,2,2] or [2,1,2,2,2] or [3,1,2,2,2]:
+            main.clickable(self.calmtBtn).connect(self.showFloral)
+            main.clickable(self.livelyBtn).connect(self.showFloral)
+        elif i == [2,1,1,1,1] or [2,2,1,1,1] or [2,3,1,1,1] or [2,1,1,2,1] or [2,2,1,2,1] or [2,3,1,2,1] or [2,1,1,2,2] or [2,2,1,2,2] or [2,3,1,2,2] or [2,1,2,2,1] or [2,2,2,2,1] or [2,3,2,2,1] :
+            main.clickable(self.calmtBtn).connect(self.showFloral)
+            main.clickable(self.livelyBtn).connect(self.showFloral)
+        elif i == [2,1,2,1,1] or [2,2,2,1,1] or [2,3,2,1,1] or [2,1,1,1,2] or [2,2,1,1,2] or [2,3,1,1,2] or [2,1,2,1,2] or [2,2,2,1,2] or [2,3,2,1,2] or [2,1,2,2,2] or [2,2,2,2,2] or [2,3,2,2,2] :
+            main.clickable(self.calmtBtn).connect(self.showFloral)
+            main.clickable(self.livelyBtn).connect(self.showFloral)
+        elif i == [3,1,1,1,1] or [3,2,1,1,1] or [3,3,1,1,1] or [3,1,1,2,1] or [3,2,1,2,1] or [3,3,1,2,1] or [3,1,2,1,2] or [3,2,2,1,2] or [3,3,2,1,2] or [3,1,2,2,2] or [3,2,2,2,2] or [3,3,2,2,2] :
+            main.clickable(self.calmtBtn).connect(self.showFloral)
+            main.clickable(self.livelyBtn).connect(self.showFloral)
+        elif i == [3,1,2,1,1] or [3,2,2,1,1] or [3,3,2,1,1] or [3,1,2,2,1] or [3,2,2,2,1] or [3,3,2,2,1] or [3,1,1,1,2] or [3,2,1,1,2] or [3,3,1,1,2] or [3,1,1,2,2] or [3,2,1,2,2] or [3,3,1,2,2] :
+            main.clickable(self.calmtBtn).connect(self.showFloral)
+            main.clickable(self.livelyBtn).connect(self.showFloral)
+        elif i == [4,1,2,2,1] or [4,2,2,2,1] or [4,3,2,2,1] or [4,1,2,2,2] or [4,2,2,2,2] or [4,3,2,2,2] or [4,1,1,2,2] or [4,2,1,2,2] or [4,3,1,2,2] or [4,1,1,2,1] or [4,2,1,2,1] or [4,3,1,2,1] :
+            main.clickable(self.calmtBtn).connect(self.showFloral)
+            main.clickable(self.livelyBtn).connect(self.showFloral)
+        elif i == [4,1,1,1,1] or [4,2,1,1,1] or [4,3,1,1,1] or [4,1,2,1,1] or [4,2,2,1,1] or [4,3,2,1,1] or [4,1,1,1,2] or [4,2,1,1,2] or [4,3,1,1,2] or [4,1,2,1,2] or [4,2,2,1,2] or [4,3,2,1,2] :
+            main.clickable(self.calmtBtn).connect(self.showFloral)
+            main.clickable(self.livelyBtn).connect(self.showFloral)
+
+
+    def showFloral(self):
+        from result_floral import ResultWindow
+        self.show_floral = ResultWindow()
+        self.show_floral.show()
+        self.hide()
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
