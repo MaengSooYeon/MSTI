@@ -1,6 +1,6 @@
 # 다른 결과 보기 버튼을 눌렀을 시 보여주는 페이지
-# 돌아가기 버튼, 가로 또는 세로 스크롤 바
 # 타입 이름을 누르면 해당 타입 결과 페이지로 이동
+
 import sys
 import main
 
@@ -14,8 +14,7 @@ class moreResultWindow(QMainWindow):
         # window setting
         self.setStyleSheet('background-color: #2C0F59')
         self.setWindowTitle('MSTI')
-        #https://wikidocs.net/21853 아이콘넣기
-        self.setWindowIcon(QIcon('image/horse.jpg'))
+        self.setWindowIcon(QIcon('image/icon.png'))
         self.setFixedSize(750, 600)
         self.center()
 

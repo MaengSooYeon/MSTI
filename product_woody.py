@@ -13,8 +13,7 @@ class ProductWindow(QMainWindow):
         # window setting
         self.setStyleSheet('background-color: #ffffff')
         self.setWindowTitle('MSTI')
-        # https://wikidocs.net/21853 아이콘넣기
-        self.setWindowIcon(QIcon('image/horse.jpg'))
+        self.setWindowIcon(QIcon('image/icon.png'))
         self.setFixedSize(1000, 600)
         self.center()
 

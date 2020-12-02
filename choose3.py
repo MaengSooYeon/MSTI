@@ -11,7 +11,7 @@ class ChooseWindow(QWidget):
         super().__init__()
         self.setStyleSheet('background-color: #FFFFFF')
         self.setWindowTitle('CHOOSE')
-        self.setWindowIcon(QIcon('image/horse.jpg'))
+        self.setWindowIcon(QIcon('image/icon.png'))
         self.setFixedSize(1000, 600)
 
         # creating questions widget

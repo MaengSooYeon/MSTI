@@ -4,8 +4,7 @@ from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 
-#label로 클릭이벤트를 사용하기 위해서.
-#https://wiki.python.org/moin/PyQt/Making%20non-clickable%20widgets%20clickable
+#label로 클릭이벤트를 사용하기 위해
 def clickable(widget):
     class Filter(QObject):
         clicked = pyqtSignal()  # pyside2 사용자는 pyqtSignal() -> Signal()로 변경
@@ -30,8 +29,7 @@ class MainWindow(QMainWindow):
         # window setting
         self.setStyleSheet('background-color: #FFFFFF')
         self.setWindowTitle('MSTI')
-        #https://wikidocs.net/21853 아이콘넣기
-        self.setWindowIcon(QIcon('image/horse.jpg'))
+        self.setWindowIcon(QIcon('image/icon.png'))
         self.setFixedSize(1000, 600)
         self.center()
 
