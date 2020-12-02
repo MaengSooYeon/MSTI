@@ -14,29 +14,31 @@ class ChooseWindow(QWidget):
         self.setWindowIcon(QIcon('image/icon.png'))
         self.setFixedSize(1000, 600)
 
+
+
         # creating questions widget
         self.label = QLabel('', self)
-        self.label.setPixmap(QPixmap('image/choice/question/image.png'))
-        self.label.resize(600, 100)
-        self.label.move(210, 45)
+        self.label.setPixmap(QPixmap('image/choice/question/style.png'))
+        self.label.resize(750, 100)
+        self.label.move(140, 45)
         self.label.setAlignment(Qt.AlignCenter)
 
         # creating a button widget
-        self.meekBtn = QLabel('', self)
-        self.meekBtn.setPixmap(QPixmap('image/choice/answer/순한.png'))
-        self.meekBtn.resize(150, 100)
-        self.meekBtn.move(270, 380)
-        self.meekBtn.setAlignment(Qt.AlignCenter)
-        self.meekBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
-        main.clickable(self.meekBtn).connect(self.showChoose4)
+        self.naturalBtn = QLabel('', self)
+        self.naturalBtn.setPixmap(QPixmap('image/choice/answer/내추럴.png'))
+        self.naturalBtn.resize(150, 100)
+        self.naturalBtn.move(270, 380)
+        self.naturalBtn.setAlignment(Qt.AlignCenter)
+        self.naturalBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
+        main.clickable(self.naturalBtn).connect(self.showChoose4)
 
-        self.strongBtn = QLabel('', self)
-        self.strongBtn.setPixmap(QPixmap('image/choice/answer/강렬한.png'))
-        self.strongBtn.resize(150, 100)
-        self.strongBtn.move(600, 380)
-        self.strongBtn.setAlignment(Qt.AlignCenter)
-        self.strongBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
-        main.clickable(self.strongBtn).connect(self.showChoose4)
+        self.trendyBtn = QLabel('', self)
+        self.trendyBtn.setPixmap(QPixmap('image/choice/answer/트렌디.png'))
+        self.trendyBtn.resize(150, 100)
+        self.trendyBtn.move(600, 380)
+        self.trendyBtn.setAlignment(Qt.AlignCenter)
+        self.trendyBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
+        main.clickable(self.trendyBtn).connect(self.showChoose4)
 
     def showChoose4(self):
         from choose4 import ChooseWindow
