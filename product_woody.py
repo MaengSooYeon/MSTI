@@ -4,6 +4,8 @@ from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 
+from moreResult import moreResultWindow
+
 
 class ProductWindow(QMainWindow):
     def __init__(self):
@@ -46,6 +48,14 @@ class ProductWindow(QMainWindow):
         self.product4.setScaledContents(1)  # 이미지 크기에 맞게 조정
 
         # creating a button widget
+        self.more_result_btn = QLabel('', self)
+        self.more_result_btn.setPixmap(QPixmap('image/more_result_btn.png'))
+        self.more_result_btn.resize(180, 50)
+        self.more_result_btn.move(30, 25)
+        self.more_result_btn.setAlignment(Qt.AlignCenter)
+        self.more_result_btn.setScaledContents(1)  # 이미지 크기에 맞게 조정
+        main.clickable(self.more_result_btn).connect(self.moreResult)
+
         self.gotoMainbtn = QLabel('', self)
         self.gotoMainbtn.setPixmap(QPixmap('image/gotoMainBtn.png'))
         self.gotoMainbtn.resize(180, 50)
@@ -59,6 +69,11 @@ class ProductWindow(QMainWindow):
     def showMain(self):
         self.show_main = main.MainWindow()
         self.show_main.show()
+        self.hide()
+
+    def moreResult(self):
+        self.more_result = moreResultWindow()
+        self.more_result.show()
         self.hide()
 
     def center(self):
