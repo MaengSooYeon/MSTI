@@ -1,12 +1,13 @@
 #선택지 화면 - 질문 n개 질문 안에 선택지 n개를 보여주는 페이지
 import sys
 import main
+import choose2
 
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 
-class ChooseWindow(QWidget):
+class ChooseWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         self.choose1UI()
@@ -14,7 +15,7 @@ class ChooseWindow(QWidget):
 
     def choose1UI(self):
         self.setStyleSheet('background-color: #efebf3')
-        self.setWindowTitle('CHOOSE')
+        self.setWindowTitle('CHOOSE1')
         self.setWindowIcon(QIcon('image/icon.png'))
         self.setFixedSize(1000, 600)
 
@@ -61,34 +62,30 @@ class ChooseWindow(QWidget):
         self.product2 = QLabel('', self)
         self.product2.setPixmap(QPixmap('image/line.png'))
         self.product2.resize(200, 15)
-        self.label.move(140, 45)
+        # self.product2.move(140, 45)
         self.product2.setAlignment(Qt.AlignCenter)
         self.product2.setScaledContents(1)  # 이미지 크기에 맞게 조정
 
     def click_show1(self):
-        from choose2 import ChooseWindow
-        self.show_choose2 = ChooseWindow()
-        self.show_choose2.show()
+        self.show_choose = choose2.ChooseWindow()
+        self.show_choose.show()
         self.result.append(1)
         self.hide()
 
     def click_show2(self):
-        from choose2 import ChooseWindow
-        self.show_choose = ChooseWindow()
+        self.show_choose = choose2.ChooseWindow()
         self.show_choose.show()
         self.result.append(2)
         self.hide()
 
     def click_show3(self):
-        from choose2 import ChooseWindow
-        self.show_choose = ChooseWindow()
+        self.show_choose = choose2.ChooseWindow()
         self.show_choose.show()
         self.result.append(3)
         self.hide()
 
     def click_show4(self):
-        from choose2 import ChooseWindow
-        self.show_choose = ChooseWindow()
+        self.show_choose = choose2.ChooseWindow()
         self.show_choose.show()
         self.result.append(4)
         self.hide()

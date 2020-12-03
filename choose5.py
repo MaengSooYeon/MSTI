@@ -43,19 +43,17 @@ class ChooseWindow(QWidget):
         self.product2 = QLabel('', self)
         self.product2.setPixmap(QPixmap('image/line.png'))
         self.product2.resize(1000, 15)
-        self.label.move(140, 45)
+        # self.product2.move(140, 45)
         self.product2.setAlignment(Qt.AlignCenter)
         self.product2.setScaledContents(1)  # 이미지 크기에 맞게 조정
 
     def Click1(self):
-        from choose4 import ChooseWindow
         self.show_choose = ChooseWindow()
         self.show_choose.show()
         self.result.append(1)
         self.hide()
 
     def Click2(self):
-        from choose4 import ChooseWindow
         self.show_choose = ChooseWindow()
         self.show_choose.show()
         self.result.append(2)

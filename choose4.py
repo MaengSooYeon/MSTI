@@ -1,6 +1,7 @@
 #선택지 화면 - 질문 n개 질문 안에 선택지 n개를 보여주는 페이지
 import sys
 import main
+import choose5
 
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
@@ -41,22 +42,20 @@ class ChooseWindow(QWidget):
         self.product2 = QLabel('', self)
         self.product2.setPixmap(QPixmap('image/line.png'))
         self.product2.resize(800, 15)
-        self.label.move(140, 45)
+        # self.product2.move(140, 45)
         self.product2.setAlignment(Qt.AlignCenter)
         self.product2.setScaledContents(1)  # 이미지 크기에 맞게 조정
 
     def click_show10(self):
-        from choose5 import ChooseWindow
-        self.show_choose = ChooseWindow()
+        self.show_choose = choose5.ChooseWindow()
         self.show_choose.show()
-        self.result.append(1)
+        # self.result.append(1)
         self.hide()
 
     def click_show11(self):
-        from choose5 import ChooseWindow
-        self.show_choose = ChooseWindow()
+        self.show_choose = choose5.ChooseWindow()
         self.show_choose.show()
-        self.result.append(2)
+        # self.result.append(2)
         self.hide()
 
 if __name__ == '__main__':
