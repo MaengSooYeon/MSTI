@@ -9,7 +9,7 @@ from PyQt5.QtCore import *
 class ChooseWindow(QWidget):
     def __init__(self):
         super().__init__()
-        self.setStyleSheet('background-color: #FFFFFF')
+        self.setStyleSheet('background-color: #efebf3')
         self.setWindowTitle('CHOOSE')
         self.setWindowIcon(QIcon('image/icon.png'))
         self.setFixedSize(1000, 600)
@@ -38,6 +38,13 @@ class ChooseWindow(QWidget):
         self.livelyBtn.move(600, 380)
         self.livelyBtn.setAlignment(Qt.AlignCenter)
         self.livelyBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
+
+        self.product2 = QLabel('', self)
+        self.product2.setPixmap(QPixmap('image/line.png'))
+        self.product2.resize(1000, 15)
+        self.label.move(140, 45)
+        self.product2.setAlignment(Qt.AlignCenter)
+        self.product2.setScaledContents(1)  # 이미지 크기에 맞게 조정
 
 
     def check4(self):
@@ -73,6 +80,41 @@ class ChooseWindow(QWidget):
             main.clickable(self.livelyBtn).connect(self.showFloral)
 
 
+    def showFloral(self):
+        from result_floral import ResultWindow
+        self.show_floral = ResultWindow()
+        self.show_floral.show()
+        self.hide()
+    def showFloral(self):
+        from result_floral import ResultWindow
+        self.show_floral = ResultWindow()
+        self.show_floral.show()
+        self.hide()
+    def showFloral(self):
+        from result_floral import ResultWindow
+        self.show_floral = ResultWindow()
+        self.show_floral.show()
+        self.hide()
+    def showFloral(self):
+        from result_floral import ResultWindow
+        self.show_floral = ResultWindow()
+        self.show_floral.show()
+        self.hide()
+    def showFloral(self):
+        from result_floral import ResultWindow
+        self.show_floral = ResultWindow()
+        self.show_floral.show()
+        self.hide()
+    def showFloral(self):
+        from result_floral import ResultWindow
+        self.show_floral = ResultWindow()
+        self.show_floral.show()
+        self.hide()
+    def showFloral(self):
+        from result_floral import ResultWindow
+        self.show_floral = ResultWindow()
+        self.show_floral.show()
+        self.hide()
     def showFloral(self):
         from result_floral import ResultWindow
         self.show_floral = ResultWindow()

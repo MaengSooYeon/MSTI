@@ -9,7 +9,7 @@ from PyQt5.QtCore import *
 class ChooseWindow(QWidget):
     def __init__(self):
         super().__init__()
-        self.setStyleSheet('background-color: #FFFFFF')
+        self.setStyleSheet('background-color: #efebf3')
         self.setWindowTitle('CHOOSE')
         self.setWindowIcon(QIcon('image/icon.png'))
         self.setFixedSize(1000, 600)
@@ -37,6 +37,13 @@ class ChooseWindow(QWidget):
         self.strongBtn.setAlignment(Qt.AlignCenter)
         self.strongBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
         self.btn2 = main.clickable(self.strongBtn).connect(self.showChoose5)
+
+        self.product2 = QLabel('', self)
+        self.product2.setPixmap(QPixmap('image/line.png'))
+        self.product2.resize(800, 15)
+        self.label.move(140, 45)
+        self.product2.setAlignment(Qt.AlignCenter)
+        self.product2.setScaledContents(1)  # 이미지 크기에 맞게 조정
 
     def check4(self):
         from choose3 import i

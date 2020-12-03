@@ -19,7 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6cd0cb4-b79d-4501-966c-cbcecf6ece2a" name="Default Changelist" comment="">
+    <list default="true" id="d6cd0cb4-b79d-4501-966c-cbcecf6ece2a" name="Default Changelist" comment="결과값 미완성">
+      <change afterPath="$PROJECT_DIR$/image/line.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/choose1.py" beforeDir="false" afterPath="$PROJECT_DIR$/choose1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/choose2.py" beforeDir="false" afterPath="$PROJECT_DIR$/choose2.py" afterDir="false" />
@@ -57,7 +58,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/image/type/hashtag" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/image" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -67,16 +68,16 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\MSTI\image\type\hashtag" />
-      <recent name="D:\MSTI\image\type\icon" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\MSTI\image" />
       <recent name="D:\MSTI\image\type\hashtag" />
       <recent name="D:\MSTI\image\type\more_result" />
       <recent name="D:\MSTI\image\type\icon" />
       <recent name="D:\MSTI\image" />
-      <recent name="D:\MSTI\image\type\contents" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MSTI\image\type\hashtag" />
+      <recent name="D:\MSTI\image\type\icon" />
     </key>
   </component>
   <component name="RunManager" selected="Python.choose1">
@@ -124,7 +125,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="moreResult" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="choose5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MSTI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -137,7 +138,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/moreResult.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/choose5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,7 +147,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="product_fruity" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MSTI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -159,7 +160,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/product_fruity.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,7 +169,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="result_fruity" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="product_green" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MSTI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -181,7 +182,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result_fruity.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/product_green.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -193,10 +194,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.choose1" />
+        <item itemvalue="Python.choose5" />
         <item itemvalue="Python.choose3" />
-        <item itemvalue="Python.result_fruity" />
-        <item itemvalue="Python.moreResult" />
-        <item itemvalue="Python.product_fruity" />
+        <item itemvalue="Python.product_green" />
+        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +212,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605631317937</updated>
       <workItem from="1606848048769" duration="1304000" />
-      <workItem from="1606849384469" duration="25376000" />
+      <workItem from="1606849384469" duration="27021000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1605746134452</created>
@@ -346,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606830395384</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="결과값 미완성">
+      <created>1606953467647</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1606953467647</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,7 +388,8 @@
     <MESSAGE value="타입 이미지, 코드정리" />
     <MESSAGE value="타입 설명 파일로 교체" />
     <MESSAGE value="간단한 코드 정리" />
-    <option name="LAST_COMMIT_MESSAGE" value="간단한 코드 정리" />
+    <MESSAGE value="결과값 미완성" />
+    <option name="LAST_COMMIT_MESSAGE" value="결과값 미완성" />
   </component>
   <component name="WindowStateProjectService">
     <state x="568" y="225" key="#Notifications" timestamp="1605746499942">
@@ -399,39 +408,40 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606829017935" />
-    <state width="1663" height="195" key="GridCell.Tab.0.bottom" timestamp="1606953397746">
+    <state width="1663" height="195" key="GridCell.Tab.0.bottom" timestamp="1606973140165">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
     <state width="1345" height="35" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606830790312" />
-    <state width="1663" height="195" key="GridCell.Tab.0.bottom/0.0.1707.1027@0.0.1707.1027" timestamp="1606953397746" />
-    <state width="1663" height="195" key="GridCell.Tab.0.center" timestamp="1606953397745">
+    <state width="1663" height="195" key="GridCell.Tab.0.bottom/0.0.1707.1027@0.0.1707.1027" timestamp="1606973140165" />
+    <state width="1663" height="195" key="GridCell.Tab.0.center" timestamp="1606973140165">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
     <state width="1345" height="35" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606830790311" />
-    <state width="1663" height="195" key="GridCell.Tab.0.center/0.0.1707.1027@0.0.1707.1027" timestamp="1606953397745" />
-    <state width="1663" height="195" key="GridCell.Tab.0.left" timestamp="1606953397745">
+    <state width="1663" height="195" key="GridCell.Tab.0.center/0.0.1707.1027@0.0.1707.1027" timestamp="1606973140165" />
+    <state width="1663" height="195" key="GridCell.Tab.0.left" timestamp="1606973140165">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
     <state width="1345" height="35" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606830790311" />
-    <state width="1663" height="195" key="GridCell.Tab.0.left/0.0.1707.1027@0.0.1707.1027" timestamp="1606953397745" />
-    <state width="1663" height="195" key="GridCell.Tab.0.right" timestamp="1606953397746">
+    <state width="1663" height="195" key="GridCell.Tab.0.left/0.0.1707.1027@0.0.1707.1027" timestamp="1606973140165" />
+    <state width="1663" height="195" key="GridCell.Tab.0.right" timestamp="1606973140165">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
     <state width="1345" height="35" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606830790312" />
-    <state width="1663" height="195" key="GridCell.Tab.0.right/0.0.1707.1027@0.0.1707.1027" timestamp="1606953397746" />
+    <state width="1663" height="195" key="GridCell.Tab.0.right/0.0.1707.1027@0.0.1707.1027" timestamp="1606973140165" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1605752856134">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1605752856134" />
-    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1606830396684">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="344" y="117" key="Vcs.Push.Dialog.v2" timestamp="1606953472754">
+      <screen x="0" y="0" width="1707" height="1027" />
     </state>
     <state x="275" y="83" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1606830396684" />
-    <state x="610" y="389" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606887323002">
+    <state x="344" y="117" key="Vcs.Push.Dialog.v2/0.0.1707.1027@0.0.1707.1027" timestamp="1606953472754" />
+    <state x="610" y="389" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606953506800">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
     <state x="488" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1605968319625" />
-    <state x="610" y="389" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1707.1027@0.0.1707.1027" timestamp="1606887323002" />
+    <state x="610" y="389" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1707.1027@0.0.1707.1027" timestamp="1606953506800" />
     <state x="432" y="69" width="838" height="160" key="search.everywhere.popup" timestamp="1606928665092">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
@@ -440,15 +450,16 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MSTI$result_musk.coverage" NAME="result_musk Coverage Results" MODIFIED="1606849189864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MSTI$product_green.coverage" NAME="product_green Coverage Results" MODIFIED="1606972836864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MSTI$moreResult.coverage" NAME="moreResult Coverage Results" MODIFIED="1606895101119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MSTI$choose3.coverage" NAME="choose3 Coverage Results" MODIFIED="1606948609476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MSTI$choose5.coverage" NAME="choose5 Coverage Results" MODIFIED="1606850249126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MSTI$choose3.coverage" NAME="choose3 Coverage Results" MODIFIED="1606973025667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MSTI$choose5.coverage" NAME="choose5 Coverage Results" MODIFIED="1606973057986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MSTI$choose4.coverage" NAME="choose4 Coverage Results" MODIFIED="1606848511860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MSTI$choose1.coverage" NAME="choose1 Coverage Results" MODIFIED="1606953409735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MSTI$choose1.coverage" NAME="choose1 Coverage Results" MODIFIED="1606973260677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MSTI$result_fruity.coverage" NAME="result_fruity Coverage Results" MODIFIED="1606948555235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MSTI$result_floral.coverage" NAME="result_floral Coverage Results" MODIFIED="1606866678809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MSTI$product_fruity.coverage" NAME="product_fruity Coverage Results" MODIFIED="1606890622112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MSTI$main.coverage" NAME="main Coverage Results" MODIFIED="1606887358266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MSTI$main.coverage" NAME="main Coverage Results" MODIFIED="1606953887705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="hg4idea.settings">
     <option name="CHECK_INCOMING_OUTGOING" value="true" />
