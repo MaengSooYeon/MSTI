@@ -1,0 +1,5 @@
+floral type 4
+aqua type 1
+musk type 2
+fruity type 3
+woody type 7

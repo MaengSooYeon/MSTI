@@ -5,6 +5,7 @@
 
 import sys
 import main
+import result
 
 from moreResult import moreResultWindow
 from PyQt5.QtWidgets import *
@@ -49,7 +50,7 @@ class ResultWindow(QMainWindow):
             content = file.read()
             self.content = QLabel(content, self)
             self.content.resize(710, 130)
-            self.content.move(340, 100)
+            self.content.move(340, 80)
             self.content.setAlignment(Qt.AlignCenter)
             self.content.setScaledContents(1)
             self.content.setFont(QFont("한컴산뜻돋움", 13))
@@ -61,14 +62,14 @@ class ResultWindow(QMainWindow):
         self.product1 = QLabel('', self)
         self.product1.setPixmap(QPixmap('image/products/green/img1.png'))
         self.product1.resize(220, 220)
-        self.product1.move(480, 270)
+        self.product1.move(480, 240)
         self.product1.setAlignment(Qt.AlignCenter)
         self.product1.setScaledContents(1)  # 이미지 크기에 맞게 조정
 
         self.product2 = QLabel('', self)
         self.product2.setPixmap(QPixmap('image/products/green/img2.png'))
         self.product2.resize(220, 220)
-        self.product2.move(700, 270)
+        self.product2.move(700, 240)
         self.product2.setAlignment(Qt.AlignCenter)
         self.product2.setScaledContents(1)  # 이미지 크기에 맞게 조정
 
@@ -90,6 +91,14 @@ class ResultWindow(QMainWindow):
         self.more_recommend_btn.setScaledContents(1)  # 이미지 크기에 맞게 조정
         main.clickable(self.more_recommend_btn).connect(self.moreProduct)
 
+        self.resultBtn = QLabel('', self)
+        self.resultBtn.setPixmap(QPixmap('image/result_btn.png'))
+        self.resultBtn.resize(180, 50)
+        self.resultBtn.move(420, 520)
+        self.resultBtn.setAlignment(Qt.AlignCenter)
+        self.resultBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
+        main.clickable(self.resultBtn).connect(self.showResult)
+
 
     # button event function
     def moreProduct(self):
@@ -101,6 +110,11 @@ class ResultWindow(QMainWindow):
     def moreResult(self):
         self.more_result = moreResultWindow()
         self.more_result.show()
+        self.hide()
+
+    def showResult(self):
+        self.show_result = result.showResultWindow()
+        self.show_result.show()
         self.hide()
 
     def center(self):
