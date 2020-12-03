@@ -20,7 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6cd0cb4-b79d-4501-966c-cbcecf6ece2a" name="Default Changelist" comment="미완성">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/choose1.py" beforeDir="false" afterPath="$PROJECT_DIR$/choose1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/choose2.py" beforeDir="false" afterPath="$PROJECT_DIR$/choose2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/choose3.py" beforeDir="false" afterPath="$PROJECT_DIR$/choose3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/choose4.py" beforeDir="false" afterPath="$PROJECT_DIR$/choose4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/choose5.py" beforeDir="false" afterPath="$PROJECT_DIR$/choose5.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +102,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="choose2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MSTI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/choose2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="choose3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MSTI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -111,6 +138,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/choose3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="choose4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MSTI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/choose4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,57 +190,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MSTI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="product_green" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MSTI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/product_green.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.choose1" />
-        <item itemvalue="Python.choose5" />
         <item itemvalue="Python.choose3" />
-        <item itemvalue="Python.product_green" />
-        <item itemvalue="Python.main" />
+        <item itemvalue="Python.choose4" />
+        <item itemvalue="Python.choose2" />
+        <item itemvalue="Python.choose5" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +211,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605631317937</updated>
       <workItem from="1606848048769" duration="1304000" />
-      <workItem from="1606849384469" duration="34812000" />
+      <workItem from="1606849384469" duration="39426000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1605746134452</created>
@@ -418,26 +423,42 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606829017935" />
-    <state width="1663" height="273" key="GridCell.Tab.0.bottom" timestamp="1607000281709">
+    <state width="1663" height="273" key="GridCell.Tab.0.bottom" timestamp="1607007128177">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
     <state width="1345" height="35" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606830790312" />
-    <state width="1663" height="273" key="GridCell.Tab.0.bottom/0.0.1707.1027@0.0.1707.1027" timestamp="1607000281709" />
-    <state width="1663" height="273" key="GridCell.Tab.0.center" timestamp="1607000281708">
+    <state width="1663" height="273" key="GridCell.Tab.0.bottom/0.0.1707.1027@0.0.1707.1027" timestamp="1607007128177" />
+    <state width="1663" height="273" key="GridCell.Tab.0.center" timestamp="1607007128176">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
     <state width="1345" height="35" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606830790311" />
-    <state width="1663" height="273" key="GridCell.Tab.0.center/0.0.1707.1027@0.0.1707.1027" timestamp="1607000281708" />
-    <state width="1663" height="273" key="GridCell.Tab.0.left" timestamp="1607000281708">
+    <state width="1663" height="273" key="GridCell.Tab.0.center/0.0.1707.1027@0.0.1707.1027" timestamp="1607007128176" />
+    <state width="1663" height="273" key="GridCell.Tab.0.left" timestamp="1607007128176">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
     <state width="1345" height="35" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606830790311" />
-    <state width="1663" height="273" key="GridCell.Tab.0.left/0.0.1707.1027@0.0.1707.1027" timestamp="1607000281708" />
-    <state width="1663" height="273" key="GridCell.Tab.0.right" timestamp="1607000281709">
+    <state width="1663" height="273" key="GridCell.Tab.0.left/0.0.1707.1027@0.0.1707.1027" timestamp="1607007128176" />
+    <state width="1663" height="273" key="GridCell.Tab.0.right" timestamp="1607007128177">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
     <state width="1345" height="35" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606830790312" />
-    <state width="1663" height="273" key="GridCell.Tab.0.right/0.0.1707.1027@0.0.1707.1027" timestamp="1607000281709" />
+    <state width="1663" height="273" key="GridCell.Tab.0.right/0.0.1707.1027@0.0.1707.1027" timestamp="1607007128177" />
+    <state width="1663" height="342" key="GridCell.Tab.1.bottom" timestamp="1607006833112">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1663" height="342" key="GridCell.Tab.1.bottom/0.0.1707.1027@0.0.1707.1027" timestamp="1607006833112" />
+    <state width="1663" height="342" key="GridCell.Tab.1.center" timestamp="1607006833111">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1663" height="342" key="GridCell.Tab.1.center/0.0.1707.1027@0.0.1707.1027" timestamp="1607006833111" />
+    <state width="1663" height="342" key="GridCell.Tab.1.left" timestamp="1607006833110">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1663" height="342" key="GridCell.Tab.1.left/0.0.1707.1027@0.0.1707.1027" timestamp="1607006833110" />
+    <state width="1663" height="342" key="GridCell.Tab.1.right" timestamp="1607006833111">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1663" height="342" key="GridCell.Tab.1.right/0.0.1707.1027@0.0.1707.1027" timestamp="1607006833111" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1605752856134">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -462,13 +483,14 @@
     <SUITE FILE_PATH="coverage/MSTI$result_musk.coverage" NAME="result_musk Coverage Results" MODIFIED="1606849189864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MSTI$product_green.coverage" NAME="product_green Coverage Results" MODIFIED="1606972836864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MSTI$moreResult.coverage" NAME="moreResult Coverage Results" MODIFIED="1606895101119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MSTI$choose3.coverage" NAME="choose3 Coverage Results" MODIFIED="1606973025667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MSTI$choose3.coverage" NAME="choose3 Coverage Results" MODIFIED="1607006717252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MSTI$choose5.coverage" NAME="choose5 Coverage Results" MODIFIED="1606973057986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MSTI$choose4.coverage" NAME="choose4 Coverage Results" MODIFIED="1606848511860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MSTI$choose1.coverage" NAME="choose1 Coverage Results" MODIFIED="1607000865448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MSTI$choose4.coverage" NAME="choose4 Coverage Results" MODIFIED="1607006381796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MSTI$choose1.coverage" NAME="choose1 Coverage Results" MODIFIED="1607007245168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MSTI$result_fruity.coverage" NAME="result_fruity Coverage Results" MODIFIED="1606948555235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MSTI$result_floral.coverage" NAME="result_floral Coverage Results" MODIFIED="1606866678809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MSTI$product_fruity.coverage" NAME="product_fruity Coverage Results" MODIFIED="1606890622112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MSTI$choose2.coverage" NAME="choose2 Coverage Results" MODIFIED="1607006354796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MSTI$main.coverage" NAME="main Coverage Results" MODIFIED="1606953887705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="hg4idea.settings">

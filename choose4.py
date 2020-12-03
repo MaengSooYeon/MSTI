@@ -28,7 +28,7 @@ class ChooseWindow(QWidget):
         self.meekBtn.move(270, 380)
         self.meekBtn.setAlignment(Qt.AlignCenter)
         self.meekBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
-        self.btn1 = main.clickable(self.meekBtn).connect(self.showChoose5)
+        main.clickable(self.meekBtn).connect(self.click_show10)
 
         self.strongBtn = QLabel('', self)
         self.strongBtn.setPixmap(QPixmap('image/choice/answer/강렬한.png'))
@@ -36,7 +36,7 @@ class ChooseWindow(QWidget):
         self.strongBtn.move(600, 380)
         self.strongBtn.setAlignment(Qt.AlignCenter)
         self.strongBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
-        self.btn2 = main.clickable(self.strongBtn).connect(self.showChoose5)
+        main.clickable(self.strongBtn).connect(self.click_show11)
 
         self.product2 = QLabel('', self)
         self.product2.setPixmap(QPixmap('image/line.png'))
@@ -45,20 +45,19 @@ class ChooseWindow(QWidget):
         self.product2.setAlignment(Qt.AlignCenter)
         self.product2.setScaledContents(1)  # 이미지 크기에 맞게 조정
 
-    def check4(self):
-        from choose3 import i
-
-        if self.btn1:
-            i.append(1)
-        elif self.btn1:
-            i.append(2)
-
-    def showChoose5(self):
+    def click_show10(self):
         from choose5 import ChooseWindow
-        self.show_choose5 = ChooseWindow()
-        self.show_choose5.show()
+        self.show_choose = ChooseWindow()
+        self.show_choose.show()
+        self.result.append(1)
         self.hide()
 
+    def click_show11(self):
+        from choose5 import ChooseWindow
+        self.show_choose = ChooseWindow()
+        self.show_choose.show()
+        self.result.append(2)
+        self.hide()
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
