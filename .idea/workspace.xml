@@ -19,11 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6cd0cb4-b79d-4501-966c-cbcecf6ece2a" name="Default Changelist" comment="결과값 미완성 &amp; 디자인 수정">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d6cd0cb4-b79d-4501-966c-cbcecf6ece2a" name="Default Changelist" comment="미완성">
       <change beforePath="$PROJECT_DIR$/choose1.py" beforeDir="false" afterPath="$PROJECT_DIR$/choose1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/choose2.py" beforeDir="false" afterPath="$PROJECT_DIR$/choose2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/choose5.py" beforeDir="false" afterPath="$PROJECT_DIR$/choose5.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +206,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605631317937</updated>
       <workItem from="1606848048769" duration="1304000" />
-      <workItem from="1606849384469" duration="34411000" />
+      <workItem from="1606849384469" duration="34812000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1605746134452</created>
@@ -358,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606973324302</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="미완성">
+      <created>1607000278603</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1607000278603</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,7 +398,8 @@
     <MESSAGE value="간단한 코드 정리" />
     <MESSAGE value="결과값 미완성" />
     <MESSAGE value="결과값 미완성 &amp; 디자인 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="결과값 미완성 &amp; 디자인 수정" />
+    <MESSAGE value="미완성" />
+    <option name="LAST_COMMIT_MESSAGE" value="미완성" />
   </component>
   <component name="WindowStateProjectService">
     <state x="568" y="225" key="#Notifications" timestamp="1605746499942">
@@ -413,35 +418,35 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606829017935" />
-    <state width="1663" height="273" key="GridCell.Tab.0.bottom" timestamp="1607000072683">
+    <state width="1663" height="273" key="GridCell.Tab.0.bottom" timestamp="1607000281709">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
     <state width="1345" height="35" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606830790312" />
-    <state width="1663" height="273" key="GridCell.Tab.0.bottom/0.0.1707.1027@0.0.1707.1027" timestamp="1607000072683" />
-    <state width="1663" height="273" key="GridCell.Tab.0.center" timestamp="1607000072682">
+    <state width="1663" height="273" key="GridCell.Tab.0.bottom/0.0.1707.1027@0.0.1707.1027" timestamp="1607000281709" />
+    <state width="1663" height="273" key="GridCell.Tab.0.center" timestamp="1607000281708">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
     <state width="1345" height="35" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606830790311" />
-    <state width="1663" height="273" key="GridCell.Tab.0.center/0.0.1707.1027@0.0.1707.1027" timestamp="1607000072682" />
-    <state width="1663" height="273" key="GridCell.Tab.0.left" timestamp="1607000072682">
+    <state width="1663" height="273" key="GridCell.Tab.0.center/0.0.1707.1027@0.0.1707.1027" timestamp="1607000281708" />
+    <state width="1663" height="273" key="GridCell.Tab.0.left" timestamp="1607000281708">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
     <state width="1345" height="35" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606830790311" />
-    <state width="1663" height="273" key="GridCell.Tab.0.left/0.0.1707.1027@0.0.1707.1027" timestamp="1607000072682" />
-    <state width="1663" height="273" key="GridCell.Tab.0.right" timestamp="1607000072682">
+    <state width="1663" height="273" key="GridCell.Tab.0.left/0.0.1707.1027@0.0.1707.1027" timestamp="1607000281708" />
+    <state width="1663" height="273" key="GridCell.Tab.0.right" timestamp="1607000281709">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
     <state width="1345" height="35" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606830790312" />
-    <state width="1663" height="273" key="GridCell.Tab.0.right/0.0.1707.1027@0.0.1707.1027" timestamp="1607000072682" />
+    <state width="1663" height="273" key="GridCell.Tab.0.right/0.0.1707.1027@0.0.1707.1027" timestamp="1607000281709" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1605752856134">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1605752856134" />
-    <state x="344" y="117" key="Vcs.Push.Dialog.v2" timestamp="1606973327000">
+    <state x="344" y="117" key="Vcs.Push.Dialog.v2" timestamp="1607000280346">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
     <state x="275" y="83" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1606830396684" />
-    <state x="344" y="117" key="Vcs.Push.Dialog.v2/0.0.1707.1027@0.0.1707.1027" timestamp="1606973327000" />
+    <state x="344" y="117" key="Vcs.Push.Dialog.v2/0.0.1707.1027@0.0.1707.1027" timestamp="1607000280346" />
     <state x="610" y="389" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606953506800">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
@@ -460,7 +465,7 @@
     <SUITE FILE_PATH="coverage/MSTI$choose3.coverage" NAME="choose3 Coverage Results" MODIFIED="1606973025667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MSTI$choose5.coverage" NAME="choose5 Coverage Results" MODIFIED="1606973057986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MSTI$choose4.coverage" NAME="choose4 Coverage Results" MODIFIED="1606848511860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MSTI$choose1.coverage" NAME="choose1 Coverage Results" MODIFIED="1607000072666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MSTI$choose1.coverage" NAME="choose1 Coverage Results" MODIFIED="1607000865448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MSTI$result_fruity.coverage" NAME="result_fruity Coverage Results" MODIFIED="1606948555235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MSTI$result_floral.coverage" NAME="result_floral Coverage Results" MODIFIED="1606866678809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MSTI$product_fruity.coverage" NAME="product_fruity Coverage Results" MODIFIED="1606890622112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

@@ -69,24 +69,32 @@ class ChooseWindow(QWidget):
 
 
     def Click1(self):
-        self.result.append(1)
-        main.clickable(self.springBtn).connect(self.showChoose2)
-
-    def Click2(self):
-        self.result.append(2)
-        main.clickable(self.summerBtn).connect(self.showChoose2)
-    def Click3(self):
-        self.result.append(3)
-        main.clickable(self.falltBtn).connect(self.showChoose2)
-    def Click4(self):
-        self.result.append(4)
-        main.clickable(self.wintertBtn).connect(self.showChoose2)
-
-    def showChoose2(self):
         from choose2 import ChooseWindow
         self.show_choose2 = ChooseWindow()
         self.show_choose2.show()
+        self.result.append(1)
         self.hide()
+
+    def Click2(self):
+        from choose2 import ChooseWindow
+        self.show_choose2 = ChooseWindow()
+        self.show_choose2.show()
+        self.result.append(2)
+        self.hide()
+    def Click3(self):
+        from choose2 import ChooseWindow
+        self.show_choose2 = ChooseWindow()
+        self.show_choose2.show()
+        self.result.append(3)
+        self.hide()
+    def Click4(self):
+        from choose2 import ChooseWindow
+        self.show_choose2 = ChooseWindow()
+        self.show_choose2.show()
+        self.result.append(4)
+        self.hide()
+
+
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
