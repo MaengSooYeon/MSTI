@@ -3,6 +3,15 @@ import sys
 import main
 import choose4
 
+import result_floral
+import result_tobacco_leather
+import result_aqua
+import result_musk
+import result_green
+import result_woody
+import result_gourmans
+import result_fruity
+
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
@@ -63,29 +72,38 @@ class ChooseWindow(QWidget):
 
     def showResult(self):
         if self.result5 == [1,1,1,2,1] or [1,2,1,2,1] or [1,3,1,2,1] or [1,1,1,1,2] or [1,2,1,1,2] or [1,3,1,1,2] or [1,1,2,2,2] or [1,2,2,2,2] or [1,3,2,2,2] or [1,1,2,1,2] or [1,2,2,1,2] or [1,3,2,1,2] :
-             main.clickable(self.calmtBtn).connect(self.showFloral)
-             main.clickable(self.livelyBtn).connect(self.showFloral)
+            self.show_choose = result_floral.ResultWindow()
+            self.show_choose.show()
+            self.hide()
+
         elif self.result5 == [1,1,1,1,1] or [2,1,1,1,1] or [3,1,1,1,1] or [1,1,1,1,2] or [2,1,1,1,2] or [3,1,1,1,2] or [1,1,2,1,2] or [2,1,2,1,2] or [3,1,2,1,2] or [1,1,2,2,2] or [2,1,2,2,2] or [3,1,2,2,2]:
-            main.clickable(self.calmtBtn).connect(self.showGreen)
-            main.clickable(self.livelyBtn).connect(self.showGreen)
+            self.show_choose = result_green.ResultWindow()
+            self.show_choose.show()
+            self.hide()
         elif self.result5 == [2,1,1,1,1] or [2,2,1,1,1] or [2,3,1,1,1] or [2,1,1,2,1] or [2,2,1,2,1] or [2,3,1,2,1] or [2,1,1,2,2] or [2,2,1,2,2] or [2,3,1,2,2] or [2,1,2,2,1] or [2,2,2,2,1] or [2,3,2,2,1] :
-            main.clickable(self.calmtBtn).connect(self.showAqua)
-            main.clickable(self.livelyBtn).connect(self.showAqua)
+            self.show_choose = result_aqua.ResultWindow()
+            self.show_choose.show()
+            self.hide()
         elif self.result5 == [2,1,2,1,1] or [2,2,2,1,1] or [2,3,2,1,1] or [2,1,1,1,2] or [2,2,1,1,2] or [2,3,1,1,2] or [2,1,2,1,2] or [2,2,2,1,2] or [2,3,2,1,2] or [2,1,2,2,2] or [2,2,2,2,2] or [2,3,2,2,2] :
-            main.clickable(self.calmtBtn).connect(self.showFruity)
-            main.clickable(self.livelyBtn).connect(self.showFruity)
+            self.show_choose = result_fruity.ResultWindow()
+            self.show_choose.show()
+            self.hide()
         elif self.result5 == [3,1,1,1,1] or [3,2,1,1,1] or [3,3,1,1,1] or [3,1,1,2,1] or [3,2,1,2,1] or [3,3,1,2,1] or [3,1,2,1,2] or [3,2,2,1,2] or [3,3,2,1,2] or [3,1,2,2,2] or [3,2,2,2,2] or [3,3,2,2,2] :
-            main.clickable(self.calmtBtn).connect(self.showWoody)
-            main.clickable(self.livelyBtn).connect(self.showWoody)
+            self.show_choose = result_woody.ResultWindow()
+            self.show_choose.show()
+            self.hide()
         elif self.result5 == [3,1,2,1,1] or [3,2,2,1,1] or [3,3,2,1,1] or [3,1,2,2,1] or [3,2,2,2,1] or [3,3,2,2,1] or [3,1,1,1,2] or [3,2,1,1,2] or [3,3,1,1,2] or [3,1,1,2,2] or [3,2,1,2,2] or [3,3,1,2,2] :
-            main.clickable(self.calmtBtn).connect(self.showMusk)
-            main.clickable(self.livelyBtn).connect(self.showMusk)
+            self.show_choose = result_musk.ResultWindow()
+            self.show_choose.show()
+            self.hide()
         elif self.result5 == [4,1,2,2,1] or [4,2,2,2,1] or [4,3,2,2,1] or [4,1,2,2,2] or [4,2,2,2,2] or [4,3,2,2,2] or [4,1,1,2,2] or [4,2,1,2,2] or [4,3,1,2,2] or [4,1,1,2,1] or [4,2,1,2,1] or [4,3,1,2,1] :
-            main.clickable(self.calmtBtn).connect(self.showGourmans)
-            main.clickable(self.livelyBtn).connect(self.showGourmans)
+            self.show_choose = result_gourmans.ResultWindow()
+            self.show_choose.show()
+            self.hide()
         elif self.result5 == [4,1,1,1,1] or [4,2,1,1,1] or [4,3,1,1,1] or [4,1,2,1,1] or [4,2,2,1,1] or [4,3,2,1,1] or [4,1,1,1,2] or [4,2,1,1,2] or [4,3,1,1,2] or [4,1,2,1,2] or [4,2,2,1,2] or [4,3,2,1,2] :
-            main.clickable(self.calmtBtn).connect(self.showTobacco)
-            main.clickable(self.livelyBtn).connect(self.showTobacco)
+            self.show_choose = result_tobacco_leather.ResultWindow()
+            self.show_choose.show()
+            self.hide()
 
     def showFloral(self):
         from result_floral import ResultWindow
