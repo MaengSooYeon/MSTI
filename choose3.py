@@ -1,6 +1,7 @@
 #선택지 화면 - 질문 n개 질문 안에 선택지 n개를 보여주는 페이지
 import sys
 import main
+import choose2
 import choose4
 
 from PyQt5.QtWidgets import *
@@ -8,6 +9,8 @@ from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 
 class ChooseWindow(QMainWindow):
+    result3 =[]
+
     def __init__(self):
         super().__init__()
         self.choose3UI()
@@ -52,13 +55,15 @@ class ChooseWindow(QMainWindow):
     def click_show1(self):
         self.show_choose = choose4.ChooseWindow()
         self.show_choose.show()
-        # self.result.append(1)
+        self.result3 = choose2.ChooseWindow.result2
+        self.result3.append(1)
         self.hide()
 
     def click_show2(self):
         self.show_choose = choose4.ChooseWindow()
         self.show_choose.show()
-        # self.result.append(2)
+        self.result3 = choose2.ChooseWindow.result2
+        self.result3.append(2)
         self.hide()
 
 

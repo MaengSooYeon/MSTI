@@ -1,12 +1,14 @@
 #선택지 화면 - 질문 n개 질문 안에 선택지 n개를 보여주는 페이지
 import sys
 import main
+import choose4
 
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 
 class ChooseWindow(QWidget):
+    result5 = []
     def __init__(self):
         super().__init__()
         self.choose5UI()
@@ -31,7 +33,7 @@ class ChooseWindow(QWidget):
         self.calmtBtn.move(270, 380)
         self.calmtBtn.setAlignment(Qt.AlignCenter)
         self.calmtBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
-
+        main.clickable(self.calmtBtn).connect(self.click_show12)
 
         self.livelyBtn = QLabel('', self)
         self.livelyBtn.setPixmap(QPixmap('image/choice/answer/생동감.png'))
@@ -39,6 +41,7 @@ class ChooseWindow(QWidget):
         self.livelyBtn.move(600, 380)
         self.livelyBtn.setAlignment(Qt.AlignCenter)
         self.livelyBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
+        main.clickable(self.livelyBtn).connect(self.click_show13)
 
         self.product2 = QLabel('', self)
         self.product2.setPixmap(QPixmap('image/line.png'))
@@ -47,40 +50,40 @@ class ChooseWindow(QWidget):
         self.product2.setAlignment(Qt.AlignCenter)
         self.product2.setScaledContents(1)  # 이미지 크기에 맞게 조정
 
-    def Click1(self):
-        self.show_choose = ChooseWindow()
-        self.show_choose.show()
-        self.result.append(1)
-        self.hide()
 
-    def Click2(self):
-        self.show_choose = ChooseWindow()
-        self.show_choose.show()
-        self.result.append(2)
-        self.hide()
+    def click_show12(self):
+        self.result5 = choose4.ChooseWindow.result4
+        self.result5.append(1)
+        self.showResult()
 
-        if i == [1,1,1,2,1] or [1,2,1,2,1] or [1,3,1,2,1] or [1,1,1,1,2] or [1,2,1,1,2] or [1,3,1,1,2] or [1,1,2,2,2] or [1,2,2,2,2] or [1,3,2,2,2] or [1,1,2,1,2] or [1,2,2,1,2] or [1,3,2,1,2] :
+    def click_show13(self):
+        self.result5 = choose4.ChooseWindow.result4
+        self.result5.append(2)
+        self.showResult()
+
+    def showResult(self):
+        if self.result5 == [1,1,1,2,1] or [1,2,1,2,1] or [1,3,1,2,1] or [1,1,1,1,2] or [1,2,1,1,2] or [1,3,1,1,2] or [1,1,2,2,2] or [1,2,2,2,2] or [1,3,2,2,2] or [1,1,2,1,2] or [1,2,2,1,2] or [1,3,2,1,2] :
              main.clickable(self.calmtBtn).connect(self.showFloral)
              main.clickable(self.livelyBtn).connect(self.showFloral)
-        elif i == [1,1,1,1,1] or [2,1,1,1,1] or [3,1,1,1,1] or [1,1,1,1,2] or [2,1,1,1,2] or [3,1,1,1,2] or [1,1,2,1,2] or [2,1,2,1,2] or [3,1,2,1,2] or [1,1,2,2,2] or [2,1,2,2,2] or [3,1,2,2,2]:
+        elif self.result5 == [1,1,1,1,1] or [2,1,1,1,1] or [3,1,1,1,1] or [1,1,1,1,2] or [2,1,1,1,2] or [3,1,1,1,2] or [1,1,2,1,2] or [2,1,2,1,2] or [3,1,2,1,2] or [1,1,2,2,2] or [2,1,2,2,2] or [3,1,2,2,2]:
             main.clickable(self.calmtBtn).connect(self.showGreen)
             main.clickable(self.livelyBtn).connect(self.showGreen)
-        elif i == [2,1,1,1,1] or [2,2,1,1,1] or [2,3,1,1,1] or [2,1,1,2,1] or [2,2,1,2,1] or [2,3,1,2,1] or [2,1,1,2,2] or [2,2,1,2,2] or [2,3,1,2,2] or [2,1,2,2,1] or [2,2,2,2,1] or [2,3,2,2,1] :
+        elif self.result5 == [2,1,1,1,1] or [2,2,1,1,1] or [2,3,1,1,1] or [2,1,1,2,1] or [2,2,1,2,1] or [2,3,1,2,1] or [2,1,1,2,2] or [2,2,1,2,2] or [2,3,1,2,2] or [2,1,2,2,1] or [2,2,2,2,1] or [2,3,2,2,1] :
             main.clickable(self.calmtBtn).connect(self.showAqua)
             main.clickable(self.livelyBtn).connect(self.showAqua)
-        elif i == [2,1,2,1,1] or [2,2,2,1,1] or [2,3,2,1,1] or [2,1,1,1,2] or [2,2,1,1,2] or [2,3,1,1,2] or [2,1,2,1,2] or [2,2,2,1,2] or [2,3,2,1,2] or [2,1,2,2,2] or [2,2,2,2,2] or [2,3,2,2,2] :
+        elif self.result5 == [2,1,2,1,1] or [2,2,2,1,1] or [2,3,2,1,1] or [2,1,1,1,2] or [2,2,1,1,2] or [2,3,1,1,2] or [2,1,2,1,2] or [2,2,2,1,2] or [2,3,2,1,2] or [2,1,2,2,2] or [2,2,2,2,2] or [2,3,2,2,2] :
             main.clickable(self.calmtBtn).connect(self.showFruity)
             main.clickable(self.livelyBtn).connect(self.showFruity)
-        elif i == [3,1,1,1,1] or [3,2,1,1,1] or [3,3,1,1,1] or [3,1,1,2,1] or [3,2,1,2,1] or [3,3,1,2,1] or [3,1,2,1,2] or [3,2,2,1,2] or [3,3,2,1,2] or [3,1,2,2,2] or [3,2,2,2,2] or [3,3,2,2,2] :
+        elif self.result5 == [3,1,1,1,1] or [3,2,1,1,1] or [3,3,1,1,1] or [3,1,1,2,1] or [3,2,1,2,1] or [3,3,1,2,1] or [3,1,2,1,2] or [3,2,2,1,2] or [3,3,2,1,2] or [3,1,2,2,2] or [3,2,2,2,2] or [3,3,2,2,2] :
             main.clickable(self.calmtBtn).connect(self.showWoody)
             main.clickable(self.livelyBtn).connect(self.showWoody)
-        elif i == [3,1,2,1,1] or [3,2,2,1,1] or [3,3,2,1,1] or [3,1,2,2,1] or [3,2,2,2,1] or [3,3,2,2,1] or [3,1,1,1,2] or [3,2,1,1,2] or [3,3,1,1,2] or [3,1,1,2,2] or [3,2,1,2,2] or [3,3,1,2,2] :
+        elif self.result5 == [3,1,2,1,1] or [3,2,2,1,1] or [3,3,2,1,1] or [3,1,2,2,1] or [3,2,2,2,1] or [3,3,2,2,1] or [3,1,1,1,2] or [3,2,1,1,2] or [3,3,1,1,2] or [3,1,1,2,2] or [3,2,1,2,2] or [3,3,1,2,2] :
             main.clickable(self.calmtBtn).connect(self.showMusk)
             main.clickable(self.livelyBtn).connect(self.showMusk)
-        elif i == [4,1,2,2,1] or [4,2,2,2,1] or [4,3,2,2,1] or [4,1,2,2,2] or [4,2,2,2,2] or [4,3,2,2,2] or [4,1,1,2,2] or [4,2,1,2,2] or [4,3,1,2,2] or [4,1,1,2,1] or [4,2,1,2,1] or [4,3,1,2,1] :
+        elif self.result5 == [4,1,2,2,1] or [4,2,2,2,1] or [4,3,2,2,1] or [4,1,2,2,2] or [4,2,2,2,2] or [4,3,2,2,2] or [4,1,1,2,2] or [4,2,1,2,2] or [4,3,1,2,2] or [4,1,1,2,1] or [4,2,1,2,1] or [4,3,1,2,1] :
             main.clickable(self.calmtBtn).connect(self.showGourmans)
             main.clickable(self.livelyBtn).connect(self.showGourmans)
-        elif i == [4,1,1,1,1] or [4,2,1,1,1] or [4,3,1,1,1] or [4,1,2,1,1] or [4,2,2,1,1] or [4,3,2,1,1] or [4,1,1,1,2] or [4,2,1,1,2] or [4,3,1,1,2] or [4,1,2,1,2] or [4,2,2,1,2] or [4,3,2,1,2] :
+        elif self.result5 == [4,1,1,1,1] or [4,2,1,1,1] or [4,3,1,1,1] or [4,1,2,1,1] or [4,2,2,1,1] or [4,3,2,1,1] or [4,1,1,1,2] or [4,2,1,1,2] or [4,3,1,1,2] or [4,1,2,1,2] or [4,2,2,1,2] or [4,3,2,1,2] :
             main.clickable(self.calmtBtn).connect(self.showTobacco)
             main.clickable(self.livelyBtn).connect(self.showTobacco)
 

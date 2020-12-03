@@ -8,10 +8,12 @@ from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 
 class ChooseWindow(QMainWindow):
+    result1 = []
+
     def __init__(self):
         super().__init__()
         self.choose1UI()
-        self.result =[]
+
 
     def choose1UI(self):
         self.setStyleSheet('background-color: #efebf3')
@@ -69,25 +71,25 @@ class ChooseWindow(QMainWindow):
     def click_show1(self):
         self.show_choose = choose2.ChooseWindow()
         self.show_choose.show()
-        self.result.append(1)
+        self.result1.append(1)
         self.hide()
 
     def click_show2(self):
         self.show_choose = choose2.ChooseWindow()
         self.show_choose.show()
-        self.result.append(2)
+        self.result1.append(2)
         self.hide()
 
     def click_show3(self):
         self.show_choose = choose2.ChooseWindow()
         self.show_choose.show()
-        self.result.append(3)
+        self.result1.append(3)
         self.hide()
 
     def click_show4(self):
         self.show_choose = choose2.ChooseWindow()
         self.show_choose.show()
-        self.result.append(4)
+        self.result1.append(4)
         self.hide()
 
 if __name__ == '__main__':
