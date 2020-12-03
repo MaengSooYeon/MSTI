@@ -80,71 +80,38 @@ class ChooseWindow(QWidget):
             self.show_choose = result_green.ResultWindow()
             self.show_choose.show()
             self.hide()
+
         elif self.result5 == [2,1,1,1,1] or [2,2,1,1,1] or [2,3,1,1,1] or [2,1,1,2,1] or [2,2,1,2,1] or [2,3,1,2,1] or [2,1,1,2,2] or [2,2,1,2,2] or [2,3,1,2,2] or [2,1,2,2,1] or [2,2,2,2,1] or [2,3,2,2,1] :
             self.show_choose = result_aqua.ResultWindow()
             self.show_choose.show()
             self.hide()
+
         elif self.result5 == [2,1,2,1,1] or [2,2,2,1,1] or [2,3,2,1,1] or [2,1,1,1,2] or [2,2,1,1,2] or [2,3,1,1,2] or [2,1,2,1,2] or [2,2,2,1,2] or [2,3,2,1,2] or [2,1,2,2,2] or [2,2,2,2,2] or [2,3,2,2,2] :
             self.show_choose = result_fruity.ResultWindow()
             self.show_choose.show()
             self.hide()
+
         elif self.result5 == [3,1,1,1,1] or [3,2,1,1,1] or [3,3,1,1,1] or [3,1,1,2,1] or [3,2,1,2,1] or [3,3,1,2,1] or [3,1,2,1,2] or [3,2,2,1,2] or [3,3,2,1,2] or [3,1,2,2,2] or [3,2,2,2,2] or [3,3,2,2,2] :
             self.show_choose = result_woody.ResultWindow()
             self.show_choose.show()
             self.hide()
+
         elif self.result5 == [3,1,2,1,1] or [3,2,2,1,1] or [3,3,2,1,1] or [3,1,2,2,1] or [3,2,2,2,1] or [3,3,2,2,1] or [3,1,1,1,2] or [3,2,1,1,2] or [3,3,1,1,2] or [3,1,1,2,2] or [3,2,1,2,2] or [3,3,1,2,2] :
             self.show_choose = result_musk.ResultWindow()
             self.show_choose.show()
             self.hide()
+
         elif self.result5 == [4,1,2,2,1] or [4,2,2,2,1] or [4,3,2,2,1] or [4,1,2,2,2] or [4,2,2,2,2] or [4,3,2,2,2] or [4,1,1,2,2] or [4,2,1,2,2] or [4,3,1,2,2] or [4,1,1,2,1] or [4,2,1,2,1] or [4,3,1,2,1] :
             self.show_choose = result_gourmans.ResultWindow()
             self.show_choose.show()
             self.hide()
+
         elif self.result5 == [4,1,1,1,1] or [4,2,1,1,1] or [4,3,1,1,1] or [4,1,2,1,1] or [4,2,2,1,1] or [4,3,2,1,1] or [4,1,1,1,2] or [4,2,1,1,2] or [4,3,1,1,2] or [4,1,2,1,2] or [4,2,2,1,2] or [4,3,2,1,2] :
             self.show_choose = result_tobacco_leather.ResultWindow()
             self.show_choose.show()
             self.hide()
 
-    def showFloral(self):
-        from result_floral import ResultWindow
-        self.show_floral = ResultWindow()
-        self.show_floral.show()
-        self.hide()
-    def showGreen(self):
-        from result_green import ResultWindow
-        self.show_green = ResultWindow()
-        self.show_green.show()
-        self.hide()
-    def showAqua(self):
-        from result_aqua import ResultWindow
-        self.show_aqua = ResultWindow()
-        self.show_aqua.show()
-        self.hide()
-    def showFruity(self):
-        from result_fruity import ResultWindow
-        self.show_fruity = ResultWindow()
-        self.show_fruity.show()
-        self.hide()
-    def showWoody(self):
-        from result_woody import ResultWindow
-        self.show_woody = ResultWindow()
-        self.show_woody.show()
-        self.hide()
-    def showMusk(self):
-        from result_musk import ResultWindow
-        self.show_musk = ResultWindow()
-        self.show_musk.show()
-        self.hide()
-    def showGourmans(self):
-        from result_gourmans import ResultWindow
-        self.show_gourmans = ResultWindow()
-        self.show_gourmans.show()
-        self.hide()
-    def showTobacco(self):
-        from result_tobacco_leather import ResultWindow
-        self.show_tobacco = ResultWindow()
-        self.show_tobacco.show()
-        self.hide()
+
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
