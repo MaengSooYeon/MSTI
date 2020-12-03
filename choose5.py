@@ -9,6 +9,9 @@ from PyQt5.QtCore import *
 class ChooseWindow(QWidget):
     def __init__(self):
         super().__init__()
+        self.choose5UI()
+
+    def choose5UI(self):
         self.setStyleSheet('background-color: #efebf3')
         self.setWindowTitle('CHOOSE')
         self.setWindowIcon(QIcon('image/icon.png'))
@@ -44,13 +47,19 @@ class ChooseWindow(QWidget):
         self.product2.setAlignment(Qt.AlignCenter)
         self.product2.setScaledContents(1)  # 이미지 크기에 맞게 조정
 
+    def Click1(self):
+        from choose4 import ChooseWindow
+        self.show_choose = ChooseWindow()
+        self.show_choose.show()
+        self.result.append(1)
+        self.hide()
 
-    def check4(self):
-        from choose4 import i
-        if button:
-            i.append(1)
-        elif self.btn1:
-            i.append(2)
+    def Click2(self):
+        from choose4 import ChooseWindow
+        self.show_choose = ChooseWindow()
+        self.show_choose.show()
+        self.result.append(2)
+        self.hide()
 
         if i == [1,1,1,2,1] or [1,2,1,2,1] or [1,3,1,2,1] or [1,1,1,1,2] or [1,2,1,1,2] or [1,3,1,1,2] or [1,1,2,2,2] or [1,2,2,2,2] or [1,3,2,2,2] or [1,1,2,1,2] or [1,2,2,1,2] or [1,3,2,1,2] :
              main.clickable(self.calmtBtn).connect(self.showFloral)

@@ -1,6 +1,5 @@
 #선택지 화면 - 질문 n개 질문 안에 선택지 n개를 보여주는 페이지
 import sys
-
 import main
 
 from PyQt5.QtWidgets import *
@@ -10,6 +9,9 @@ from PyQt5.QtCore import *
 class ChooseWindow(QWidget):
     def __init__(self):
         super().__init__()
+        self.choose3UI()
+
+    def choose3UI(self):
         self.setStyleSheet('background-color: #efebf3')
         self.setWindowTitle('CHOOSE')
         self.setWindowIcon(QIcon('image/icon.png'))
@@ -29,7 +31,7 @@ class ChooseWindow(QWidget):
         self.naturalBtn.move(270, 380)
         self.naturalBtn.setAlignment(Qt.AlignCenter)
         self.naturalBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
-        self.btn1 = main.clickable(self.naturalBtn).connect(self.showChoose4)
+        main.clickable(self.naturalBtn).connect(self.click_show8)
 
         self.trendyBtn = QLabel('', self)
         self.trendyBtn.setPixmap(QPixmap('image/choice/answer/트렌디.png'))
@@ -37,7 +39,7 @@ class ChooseWindow(QWidget):
         self.trendyBtn.move(600, 380)
         self.trendyBtn.setAlignment(Qt.AlignCenter)
         self.trendyBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
-        self.btn2 = main.clickable(self.trendyBtn).connect(self.showChoose4)
+        main.clickable(self.trendyBtn).connect(self.click_show9)
 
         self.product2 = QLabel('', self)
         self.product2.setPixmap(QPixmap('image/line.png'))
@@ -46,20 +48,20 @@ class ChooseWindow(QWidget):
         self.product2.setAlignment(Qt.AlignCenter)
         self.product2.setScaledContents(1)  # 이미지 크기에 맞게 조정
 
-    def check3(self):
-        from choose1 import i
-
-        if self.btn1:
-            i.append(1)
-            print(i)
-        elif self.btn1:
-            i.append(2)
-
-    def showChoose4(self):
+    def click_show8(self):
         from choose4 import ChooseWindow
-        self.show_choose4 = ChooseWindow()
-        self.show_choose4.show()
+        self.show_choose = ChooseWindow()
+        self.show_choose.show()
+        self.result.append(1)
         self.hide()
+
+    def click_show9(self):
+        from choose4 import ChooseWindow
+        self.show_choose = ChooseWindow()
+        self.show_choose.show()
+        self.result.append(2)
+        self.hide()
+
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
