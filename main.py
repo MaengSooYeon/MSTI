@@ -49,13 +49,13 @@ class MainWindow(QMainWindow):
         self.startBtn.setScaledContents(1)    #이미지 크기에 맞게 조정
         clickable(self.startBtn).connect(self.showChoose)
 
-        self.howPlayBtn = QLabel('', self)
-        self.howPlayBtn.setPixmap(QPixmap('image/contents_btn.png'))
-        self.howPlayBtn.resize(200, 75)
-        self.howPlayBtn.move(240, 380)
-        self.howPlayBtn.setAlignment(Qt.AlignCenter)
-        self.howPlayBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
-        clickable(self.howPlayBtn).connect(self.dialog_open)
+        self.contentsBtn = QLabel('', self)
+        self.contentsBtn.setPixmap(QPixmap('image/contents_btn.png'))
+        self.contentsBtn.resize(200, 75)
+        self.contentsBtn.move(240, 380)
+        self.contentsBtn.setAlignment(Qt.AlignCenter)
+        self.contentsBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
+        clickable(self.contentsBtn).connect(self.dialogOpen)
 
         # QDialog setting
         self.dialog = QDialog()
@@ -68,7 +68,7 @@ class MainWindow(QMainWindow):
         self.hide()
 
     # button event function
-    def dialog_open(self):
+    def dialogOpen(self):
         # creating a label widget
         self.contents = QLabel('', self.dialog)
         self.contents.setPixmap(QPixmap('image/contents.png'))
