@@ -1,22 +1,23 @@
-#시작화면 - 디자인 위주, 시작 버튼, 간단한 스토리/플레이 방법 설명 버튼
+#시작화면
+
 import sys
+
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 
-#label로 클릭이벤트를 사용하기 위해
+#클릭이벤트 함수
 def clickable(widget):
     class Filter(QObject):
-        clicked = pyqtSignal()  # pyside2 사용자는 pyqtSignal() -> Signal()로 변경
+        # pyside2 사용자는 pyqtSignal() -> Signal()로 변경
+        clicked = pyqtSignal()
 
         def eventFilter(self, obj, event):
             if obj == widget:
                 if event.type() == QEvent.MouseButtonRelease:
                     if obj.rect().contains(event.pos()):
-                        self.clicked.emit()
-                        # The developer can opt for .emit(obj) to get the object within the slot.
+                        self.clicked.emit()     #객체를 가져오기 위해 .emit() 사용
                         return True
-
             return False
 
     filter = Filter(widget)
@@ -33,14 +34,14 @@ class MainWindow(QMainWindow):
         self.setFixedSize(1000, 600)
         self.center()
 
-        # creating a label widget
+        # creating widget - title
         self.label = QLabel('', self)
         self.label.setPixmap(QPixmap('image/Title.png'))
         self.label.resize(540, 120)
         self.label.move(210, 120)
         self.label.setAlignment(Qt.AlignCenter)
 
-        # creating a button widget
+        # creating widget - button
         self.startBtn = QLabel('', self)
         self.startBtn.setPixmap(QPixmap('image/testStart_btn.png'))
         self.startBtn.resize(200, 75)
@@ -60,6 +61,7 @@ class MainWindow(QMainWindow):
         # QDialog setting
         self.dialog = QDialog()
 
+
     # button event function
     def showChoose(self):
         from choose1 import ChooseWindow
@@ -67,9 +69,8 @@ class MainWindow(QMainWindow):
         self.show_choose.show()
         self.hide()
 
-    # button event function
     def dialogOpen(self):
-        # creating a label widget
+        # creating widget - content
         self.contents = QLabel('', self.dialog)
         self.contents.setPixmap(QPixmap('image/contents.png'))
         self.contents.resize(530, 230)
@@ -92,10 +93,9 @@ class MainWindow(QMainWindow):
         qr.moveCenter(cp)
         self.move(qr.topLeft())
 
+
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     mainWindow = MainWindow()
     mainWindow.show()
     sys.exit(app.exec_())
-
-

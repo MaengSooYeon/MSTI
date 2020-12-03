@@ -2,14 +2,14 @@
 #        - 나의 타입 설명과 같이 향수 추천 
 #        - 버튼1을 눌러 추천 향수 더 보러가기
 #        - 버튼2을 눌러 전체(다른)타입 결과보기
+
 import sys
 import main
+
+from moreResult import moreResultWindow
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
-
-from moreResult import moreResultWindow
-
 
 class ResultWindow(QMainWindow):
     def __init__(self):
@@ -21,7 +21,7 @@ class ResultWindow(QMainWindow):
         self.setFixedSize(1000, 600)
         self.center()
 
-        # creating a label widget
+        # creating widget - type name, content
         self.typeImg = QLabel('', self)
         self.typeImg.setPixmap(QPixmap('image/type/icon/green.png'))
         self.typeImg.resize(220, 220)
@@ -44,7 +44,7 @@ class ResultWindow(QMainWindow):
         self.typeHT.setScaledContents(1)  # 이미지 크기에 맞게 조정
 
 
-        # 향수 타입 설명
+        # perfume type content txt file
         with open('file/contents/contents_green.txt', 'r', encoding='utf8') as file:
             content = file.read()
             self.content = QLabel(content, self)
@@ -56,7 +56,8 @@ class ResultWindow(QMainWindow):
             print(content)
             file.close()
 
-        #향수 추천
+
+        # perfume recommendation
         self.product1 = QLabel('', self)
         self.product1.setPixmap(QPixmap('image/products/green/img1.png'))
         self.product1.resize(220, 220)
@@ -72,7 +73,7 @@ class ResultWindow(QMainWindow):
         self.product2.setScaledContents(1)  # 이미지 크기에 맞게 조정
 
 
-        # creating a button widget
+        # creating widget - button
         self.more_result_btn = QLabel('', self)
         self.more_result_btn.setPixmap(QPixmap('image/more_result_btn.png'))
         self.more_result_btn.resize(180, 50)

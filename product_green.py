@@ -1,6 +1,9 @@
+# green type 향수 제품 설명화면
+
 import sys
 import main
 import product_floral as p
+
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
@@ -16,7 +19,7 @@ class ProductWindow(QMainWindow):
         self.setFixedSize(1000, 600)
         self.move(10, 60)
 
-        # creating a label widget
+        # creating widget - product img, content
         self.product1 = QLabel('', self)
         self.product1.setPixmap(QPixmap('image/products/green/img3.png'))
         self.product1.resize(480, 225)
@@ -45,7 +48,8 @@ class ProductWindow(QMainWindow):
         self.product4.setAlignment(Qt.AlignCenter)
         self.product4.setScaledContents(1)  # 이미지 크기에 맞게 조정
 
-        # creating a button widget
+
+        # creating widget - button
         self.more_result_btn = QLabel('', self)
         self.more_result_btn.setPixmap(QPixmap('image/more_result_btn.png'))
         self.more_result_btn.resize(180, 50)

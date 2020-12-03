@@ -1,5 +1,5 @@
-# 다른 결과 보기 버튼을 눌렀을 시 보여주는 페이지
-# 타입 이름을 누르면 해당 타입 결과 페이지로 이동
+# 다른 결과 보기 버튼을 누르면 보여주는 화면
+# 타입 이름을 누르면 해당 타입 결과 화면으로 이동
 
 import sys
 import main
@@ -7,6 +7,7 @@ import main
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
+
 
 class moreResultWindow(QMainWindow):
     def __init__(self):
@@ -18,7 +19,7 @@ class moreResultWindow(QMainWindow):
         self.setFixedSize(750, 600)
         self.center()
 
-        # creating a label widget
+        # creating widget - title
         self.title = QLabel('', self)
         self.title.setPixmap(QPixmap('image/msti_types.png'))
         self.title.resize(280, 60)
@@ -26,7 +27,7 @@ class moreResultWindow(QMainWindow):
         self.title.setScaledContents(1)  # 이미지 크기에 맞게 조정
         self.title.setAlignment(Qt.AlignCenter)
 
-        #1열
+        #column 1
         self.floral = QLabel('', self)
         self.floral.setPixmap(QPixmap('image/type/more_result/more_result_floral.png'))
         self.floral.resize(330, 115)
@@ -44,7 +45,7 @@ class moreResultWindow(QMainWindow):
         main.clickable(self.musk).connect(self.showMusk)
 
 
-        #2열
+        #column 2
         self.fruity = QLabel('', self)
         self.fruity.setPixmap(QPixmap('image/type/more_result/more_result_fruity.png'))
         self.fruity.resize(330, 115)
@@ -62,7 +63,7 @@ class moreResultWindow(QMainWindow):
         main.clickable(self.aqua).connect(self.showAqua)
 
 
-        #3열
+        #column 3
         self.green = QLabel('', self)
         self.green.setPixmap(QPixmap('image/type/more_result/more_result_green.png'))
         self.green.resize(330, 115)
@@ -80,7 +81,7 @@ class moreResultWindow(QMainWindow):
         main.clickable(self.woody).connect(self.showWoody)
 
 
-        #4열
+        #column 4
         self.tobacco_leather = QLabel('', self)
         self.tobacco_leather.setPixmap(QPixmap('image/type/more_result/more_result_tobacco-leather.png'))
         self.tobacco_leather.resize(330, 115)
@@ -99,7 +100,7 @@ class moreResultWindow(QMainWindow):
 
 
 
-        # creating a button widget
+        # creating widget - button
         self.gotoMainbtn = QLabel('', self)
         self.gotoMainbtn.setPixmap(QPixmap('image/gotoMainBtn.png'))
         self.gotoMainbtn.resize(180, 50)
