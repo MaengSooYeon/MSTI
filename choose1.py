@@ -9,6 +9,10 @@ from PyQt5.QtCore import *
 class ChooseWindow(QWidget):
     def __init__(self):
         super().__init__()
+        self.choose1UI()
+        self.result =[]
+
+    def choose1UI(self):
         self.setStyleSheet('background-color: #efebf3')
         self.setWindowTitle('CHOOSE')
         self.setWindowIcon(QIcon('image/icon.png'))
@@ -28,7 +32,8 @@ class ChooseWindow(QWidget):
         self.springBtn.move(100, 380)
         self.springBtn.setAlignment(Qt.AlignCenter)
         self.springBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
-        self.btn1 = main.clickable(self.springBtn).connect(self.showChoose2)
+        main.clickable(self.springBtn).connect(self.Click1)
+
 
         self.summerBtn = QLabel('', self)
         self.summerBtn.setPixmap(QPixmap('image/choice/answer/여름.png'))
@@ -36,7 +41,7 @@ class ChooseWindow(QWidget):
         self.summerBtn.move(300, 380)
         self.summerBtn.setAlignment(Qt.AlignCenter)
         self.summerBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
-        self.btn2 = main.clickable(self.summerBtn).connect(self.showChoose2)
+        main.clickable(self.summerBtn).connect(self.Click2)
 
         self.falltBtn = QLabel('', self)
         self.falltBtn.setPixmap(QPixmap('image/choice/answer/가을.png'))
@@ -44,7 +49,7 @@ class ChooseWindow(QWidget):
         self.falltBtn.move(500, 380)
         self.falltBtn.setAlignment(Qt.AlignCenter)
         self.falltBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
-        self.btn3 = main.clickable(self.falltBtn).connect(self.showChoose2)
+        main.clickable(self.falltBtn).connect(self.Click4)
 
         self.wintertBtn = QLabel('', self)
         self.wintertBtn.setPixmap(QPixmap('image/choice/answer/겨울.png'))
@@ -52,7 +57,7 @@ class ChooseWindow(QWidget):
         self.wintertBtn.move(700, 380)
         self.wintertBtn.setAlignment(Qt.AlignCenter)
         self.wintertBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
-        self.btn4 = main.clickable(self.wintertBtn).connect(self.showChoose2)
+        main.clickable(self.wintertBtn).connect(self.Click4)
 
         self.product2 = QLabel('', self)
         self.product2.setPixmap(QPixmap('image/line.png'))
@@ -61,25 +66,27 @@ class ChooseWindow(QWidget):
         self.product2.setAlignment(Qt.AlignCenter)
         self.product2.setScaledContents(1)  # 이미지 크기에 맞게 조정
 
-    def Click(self):
-        i =[]
-        if self.btn1:
-            i.append(1)
-        elif self.btn2:
-            i.append(2)
-        elif self.btn3:
-            i.append(3)
-        elif self.btn4:
-            i.append(4)
 
 
+    def Click1(self):
+        self.result.append(1)
+        main.clickable(self.springBtn).connect(self.showChoose2)
+
+    def Click2(self):
+        self.result.append(2)
+        main.clickable(self.summerBtn).connect(self.showChoose2)
+    def Click3(self):
+        self.result.append(3)
+        main.clickable(self.falltBtn).connect(self.showChoose2)
+    def Click4(self):
+        self.result.append(4)
+        main.clickable(self.wintertBtn).connect(self.showChoose2)
 
     def showChoose2(self):
         from choose2 import ChooseWindow
         self.show_choose2 = ChooseWindow()
         self.show_choose2.show()
         self.hide()
-
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)

@@ -14,8 +14,6 @@ class ChooseWindow(QWidget):
         self.setWindowIcon(QIcon('image/icon.png'))
         self.setFixedSize(1000, 600)
 
-
-
         # creating questions widget
         self.label = QLabel('', self)
         self.label.setPixmap(QPixmap('image/choice/question/feel.png'))
@@ -49,7 +47,7 @@ class ChooseWindow(QWidget):
 
     def check4(self):
         from choose4 import i
-        if self.btn1:
+        if button:
             i.append(1)
         elif self.btn1:
             i.append(2)
@@ -58,67 +56,66 @@ class ChooseWindow(QWidget):
              main.clickable(self.calmtBtn).connect(self.showFloral)
              main.clickable(self.livelyBtn).connect(self.showFloral)
         elif i == [1,1,1,1,1] or [2,1,1,1,1] or [3,1,1,1,1] or [1,1,1,1,2] or [2,1,1,1,2] or [3,1,1,1,2] or [1,1,2,1,2] or [2,1,2,1,2] or [3,1,2,1,2] or [1,1,2,2,2] or [2,1,2,2,2] or [3,1,2,2,2]:
-            main.clickable(self.calmtBtn).connect(self.showFloral)
-            main.clickable(self.livelyBtn).connect(self.showFloral)
+            main.clickable(self.calmtBtn).connect(self.showGreen)
+            main.clickable(self.livelyBtn).connect(self.showGreen)
         elif i == [2,1,1,1,1] or [2,2,1,1,1] or [2,3,1,1,1] or [2,1,1,2,1] or [2,2,1,2,1] or [2,3,1,2,1] or [2,1,1,2,2] or [2,2,1,2,2] or [2,3,1,2,2] or [2,1,2,2,1] or [2,2,2,2,1] or [2,3,2,2,1] :
-            main.clickable(self.calmtBtn).connect(self.showFloral)
-            main.clickable(self.livelyBtn).connect(self.showFloral)
+            main.clickable(self.calmtBtn).connect(self.showAqua)
+            main.clickable(self.livelyBtn).connect(self.showAqua)
         elif i == [2,1,2,1,1] or [2,2,2,1,1] or [2,3,2,1,1] or [2,1,1,1,2] or [2,2,1,1,2] or [2,3,1,1,2] or [2,1,2,1,2] or [2,2,2,1,2] or [2,3,2,1,2] or [2,1,2,2,2] or [2,2,2,2,2] or [2,3,2,2,2] :
-            main.clickable(self.calmtBtn).connect(self.showFloral)
-            main.clickable(self.livelyBtn).connect(self.showFloral)
+            main.clickable(self.calmtBtn).connect(self.showFruity)
+            main.clickable(self.livelyBtn).connect(self.showFruity)
         elif i == [3,1,1,1,1] or [3,2,1,1,1] or [3,3,1,1,1] or [3,1,1,2,1] or [3,2,1,2,1] or [3,3,1,2,1] or [3,1,2,1,2] or [3,2,2,1,2] or [3,3,2,1,2] or [3,1,2,2,2] or [3,2,2,2,2] or [3,3,2,2,2] :
-            main.clickable(self.calmtBtn).connect(self.showFloral)
-            main.clickable(self.livelyBtn).connect(self.showFloral)
+            main.clickable(self.calmtBtn).connect(self.showWoody)
+            main.clickable(self.livelyBtn).connect(self.showWoody)
         elif i == [3,1,2,1,1] or [3,2,2,1,1] or [3,3,2,1,1] or [3,1,2,2,1] or [3,2,2,2,1] or [3,3,2,2,1] or [3,1,1,1,2] or [3,2,1,1,2] or [3,3,1,1,2] or [3,1,1,2,2] or [3,2,1,2,2] or [3,3,1,2,2] :
-            main.clickable(self.calmtBtn).connect(self.showFloral)
-            main.clickable(self.livelyBtn).connect(self.showFloral)
+            main.clickable(self.calmtBtn).connect(self.showMusk)
+            main.clickable(self.livelyBtn).connect(self.showMusk)
         elif i == [4,1,2,2,1] or [4,2,2,2,1] or [4,3,2,2,1] or [4,1,2,2,2] or [4,2,2,2,2] or [4,3,2,2,2] or [4,1,1,2,2] or [4,2,1,2,2] or [4,3,1,2,2] or [4,1,1,2,1] or [4,2,1,2,1] or [4,3,1,2,1] :
-            main.clickable(self.calmtBtn).connect(self.showFloral)
-            main.clickable(self.livelyBtn).connect(self.showFloral)
+            main.clickable(self.calmtBtn).connect(self.showGourmans)
+            main.clickable(self.livelyBtn).connect(self.showGourmans)
         elif i == [4,1,1,1,1] or [4,2,1,1,1] or [4,3,1,1,1] or [4,1,2,1,1] or [4,2,2,1,1] or [4,3,2,1,1] or [4,1,1,1,2] or [4,2,1,1,2] or [4,3,1,1,2] or [4,1,2,1,2] or [4,2,2,1,2] or [4,3,2,1,2] :
-            main.clickable(self.calmtBtn).connect(self.showFloral)
-            main.clickable(self.livelyBtn).connect(self.showFloral)
+            main.clickable(self.calmtBtn).connect(self.showTobacco)
+            main.clickable(self.livelyBtn).connect(self.showTobacco)
 
-
     def showFloral(self):
         from result_floral import ResultWindow
         self.show_floral = ResultWindow()
         self.show_floral.show()
         self.hide()
-    def showFloral(self):
-        from result_floral import ResultWindow
-        self.show_floral = ResultWindow()
-        self.show_floral.show()
+    def showGreen(self):
+        from result_green import ResultWindow
+        self.show_green = ResultWindow()
+        self.show_green.show()
         self.hide()
-    def showFloral(self):
-        from result_floral import ResultWindow
-        self.show_floral = ResultWindow()
-        self.show_floral.show()
+    def showAqua(self):
+        from result_aqua import ResultWindow
+        self.show_aqua = ResultWindow()
+        self.show_aqua.show()
         self.hide()
-    def showFloral(self):
-        from result_floral import ResultWindow
-        self.show_floral = ResultWindow()
-        self.show_floral.show()
+    def showFruity(self):
+        from result_fruity import ResultWindow
+        self.show_fruity = ResultWindow()
+        self.show_fruity.show()
         self.hide()
-    def showFloral(self):
-        from result_floral import ResultWindow
-        self.show_floral = ResultWindow()
-        self.show_floral.show()
+    def showWoody(self):
+        from result_woody import ResultWindow
+        self.show_woody = ResultWindow()
+        self.show_woody.show()
         self.hide()
-    def showFloral(self):
-        from result_floral import ResultWindow
-        self.show_floral = ResultWindow()
-        self.show_floral.show()
+    def showMusk(self):
+        from result_musk import ResultWindow
+        self.show_musk = ResultWindow()
+        self.show_musk.show()
         self.hide()
-    def showFloral(self):
-        from result_floral import ResultWindow
-        self.show_floral = ResultWindow()
-        self.show_floral.show()
+    def showGourmans(self):
+        from result_gourmans import ResultWindow
+        self.show_gourmans = ResultWindow()
+        self.show_gourmans.show()
         self.hide()
-    def showFloral(self):
-        from result_floral import ResultWindow
-        self.show_floral = ResultWindow()
-        self.show_floral.show()
+    def showTobacco(self):
+        from result_tobacco_leather import ResultWindow
+        self.show_tobacco = ResultWindow()
+        self.show_tobacco.show()
         self.hide()
 
 if __name__ == '__main__':

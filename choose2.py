@@ -72,8 +72,6 @@ class ChooseWindow(QWidget):
         self.show_choose.show()
         self.hide()
 
-
-
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     chooseWindow = ChooseWindow()
