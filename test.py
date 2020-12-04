@@ -3,7 +3,8 @@
 from datetime import datetime
 now = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
-typeName = "woody"     #결과 넘어갈때 값 추가하고 페이지 넘어가기 수정필요!!
+typeName = "우디"     #결과 넘어갈때 값 추가하고 페이지 넘어가기 수정필요!!
+#영어아닌 한글로 넘겨주기
 
 f = open("file/result.txt",'a', encoding='utf-8')
 # for i in range(11, 20):

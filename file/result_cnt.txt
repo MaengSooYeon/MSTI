@@ -1,5 +1,8 @@
-floral type 4
-aqua type 1
-musk type 2
-fruity type 3
-woody type 7
+타바코레더 type 1
+머스크 type 3
+플로럴 type 2
+아쿠아 type 2
+프루티 type 2
+구르망 type 4
+그린 type 1
+우디 type 7

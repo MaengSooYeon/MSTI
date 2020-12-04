@@ -12,7 +12,8 @@ from PyQt5.QtCore import *
 frequency = {}
 document_text = open('file/result.txt', 'r', encoding='utf-8')
 text_string = document_text.read()
-match_pattern = re.findall(r'\b[a-z]{3,15}\b', text_string)
+match_pattern = re.findall(r'\b[가-힣]+\b', text_string)
+# match_pattern = re.findall(r'\b[a-z]{3,15}\b', text_string)
 
 for word in match_pattern:
     count = frequency.get(word, 0)
@@ -45,7 +46,7 @@ class showResultWindow(QMainWindow):
             self.content.move(10, 100)
             self.content.setAlignment(Qt.AlignCenter)
             self.content.setScaledContents(1)
-            self.content.setFont(QFont("한컴산뜻돋움", 17))
+            self.content.setFont(QFont("한컴산뜻돋움", 14))
             print(content)
             file.close()
 
