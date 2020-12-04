@@ -98,8 +98,6 @@ class moreResultWindow(QMainWindow):
         self.gourmans.setScaledContents(1)  # 이미지 크기에 맞게 조정
         main.clickable(self.gourmans).connect(self.showGourmans)
 
-
-
         # creating widget - button
         self.gotoMainbtn = QLabel('', self)
         self.gotoMainbtn.setPixmap(QPixmap('image/gotoMainBtn.png'))
@@ -109,13 +107,14 @@ class moreResultWindow(QMainWindow):
         self.gotoMainbtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
         main.clickable(self.gotoMainbtn).connect(self.showMain)
 
-
-
     # button event function
     def showMain(self):
+        from resultType import Type
         self.show_main = main.MainWindow()
         self.show_main.show()
+        Type.result.clear()
         self.hide()
+
 
     def showFloral(self):
         from result_floral import ResultWindow
@@ -166,12 +165,13 @@ class moreResultWindow(QMainWindow):
         self.hide()
 
 
-
     def center(self):
         qr = self.frameGeometry()
         cp = QDesktopWidget().availableGeometry().center()
         qr.moveCenter(cp)
         self.move(qr.topLeft())
+
+
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
