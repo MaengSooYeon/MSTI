@@ -1,6 +1,7 @@
 #시작화면
 
 import sys
+import test_record
 
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
@@ -58,6 +59,14 @@ class MainWindow(QMainWindow):
         self.contentsBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
         clickable(self.contentsBtn).connect(self.dialogOpen)
 
+        self.recordBtn = QLabel('', self)
+        self.recordBtn.setPixmap(QPixmap('image/test_record.png'))
+        self.recordBtn.resize(180, 50)
+        self.recordBtn.move(780, 25)
+        self.recordBtn.setAlignment(Qt.AlignCenter)
+        self.recordBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
+        clickable(self.recordBtn).connect(self.showRecord)
+
         # QDialog setting
         self.dialog = QDialog()
 
@@ -67,6 +76,11 @@ class MainWindow(QMainWindow):
         from choose1 import ChooseWindow
         self.show_choose = ChooseWindow()
         self.show_choose.show()
+        self.hide()
+
+    def showRecord(self):
+        self.show_record = test_record.showRecordWindow()
+        self.show_record.show()
         self.hide()
 
     def dialogOpen(self):

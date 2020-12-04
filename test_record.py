@@ -3,6 +3,7 @@
 import re
 # import string
 import sys
+import main
 
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
@@ -12,8 +13,8 @@ from PyQt5.QtCore import *
 frequency = {}
 document_text = open('file/result.txt', 'r', encoding='utf-8')
 text_string = document_text.read()
-match_pattern = re.findall(r'\b[가-힣]+\b', text_string)
-# match_pattern = re.findall(r'\b[a-z]{3,15}\b', text_string)
+match_pattern = re.findall(r'\b[가-힣]+\b', text_string)          #한글
+# match_pattern = re.findall(r'\b[a-z]{3,15}\b', text_string)    #영어
 
 for word in match_pattern:
     count = frequency.get(word, 0)
@@ -23,16 +24,16 @@ frequency_list = frequency.keys()
 
 f = open("file/result_cnt.txt", 'w+', encoding='utf-8')
 for words in frequency_list:
-    data = f'{words} type {frequency[words]}\n'
+    data = f'{words} 타입은 {frequency[words]}번의 결과가 나왔습니다.\n\n'
     f.write(data)
     # print(words,'type', frequency[words])
 f.close()
 
-class showResultWindow(QMainWindow):
+class showRecordWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         # window setting
-        self.setStyleSheet('background-color: #FFFFFF')
+        self.setStyleSheet('background-color: #efebf3')
         self.setWindowTitle('MSTI')
         self.setWindowIcon(QIcon('image/icon.png'))
         self.setFixedSize(1000, 600)
@@ -43,12 +44,38 @@ class showResultWindow(QMainWindow):
             content = file.read()
             self.content = QLabel(content, self)
             self.content.resize(710, 500)
-            self.content.move(10, 100)
+            self.content.move(150, 50)
             self.content.setAlignment(Qt.AlignCenter)
             self.content.setScaledContents(1)
-            self.content.setFont(QFont("한컴산뜻돋움", 14))
+            self.content.setStyleSheet('font: normal 19px 리디바탕')
+
+            if not content:     #파일에 읽어올 txt가 없으면
+                self.notTXT = QLabel('아직 테스트 기록이 없습니다.', self)
+                self.notTXT.resize(710, 500)
+                self.notTXT.move(150, 50)
+                self.notTXT.setAlignment(Qt.AlignCenter)
+                self.notTXT.setScaledContents(1)
+                self.notTXT.setStyleSheet('font: normal 19px 리디바탕')
+
             print(content)
             file.close()
+
+
+        # creating widget - button
+        self.gotoMainbtn = QLabel('', self)
+        self.gotoMainbtn.setPixmap(QPixmap('image/gotoMainBtn.png'))
+        self.gotoMainbtn.resize(180, 50)
+        self.gotoMainbtn.move(420, 520)
+        self.gotoMainbtn.setAlignment(Qt.AlignCenter)
+        self.gotoMainbtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
+        main.clickable(self.gotoMainbtn).connect(self.showMain)
+
+
+    # button event function
+    def showMain(self):
+        self.show_main = main.MainWindow()
+        self.show_main.show()
+        self.hide()
 
     def center(self):
         qr = self.frameGeometry()
@@ -58,6 +85,6 @@ class showResultWindow(QMainWindow):
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    show_result_window = showResultWindow()
-    show_result_window.show()
+    show_record = showRecordWindow()
+    show_record.show()
     sys.exit(app.exec_())

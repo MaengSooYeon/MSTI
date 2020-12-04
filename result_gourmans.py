@@ -5,7 +5,7 @@
 
 import sys
 import main
-import result
+import test_record
 
 from moreResult import moreResultWindow
 from PyQt5.QtWidgets import *
@@ -53,7 +53,7 @@ class ResultWindow(QMainWindow):
             self.content.move(340, 90)
             self.content.setAlignment(Qt.AlignCenter)
             self.content.setScaledContents(1)
-            self.content.setFont(QFont("한컴산뜻돋움", 13))
+            self.content.setStyleSheet('font: normal 19px 리디바탕')
             print(content)
             file.close()
 
@@ -91,13 +91,13 @@ class ResultWindow(QMainWindow):
         self.more_recommend_btn.setScaledContents(1)  # 이미지 크기에 맞게 조정
         main.clickable(self.more_recommend_btn).connect(self.moreProduct)
 
-        self.resultBtn = QLabel('', self)
-        self.resultBtn.setPixmap(QPixmap('image/result_btn.png'))
-        self.resultBtn.resize(180, 50)
-        self.resultBtn.move(420, 520)
-        self.resultBtn.setAlignment(Qt.AlignCenter)
-        self.resultBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
-        main.clickable(self.resultBtn).connect(self.showResult)
+        self.recordBtn = QLabel('', self)
+        self.recordBtn.setPixmap(QPixmap('image/test_record.png'))
+        self.recordBtn.resize(180, 50)
+        self.recordBtn.move(420, 520)
+        self.recordBtn.setAlignment(Qt.AlignCenter)
+        self.recordBtn.setScaledContents(1)  # 이미지 크기에 맞게 조정
+        main.clickable(self.recordBtn).connect(self.showRecord)
 
 
     # button event function
@@ -112,9 +112,9 @@ class ResultWindow(QMainWindow):
         self.more_result.show()
         self.hide()
 
-    def showResult(self):
-        self.show_result = result.showResultWindow()
-        self.show_result.show()
+    def showRecord(self):
+        self.show_record = test_record.showRecordWindow()
+        self.show_record.show()
         self.hide()
 
     def center(self):
