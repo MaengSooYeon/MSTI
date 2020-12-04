@@ -2,13 +2,14 @@
 import sys
 import main
 import choose2
+from resultType import Type
 
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 
 class ChooseWindow(QMainWindow):
-    result1 = []
+
 
     def __init__(self):
         super().__init__()
@@ -71,25 +72,25 @@ class ChooseWindow(QMainWindow):
     def click_show1(self):
         self.show_choose = choose2.ChooseWindow()
         self.show_choose.show()
-        self.result1.append(1)
+        Type.append(1)
         self.hide()
 
     def click_show2(self):
         self.show_choose = choose2.ChooseWindow()
         self.show_choose.show()
-        self.result1.append(2)
+        Type.append(2)
         self.hide()
 
     def click_show3(self):
         self.show_choose = choose2.ChooseWindow()
         self.show_choose.show()
-        self.result1.append(3)
+        Type.append(3)
         self.hide()
 
     def click_show4(self):
         self.show_choose = choose2.ChooseWindow()
         self.show_choose.show()
-        self.result1.append(4)
+        Type.append(4)
         self.hide()
 
 if __name__ == '__main__':

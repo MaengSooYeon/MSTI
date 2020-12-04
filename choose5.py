@@ -2,6 +2,7 @@
 import sys
 import main
 import choose4
+from resultType import Type
 
 import result_floral
 import result_tobacco_leather
@@ -61,52 +62,51 @@ class ChooseWindow(QWidget):
 
 
     def click_show12(self):
-        self.result5 = choose4.ChooseWindow.result4
-        self.result5.append(1)
+        Type.append(1)
+        print(Type.result)
         self.showResult()
 
     def click_show13(self):
-        self.result5 = choose4.ChooseWindow.result4
-        self.result5.append(2)
+        Type.append(2)
         self.showResult()
 
     def showResult(self):
-        if self.result5 == [1,1,1,2,1] or [1,2,1,2,1] or [1,3,1,2,1] or [1,1,1,1,2] or [1,2,1,1,2] or [1,3,1,1,2] or [1,1,2,2,2] or [1,2,2,2,2] or [1,3,2,2,2] or [1,1,2,1,2] or [1,2,2,1,2] or [1,3,2,1,2] :
+        if Type.result in [[1,1,1,2,1], [1,2,1,2,1], [1,3,1,2,1], [1,1,1,1,2], [1,2,1,1,2], [1,3,1,1,2], [1,1,2,2,2], [1,2,2,2,2], [1,3,2,2,2], [1,1,2,1,2], [1,2,2,1,2], [1,3,2,1,2]] :
             self.show_choose = result_floral.ResultWindow()
             self.show_choose.show()
             self.hide()
 
-        elif self.result5 == [1,1,1,1,1] or [2,1,1,1,1] or [3,1,1,1,1] or [1,1,1,1,2] or [2,1,1,1,2] or [3,1,1,1,2] or [1,1,2,1,2] or [2,1,2,1,2] or [3,1,2,1,2] or [1,1,2,2,2] or [2,1,2,2,2] or [3,1,2,2,2]:
+        elif Type.result in [[1,1,1,1,1], [2,1,1,1,1], [3,1,1,1,1], [1,1,1,1,2], [2,1,1,1,2], [3,1,1,1,2], [1,1,2,1,2], [2,1,2,1,2], [3,1,2,1,2], [1,1,2,2,2], [2,1,2,2,2] , [3,1,2,2,2]]:
             self.show_choose = result_green.ResultWindow()
             self.show_choose.show()
             self.hide()
 
-        elif self.result5 == [2,1,1,1,1] or [2,2,1,1,1] or [2,3,1,1,1] or [2,1,1,2,1] or [2,2,1,2,1] or [2,3,1,2,1] or [2,1,1,2,2] or [2,2,1,2,2] or [2,3,1,2,2] or [2,1,2,2,1] or [2,2,2,2,1] or [2,3,2,2,1] :
+        elif Type.result in [[2,1,1,1,1], [2,2,1,1,1], [2,3,1,1,1], [2,1,1,2,1], [2,2,1,2,1], [2,3,1,2,1], [2,1,1,2,2], [2,2,1,2,2], [2,3,1,2,2], [2,1,2,2,1], [2,2,2,2,1], [2,3,2,2,1]] :
             self.show_choose = result_aqua.ResultWindow()
             self.show_choose.show()
             self.hide()
 
-        elif self.result5 == [2,1,2,1,1] or [2,2,2,1,1] or [2,3,2,1,1] or [2,1,1,1,2] or [2,2,1,1,2] or [2,3,1,1,2] or [2,1,2,1,2] or [2,2,2,1,2] or [2,3,2,1,2] or [2,1,2,2,2] or [2,2,2,2,2] or [2,3,2,2,2] :
+        elif Type.result in [[2,1,2,1,1], [2,2,2,1,1], [2,3,2,1,1], [2,1,1,1,2], [2,2,1,1,2], [2,3,1,1,2], [2,1,2,1,2], [2,2,2,1,2], [2,3,2,1,2], [2,1,2,2,2], [2,2,2,2,2], [2,3,2,2,2]] :
             self.show_choose = result_fruity.ResultWindow()
             self.show_choose.show()
             self.hide()
 
-        elif self.result5 == [3,1,1,1,1] or [3,2,1,1,1] or [3,3,1,1,1] or [3,1,1,2,1] or [3,2,1,2,1] or [3,3,1,2,1] or [3,1,2,1,2] or [3,2,2,1,2] or [3,3,2,1,2] or [3,1,2,2,2] or [3,2,2,2,2] or [3,3,2,2,2] :
+        elif Type.result in [[3,1,1,1,1], [3,2,1,1,1], [3,3,1,1,1 ], [3,1,1,2,1], [3,2,1,2,1], [3,3,1,2,1], [3,1,2,1,2], [3,2,2,1,2], [3,3,2,1,2], [3,1,2,2,2], [3,2,2,2,2], [3,3,2,2,2]] :
             self.show_choose = result_woody.ResultWindow()
             self.show_choose.show()
             self.hide()
 
-        elif self.result5 == [3,1,2,1,1] or [3,2,2,1,1] or [3,3,2,1,1] or [3,1,2,2,1] or [3,2,2,2,1] or [3,3,2,2,1] or [3,1,1,1,2] or [3,2,1,1,2] or [3,3,1,1,2] or [3,1,1,2,2] or [3,2,1,2,2] or [3,3,1,2,2] :
+        elif Type.result in [[3,1,2,1,1], [3,2,2,1,1], [3,3,2,1,1], [3,1,2,2,1], [3,2,2,2,1], [3,3,2,2,1], [3,1,1,1,2], [3,2,1,1,2], [3,3,1,1,2], [3,1,1,2,2], [3,2,1,2,2], [3,3,1,2,2]] :
             self.show_choose = result_musk.ResultWindow()
             self.show_choose.show()
             self.hide()
 
-        elif self.result5 == [4,1,2,2,1] or [4,2,2,2,1] or [4,3,2,2,1] or [4,1,2,2,2] or [4,2,2,2,2] or [4,3,2,2,2] or [4,1,1,2,2] or [4,2,1,2,2] or [4,3,1,2,2] or [4,1,1,2,1] or [4,2,1,2,1] or [4,3,1,2,1] :
+        elif Type.result in [[4,1,2,2,1], [4,2,2,2,1], [4,3,2,2,1], [4,1,2,2,2], [4,2,2,2,2], [4,3,2,2,2], [4,1,1,2,2], [4,2,1,2,2], [4,3,1,2,2], [4,1,1,2,1], [4,2,1,2,1], [4,3,1,2,1]] :
             self.show_choose = result_gourmans.ResultWindow()
             self.show_choose.show()
             self.hide()
 
-        elif self.result5 == [4,1,1,1,1] or [4,2,1,1,1] or [4,3,1,1,1] or [4,1,2,1,1] or [4,2,2,1,1] or [4,3,2,1,1] or [4,1,1,1,2] or [4,2,1,1,2] or [4,3,1,1,2] or [4,1,2,1,2] or [4,2,2,1,2] or [4,3,2,1,2] :
+        elif Type.result in [[4,1,1,1,1], [4,2,1,1,1], [4,3,1,1,1], [4,1,2,1,1], [4,2,2,1,1], [4,3,2,1,1], [4,1,1,1,2], [4,2,1,1,2], [4,3,1,1,2], [4,1,2,1,2], [4,2,2,1,2], [4,3,2,1,2]] :
             self.show_choose = result_tobacco_leather.ResultWindow()
             self.show_choose.show()
             self.hide()
