@@ -77,8 +77,10 @@ class ProductWindow(QMainWindow):
 
     # button event function
     def showMain(self):
+        from resultType import Type
         self.show_main = main.MainWindow()
         self.show_main.show()
+        Type.result.clear()
         self.hide()
 
     def moreResult(self):
