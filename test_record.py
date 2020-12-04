@@ -1,5 +1,3 @@
-# 결과로 나온 타입의 이름과 빈도수를 볼 수 있는 화면
-
 import re
 # import string
 import sys
@@ -12,6 +10,7 @@ from PyQt5.QtCore import *
 
 class showRecordWindow(QMainWindow):
     def __init__(self):
+        self.showTxt()
         super().__init__()
         # window setting
         self.setStyleSheet('background-color: #efebf3')
@@ -20,16 +19,11 @@ class showRecordWindow(QMainWindow):
         self.setFixedSize(1000, 600)
         self.center()
 
-        f1 = open('file/result.txt', 'r', encoding='utf-8')
-        text = f1.read()
-        f1.close()
-        t = text.split()
-        dictionary = dict.fromkeys(t, 0)    #0 기본값
-        print(dictionary)
-        # print(t)
+        f2 = open("file/result_cnt.txt",'r', encoding='utf-8')
+        text2 = f2.read
 
         self.content = QLabel('', self)
-        self.content.setText(text)
+        self.content.setText(self.showTxt())
         self.content.resize(710, 500)
         self.content.move(150, 50)
         self.content.setAlignment(Qt.AlignCenter)
@@ -59,6 +53,21 @@ class showRecordWindow(QMainWindow):
         cp = QDesktopWidget().availableGeometry().center()
         qr.moveCenter(cp)
         self.move(qr.topLeft())
+
+    def showTxt(self):
+        f1 = open('file/result.txt', 'r', encoding='utf-8')
+        text = f1.read()
+        t = text.split()
+
+        f2 = open("file/result_cnt.txt",'a', encoding='utf-8')
+
+        cnt = {}
+        for i in t:
+            cnt[i] = cnt.get(i, 0) + 1
+            keys = sorted(cnt.keys())
+        for i in keys:
+            self.txt = (i + " 타입의 " + str(cnt[i]) + "번의 결과가 나왔습니다 \n")
+            self.content.setText(self.txt)
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)

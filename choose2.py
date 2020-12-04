@@ -16,7 +16,7 @@ class ChooseWindow(QMainWindow):
 
     def choose2UI(self):
         self.setStyleSheet('background-color: #efebf3')
-        self.setWindowTitle('CHOOSE2')
+        self.setWindowTitle('CHOOSE')
         self.setWindowIcon(QIcon('image/icon.png'))
         self.setFixedSize(1000, 600)
         self.center()
