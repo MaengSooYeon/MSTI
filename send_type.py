@@ -3,12 +3,12 @@
 from datetime import datetime
 
 def sendType(typeName):
-    now = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    # now = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
     f = open("file/result.txt",'a', encoding='utf-8')
-    # for i in range(11, 20):
-    #     data = "%d번째 줄입니다.\n" % i
-    #     f.write(data)
-    data = f'MSTI TYPE: {typeName}\t\t Test TIME: {now}\n'
+
+    data = f'{typeName}\n'
+    # data = f'{typeName},{now}\n'
+    print(data)
     f.write(data)
     f.close()

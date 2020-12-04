@@ -54,7 +54,7 @@ class ResultWindow(QMainWindow):
             self.content.setAlignment(Qt.AlignCenter)
             self.content.setScaledContents(1)
             self.content.setStyleSheet('font: normal 19px 리디바탕')
-            print(content)
+            print(content,'\n')
             file.close()
 
 
