@@ -27,7 +27,7 @@ class ChooseWindow(QWidget):
 
         # creating a button widget
         self.meekBtn = QLabel('', self)
-        self.meekBtn.setPixmap(QPixmap('image/choice/answer/순한.png'))
+        self.meekBtn.setPixmap(QPixmap('image/choice/answer/순함.png'))
         self.meekBtn.resize(150, 100)
         self.meekBtn.move(270, 380)
         self.meekBtn.setAlignment(Qt.AlignCenter)
