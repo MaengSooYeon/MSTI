@@ -2,8 +2,7 @@
 import sys
 import main
 import choose4
-from resultType import Type
-
+import send_type
 import result_floral
 import result_tobacco_leather
 import result_aqua
@@ -13,9 +12,13 @@ import result_woody
 import result_gourmans
 import result_fruity
 
+from send_type import *
+from resultType import Type
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
+
+
 
 class ChooseWindow(QWidget):
     result5 = []
@@ -73,41 +76,49 @@ class ChooseWindow(QWidget):
     def showResult(self):
         if Type.result in [[1,1,1,2,1], [1,2,1,2,1], [1,3,1,2,1], [1,1,1,1,2], [1,2,1,1,2], [1,3,1,1,2], [1,1,2,2,2], [1,2,2,2,2], [1,3,2,2,2], [1,1,2,1,2], [1,2,2,1,2], [1,3,2,1,2]] :
             self.show_choose = result_floral.ResultWindow()
+            sendType('플로럴')
             self.show_choose.show()
             self.hide()
 
         elif Type.result in [[1,1,1,1,1], [2,1,1,1,1], [3,1,1,1,1], [1,1,1,1,2], [2,1,1,1,2], [3,1,1,1,2], [1,1,2,1,2], [2,1,2,1,2], [3,1,2,1,2], [1,1,2,2,2], [2,1,2,2,2] , [3,1,2,2,2]]:
             self.show_choose = result_green.ResultWindow()
+            sendType('그린')
             self.show_choose.show()
             self.hide()
 
         elif Type.result in [[2,1,1,1,1], [2,2,1,1,1], [2,3,1,1,1], [2,1,1,2,1], [2,2,1,2,1], [2,3,1,2,1], [2,1,1,2,2], [2,2,1,2,2], [2,3,1,2,2], [2,1,2,2,1], [2,2,2,2,1], [2,3,2,2,1]] :
             self.show_choose = result_aqua.ResultWindow()
+            sendType('아쿠아')
             self.show_choose.show()
             self.hide()
 
         elif Type.result in [[2,1,2,1,1], [2,2,2,1,1], [2,3,2,1,1], [2,1,1,1,2], [2,2,1,1,2], [2,3,1,1,2], [2,1,2,1,2], [2,2,2,1,2], [2,3,2,1,2], [2,1,2,2,2], [2,2,2,2,2], [2,3,2,2,2]] :
             self.show_choose = result_fruity.ResultWindow()
+            sendType('프루티')
             self.show_choose.show()
             self.hide()
 
         elif Type.result in [[3,1,1,1,1], [3,2,1,1,1], [3,3,1,1,1 ], [3,1,1,2,1], [3,2,1,2,1], [3,3,1,2,1], [3,1,2,1,2], [3,2,2,1,2], [3,3,2,1,2], [3,1,2,2,2], [3,2,2,2,2], [3,3,2,2,2]] :
             self.show_choose = result_woody.ResultWindow()
+            sendType('우디')
             self.show_choose.show()
             self.hide()
 
         elif Type.result in [[3,1,2,1,1], [3,2,2,1,1], [3,3,2,1,1], [3,1,2,2,1], [3,2,2,2,1], [3,3,2,2,1], [3,1,1,1,2], [3,2,1,1,2], [3,3,1,1,2], [3,1,1,2,2], [3,2,1,2,2], [3,3,1,2,2]] :
             self.show_choose = result_musk.ResultWindow()
+            sendType('머스크')
             self.show_choose.show()
             self.hide()
 
         elif Type.result in [[4,1,2,2,1], [4,2,2,2,1], [4,3,2,2,1], [4,1,2,2,2], [4,2,2,2,2], [4,3,2,2,2], [4,1,1,2,2], [4,2,1,2,2], [4,3,1,2,2], [4,1,1,2,1], [4,2,1,2,1], [4,3,1,2,1]] :
             self.show_choose = result_gourmans.ResultWindow()
+            sendType('구르망')
             self.show_choose.show()
             self.hide()
 
         elif Type.result in [[4,1,1,1,1], [4,2,1,1,1], [4,3,1,1,1], [4,1,2,1,1], [4,2,2,1,1], [4,3,2,1,1], [4,1,1,1,2], [4,2,1,1,2], [4,3,1,1,2], [4,1,2,1,2], [4,2,2,1,2], [4,3,2,1,2]] :
             self.show_choose = result_tobacco_leather.ResultWindow()
+            sendType('타바코')
             self.show_choose.show()
             self.hide()
 

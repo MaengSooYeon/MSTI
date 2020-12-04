@@ -16,6 +16,8 @@ text_string = document_text.read()
 match_pattern = re.findall(r'\b[가-힣]+\b', text_string)          #한글
 # match_pattern = re.findall(r'\b[a-z]{3,15}\b', text_string)    #영어
 
+#뭐지 result.txt에서 값을 못가져온다..
+
 for word in match_pattern:
     count = frequency.get(word, 0)
     frequency[word] = count + 1
@@ -57,7 +59,7 @@ class showRecordWindow(QMainWindow):
                 self.notTXT.setScaledContents(1)
                 self.notTXT.setStyleSheet('font: normal 19px 리디바탕')
 
-            print(content)
+            print(content.strip('\n'))
             file.close()
 
 
