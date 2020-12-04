@@ -17,6 +17,7 @@ class ChooseWindow(QWidget):
         self.setWindowTitle('CHOOSE')
         self.setWindowIcon(QIcon('image/icon.png'))
         self.setFixedSize(1000, 600)
+        self.center()
 
         # creating questions widget
         self.label = QLabel('', self)
@@ -60,6 +61,12 @@ class ChooseWindow(QWidget):
         self.show_choose.show()
         Type.append(2)
         self.hide()
+
+    def center(self):
+        qr = self.frameGeometry()
+        cp = QDesktopWidget().availableGeometry().center()
+        qr.moveCenter(cp)
+        self.move(qr.topLeft())
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
